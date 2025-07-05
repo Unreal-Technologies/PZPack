@@ -1,0 +1,6 @@
+Sandbox_DE = {
+	Sandbox_Mods = "Andere Mods",
+
+	Sandbox_StackAll_MergeableSoap = "Kombinierbare Seife",
+	Sandbox_StackAll_MergeableSoap_tooltip = "Kleine Stücke Seife können kombiniert werden.\nDas Kombinieren der Seife erfolgt ohne Segmentierung.",
+}

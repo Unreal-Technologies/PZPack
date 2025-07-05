@@ -1,0 +1,6 @@
+Sandbox_CN = {
+    Sandbox_WriteOnWorld = "在世界上写字",
+
+    Sandbox_WriteOnWorlde_AdminsOnly = "仅限管理员",
+    Sandbox_WriteOnWorlde_AdminsOnly_tooltip = "如果禁用，任何玩家都可以在世界上写注释。",
+}

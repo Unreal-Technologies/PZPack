@@ -1,0 +1,9 @@
+Sandbox_ES = {
+    Sandbox_ObviousCollecting = "Recolección Obvia",
+
+	Sandbox_ObviousCollecting_DisableLoot = "Desactivar botín",
+	Sandbox_ObviousCollecting_DisableLoot_tooltip = "Si está habilitado, los jugadores no recibirán ningún elemento por recoger cosas obvias. ",
+
+	Sandbox_ObviousCollecting_LootMultiplier = "Multiplicador de botín",
+	Sandbox_ObviousCollecting_LootMultiplier_tooltip = "Multiplica la cantidad de elementos recibidos (si los hay) por los jugadores cuando recogen cosas obvias. ",
+}

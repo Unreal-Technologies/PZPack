@@ -1,0 +1,6 @@
+Sandbox_FR = {
+    Sandbox_WriteOnWorld = "Écrivez sur le Monde",
+
+    Sandbox_WriteOnWorlde_AdminsOnly = "Admins seulement",
+    Sandbox_WriteOnWorlde_AdminsOnly_tooltip = "Si désactivé, N'IMPORTE quel joueur peut écrire des notes sur le monde.",
+}

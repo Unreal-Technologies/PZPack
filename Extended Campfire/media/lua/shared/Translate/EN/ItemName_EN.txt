@@ -1,0 +1,4 @@
+ItemName_EN = {
+	ItemName_ExtCampfire.WoodChips = "Wood chips",
+	ItemName_ExtCampfire.DryGrass = "Dry grass",
+}

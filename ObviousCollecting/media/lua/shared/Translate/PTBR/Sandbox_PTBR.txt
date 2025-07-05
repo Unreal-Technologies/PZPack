@@ -1,0 +1,9 @@
+Sandbox_PTBR = {
+    Sandbox_ObviousCollecting = "Coleta Óbvia",
+
+	Sandbox_ObviousCollecting_DisableLoot = "Desativar saque",
+	Sandbox_ObviousCollecting_DisableLoot_tooltip = "Se ativado, os jogadores não receberão nenhum item ao coletar coisas óbvias. ",
+
+	Sandbox_ObviousCollecting_LootMultiplier = "Multiplicador de saque",
+	Sandbox_ObviousCollecting_LootMultiplier_tooltip = "Multiplica a quantidade de itens recebidos (se houver) pelos jogadores quando eles pegam coisas óbvias. ",
+}

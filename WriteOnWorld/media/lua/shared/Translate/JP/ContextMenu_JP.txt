@@ -1,0 +1,4 @@
+ContextMenu_JP = {
+    ContextMenu_AddLabel = "ラベルを追加",
+    ContextMenu_RemoveLabel = "ラベルを削除",
+}

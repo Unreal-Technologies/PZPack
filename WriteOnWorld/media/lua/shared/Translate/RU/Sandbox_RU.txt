@@ -1,0 +1,6 @@
+Sandbox_RU = {
+    Sandbox_WriteOnWorld = "Писать на мире",
+
+    Sandbox_WriteOnWorlde_AdminsOnly = "Только для админов",
+    Sandbox_WriteOnWorlde_AdminsOnly_tooltip = "Если отключено, ЛЮБОЙ игрок может писать заметки на мире.",
+}

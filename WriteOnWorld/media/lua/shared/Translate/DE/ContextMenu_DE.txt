@@ -1,0 +1,4 @@
+ContextMenu_DE = {
+    ContextMenu_AddLabel = "Label hinzufügen",
+    ContextMenu_RemoveLabel = "Label entfernen",
+}

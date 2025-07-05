@@ -1,0 +1,4 @@
+UI_KO = {
+  UI_options_ReadWalkingStar_keyBind_Read = "책 읽기",
+  UI_options_ReadWalkingStar_keyBind_Read_tooltip = "인벤토리나 컨테이너에서 스킬 책을 선택하고 읽기를 시작/중지합니다.",
+}

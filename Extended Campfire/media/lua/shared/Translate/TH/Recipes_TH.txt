@@ -1,0 +1,3 @@
+Recipe_TH = {
+	Recipe_Make_Wood_Chips = "แกะเปลือกไม้",
+}

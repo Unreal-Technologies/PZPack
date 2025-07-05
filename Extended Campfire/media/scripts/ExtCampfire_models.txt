@@ -1,0 +1,16 @@
+module Base
+{
+	model WoodChips_Ground
+    	{
+        	mesh = WorldItems/WoodChips_Ground,
+        	texture = WorldItems/WoodChips_Ground,
+		scale = 0.2,
+    	}
+
+	model DryGrass_Ground
+    	{
+        	mesh = WorldItems/DryGrass_Ground,
+		texture = WorldItems/DryGrass_Ground,
+		scale = 0.2,
+    	}
+}

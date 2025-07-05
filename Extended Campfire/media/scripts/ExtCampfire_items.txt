@@ -1,0 +1,22 @@
+module ExtCampfire
+{
+	item WoodChips
+	{
+		DisplayCategory = Material,
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	= Wood chips,
+		Icon	=	WoodChips,
+		WorldStaticModel = WoodChips_Ground,
+	}
+
+	item DryGrass
+	{
+		DisplayCategory = Material,
+		Weight	=	0.05,
+		Type	=	Normal,
+		DisplayName	= Dry grass,
+		Icon	=	DryGrass,
+		WorldStaticModel = DryGrass_Ground,
+	}
+}

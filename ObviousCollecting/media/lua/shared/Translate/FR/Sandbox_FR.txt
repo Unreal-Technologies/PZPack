@@ -1,0 +1,9 @@
+Sandbox_FR = {
+    Sandbox_ObviousCollecting = "Collecte Évidente",
+
+	Sandbox_ObviousCollecting_DisableLoot = "Désactiver le butin",
+	Sandbox_ObviousCollecting_DisableLoot_tooltip = "Si cette option est activée, les joueurs ne recevront aucun objet en ramassant des objets évidents. ",
+
+	Sandbox_ObviousCollecting_LootMultiplier = "Multiplicateur de butin",
+	Sandbox_ObviousCollecting_LootMultiplier_tooltip = "Multiplie la quantité d'objets reçus (le cas échéant) par les joueurs lorsqu'ils ramassent des objets évidents. ",
+}

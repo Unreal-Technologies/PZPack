@@ -1,0 +1,59 @@
+VERSION = 1,
+
+
+option StoryItemSpawner.StartDay
+{
+	type = integer,
+	default = 5,
+    min = 0,
+    max = 1000,
+    page = StoryItemSpawner,
+	translation = StoryItemSpawnerStartDay,
+}
+option StoryItemSpawner.PeakDay
+{
+	type = integer,
+	default = 100,
+    min = 0,
+    max = 1000,
+    page = StoryItemSpawner,
+	translation = StoryItemSpawnerPeakDay,
+}
+option StoryItemSpawner.ChanceOnFloorMultiplierStartDay
+{
+	type = double,
+	default = 1,
+    min = 0,
+    max = 100,
+    page = StoryItemSpawner,
+	translation = StoryItemSpawnerChanceOnFloorMultiplierStartDay,
+}
+
+option StoryItemSpawner.ChanceOnFloorMultiplierPeakDay
+{
+	type = double,
+	default = 0.2,
+    min = 0,
+    max = 100,
+    page = StoryItemSpawner,
+	translation = StoryItemSpawnerChanceOnFloorMultiplierPeakDay,
+}
+option StoryItemSpawner.ChanceOnFurnitureMultiplierStartDay
+{
+	type = double,
+	default = 1,
+    min = 0,
+    max = 100,
+    page = StoryItemSpawner,
+	translation = StoryItemSpawnerChanceOnFurnitureMultiplierStartDay,
+}
+
+option StoryItemSpawner.ChanceOnFurnitureMultiplierPeakDay
+{
+	type = double,
+	default = 0.2,
+    min = 0,
+    max = 100,
+    page = StoryItemSpawner,
+	translation = StoryItemSpawnerChanceOnFurnitureMultiplierPeakDay,
+}

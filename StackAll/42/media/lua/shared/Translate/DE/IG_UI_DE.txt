@@ -1,0 +1,6 @@
+IGUI_DE = {
+	IGUI_MergeALLMod = "Alles eingießen",
+	IGUI_MergeALLOutsideMod = "Nehmen und alles eingießen",
+	IGUI_CombineALLMod = "Alles kombinieren",
+	IGUI_CombineALLOutsideMod = "Nehmen und alles kombinieren",
+}

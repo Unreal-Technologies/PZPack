@@ -1,0 +1,3 @@
+Recipe_UA = {
+	Recipe_Make_Wood_Chips = "«робити дерев'€них тр≥сок",
+}

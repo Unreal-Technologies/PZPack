@@ -1,0 +1,6 @@
+IGUI_PTBR = {
+	IGUI_MergeALLMod = "Despejar tudo",
+	IGUI_MergeALLOutsideMod = "Pegar e despejar tudo",
+	IGUI_CombineALLMod = "Combinar tudo",
+	IGUI_CombineALLOutsideMod = "Pegar e combinar tudo",
+}

@@ -1,0 +1,22 @@
+module Base
+{
+    craftRecipe Make Jerrycan
+    {
+        time = 500,
+        tags = AnySurfaceCraft,
+        timedAction = Welding_Surface,
+        SkillRequired = MetalWelding:5;Mechanics:2,
+        category = Metalworking,
+        inputs
+        {
+            item 4 [Base.SheetMetal],
+            item 2 [Base.SmallSheetMetal],
+            item 5 [Base.BlowTorch],
+            item 1 tags[WeldingMask] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.EmptyJerryCan,
+        }
+    }
+}

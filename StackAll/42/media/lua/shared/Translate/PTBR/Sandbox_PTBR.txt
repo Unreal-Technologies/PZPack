@@ -1,0 +1,6 @@
+Sandbox_PTBR = {
+	Sandbox_Mods = "Outros mods",
+
+	Sandbox_StackAll_MergeableSoap = "Sabão combinável",
+	Sandbox_StackAll_MergeableSoap_tooltip = "Pequenos pedaços de sabão podem ser combinados.\nA combinação do sabão ocorre sem segmentação.",
+}

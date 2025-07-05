@@ -1,0 +1,6 @@
+Sandbox_ES = {
+	Sandbox_Mods = "Otros mods",
+
+	Sandbox_StackAll_MergeableSoap = "Jabón combinable",
+	Sandbox_StackAll_MergeableSoap_tooltip = "Los pequeños trozos de jabón se pueden combinar.\nLa combinación del jabón ocurre sin segmentación.",
+}

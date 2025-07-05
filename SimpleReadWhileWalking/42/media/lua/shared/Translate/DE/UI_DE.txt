@@ -1,0 +1,4 @@
+UI_DE = {
+  UI_options_ReadWalkingStar_keyBind_Read = "Ein Buch lesen",
+  UI_options_ReadWalkingStar_keyBind_Read_tooltip = "Wähle ein Fertigkeitsbuch aus deinem Inventar oder einem Behälter und starte/stoppe das Lesen.",
+}

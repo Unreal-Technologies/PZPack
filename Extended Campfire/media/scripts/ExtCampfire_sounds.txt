@@ -1,0 +1,19 @@
+module ExtCampfire
+{
+	imports
+	{
+		Base
+	}
+
+	sound ChopWoodChips
+	{
+		category = Item,
+		loop = true,
+		clip
+		{
+			file = media/sound/ChopWoodChips.wav,
+			distanceMin = 5,
+			distanceMax = 15,
+		}
+	}
+}

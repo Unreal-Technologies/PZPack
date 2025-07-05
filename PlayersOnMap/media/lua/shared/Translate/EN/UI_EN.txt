@@ -1,0 +1,22 @@
+UI_EN = {
+	UI_PlayersOnMap_Panel_Page_Name = "Players On Map Options",
+
+	UI_PlayersOnMap_Panel_Main_Options = "Main Options",
+	UI_PlayersOnMap_Panel_World_Map_Options = "World Map Options",
+	UI_PlayersOnMap_Panel_Mini_Map_Options = "Mini Map Options",
+
+	UI_PlayersOnMap_Panel_Enabled = "Enabled",
+	UI_PlayersOnMap_Panel_Faction_Only = "Faction Only",
+	UI_PlayersOnMap_Panel_Admins_See_All = "Admins See All",
+	UI_PlayersOnMap_Panel_Dot_Color = "Player Dot Color",
+	UI_PlayersOnMap_Panel_Self_Dot_Color = "Our Own Dot Color",
+	UI_PlayersOnMap_Panel_Vehicle_Dot_Color = "Vehicle Dot Color",
+	UI_PlayersOnMap_Panel_WIP_StackNametags = "Stack Nametags",
+	UI_PlayersOnMap_Panel_WIP_StackNametags_Tooltip = "This option may increase frametime.",
+
+	UI_PlayersOnMap_Panel_Show_Names = "Show Names",
+	UI_PlayersOnMap_Panel_Show_Height = "Show Height",
+	UI_PlayersOnMap_Panel_Max_Dist = "Maximum Distance",
+
+	UI_PlayersOnMap_Panel_Save = "Save",
+}

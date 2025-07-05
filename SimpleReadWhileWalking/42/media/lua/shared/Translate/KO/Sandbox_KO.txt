@@ -1,0 +1,9 @@
+Sandbox_KO = {
+	Sandbox_Mods = "기타 모드",
+
+	Sandbox_ReadWalking_FogDarkness = "독서 안개 어둠",
+	Sandbox_ReadWalking_FogDarkness_tooltip = "책을 읽을 때의 어둠 수준.\n0.0은 어둠 없음.\n1.0은 완전한 어둠.",
+
+	Sandbox_ReadWalking_ReadSpeed = "독서 속도 배수",
+	Sandbox_ReadWalking_ReadSpeed_tooltip = "모드: 걷는 동안 읽기\n1.0은 기본 속도.\n2.0은 속도 x2, 등등.",
+}

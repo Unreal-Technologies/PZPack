@@ -1,0 +1,9 @@
+VERSION = 1,
+
+option WriteOnWorld.AdminsOnly
+{
+    type = boolean,
+    default = true,
+    page = WriteOnWorld,
+    translation = WriteOnWorld_AdminsOnly,
+}

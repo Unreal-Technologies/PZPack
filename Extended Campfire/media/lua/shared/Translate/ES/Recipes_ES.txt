@@ -1,0 +1,3 @@
+Recipe_ES = {
+	Recipe_Make_Wood_Chips = "Pelar corteza de árbol",
+}

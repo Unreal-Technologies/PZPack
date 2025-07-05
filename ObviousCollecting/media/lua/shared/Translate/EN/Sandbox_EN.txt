@@ -1,0 +1,9 @@
+Sandbox_EN = {
+    Sandbox_ObviousCollecting = "Obvious Collecting",
+
+	Sandbox_ObviousCollecting_DisableLoot = "Disable Loot",
+	Sandbox_ObviousCollecting_DisableLoot_tooltip = "If enabled, Players won't receive any items from picking up obvious stuff. ",
+
+	Sandbox_ObviousCollecting_LootMultiplier = "Loot Multiplier",
+	Sandbox_ObviousCollecting_LootMultiplier_tooltip = "Multiplies the amount of items received (If any) by Players when they pick up obvious stuff. ",
+}

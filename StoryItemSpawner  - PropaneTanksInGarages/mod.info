@@ -1,0 +1,5 @@
+name=Item Story : Propane Tanks in Garages
+poster=poster.png
+id=ItemStories_PropaneTanksInGarages
+require=ItemStories_Framework
+description=Adds a chance to spawn a propane tanks

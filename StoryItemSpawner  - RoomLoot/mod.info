@@ -1,0 +1,5 @@
+name=Item Story : Room Loot
+poster=poster.png
+id=ItemStories_RoomLoot
+require=ItemStories_Framework
+description=Provides a base low-chance story for Item Stories for every room. It spawns the same loot as the loot tables of the room where the story is spawned.

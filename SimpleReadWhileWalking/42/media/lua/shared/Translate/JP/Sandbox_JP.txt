@@ -1,0 +1,9 @@
+Sandbox_JP = {
+	Sandbox_Mods = "その他のモッド",
+
+	Sandbox_ReadWalking_FogDarkness = "読書の霧の暗さ",
+	Sandbox_ReadWalking_FogDarkness_tooltip = "読書中の霧の暗さ。\n0.0は暗さなし。\n1.0は完全な暗さ。",
+
+	Sandbox_ReadWalking_ReadSpeed = "読書速度倍率",
+	Sandbox_ReadWalking_ReadSpeed_tooltip = "モッド: 歩きながら読む\n1.0はデフォルト速度。\n2.0は速度x2、など。",
+}

@@ -1,0 +1,6 @@
+Sandbox_RU = {
+	Sandbox_Mods = "Другие моды",
+
+	Sandbox_StackAll_MergeableSoap = "Объединяемое мыло",
+	Sandbox_StackAll_MergeableSoap_tooltip = "Небольшие кусочки мыла можно объединить.\nОбъединение мыла происходит без сегментации.",
+}

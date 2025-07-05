@@ -1,0 +1,4 @@
+ItemName_UA = {
+	ItemName_ExtCampfire.WoodChips = "Дерев'яні тріски",
+	ItemName_ExtCampfire.DryGrass = "Суха трава",
+}

@@ -1,0 +1,9 @@
+Sandbox_RU = {
+    Sandbox_ObviousCollecting = "Очевидное коллекционирование",
+
+	Sandbox_ObviousCollecting_DisableLoot = "Отключить добычу",
+	Sandbox_ObviousCollecting_DisableLoot_tooltip = "Если эта опция включена, игроки не будут получать никаких предметов, собирая очевидные вещи. ",
+
+	Sandbox_ObviousCollecting_LootMultiplier = "Множитель добычи",
+	Sandbox_ObviousCollecting_LootMultiplier_tooltip = "Умножает количество предметов, полученных игроками (если таковые имеются), когда они подбирают очевидные вещи. ",
+}

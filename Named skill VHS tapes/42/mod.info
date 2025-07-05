@@ -1,0 +1,8 @@
+name=Named Skill VHS Tapes
+authors=Läderlappen
+id=NamedSkillVHSTapes
+description=Tags VHS tapes with the skill they provide for easier recognition
+poster=poster.png
+icon=icon.png
+
+modversion=15.0.4

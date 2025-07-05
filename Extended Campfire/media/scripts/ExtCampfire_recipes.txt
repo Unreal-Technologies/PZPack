@@ -1,0 +1,74 @@
+module ExtCampfire
+{
+	imports
+	{
+		Base
+	}
+
+	recipe Make Wood Chips
+	{
+	   	keep [Recipe.GetItemTypes.SharpKnife]/[Recipe.GetItemTypes.ChopTree]/MeatCleaver,
+		Log,
+
+	   	Result:WoodChips=10,
+		Sound:ChopWoodChips,
+	   	Time:500.0,
+	   	Category:Survivalist,
+		OnGiveXP:GiveSawLogsXP,
+	}
+	
+	recipe Make Wood Chips
+	{
+	   	keep [Recipe.GetItemTypes.SharpKnife]/[Recipe.GetItemTypes.ChopTree]/MeatCleaver,
+		Plank,
+
+	   	Result:WoodChips=2,
+		Sound:ChopWoodChips,
+	   	Time:200.0,
+	   	Category:Survivalist,
+		OnGiveXP:GiveSawLogsXP,
+	}
+	
+	recipe Make Wood Chips
+	{
+	   	keep [Recipe.GetItemTypes.SharpKnife]/[Recipe.GetItemTypes.ChopTree]/MeatCleaver,
+		TreeBranch/UnusableWood,
+
+	   	Result:WoodChips=1,
+		Sound:ChopWoodChips,
+	   	Time:100.0,
+	   	Category:Survivalist,
+		OnGiveXP:GiveSawLogsXP,
+	}
+
+	recipe Make Campfire Kit
+	{
+        	Twigs = 4,
+
+        	Result:CampfireKit,
+        	Time:80.0,
+        	Category:Survivalist,
+		Override:true;
+	}
+
+	recipe Make Campfire Kit
+	{
+        	WoodChips = 2,
+
+        	Result:CampfireKit,
+        	Time:80.0,
+        	Category:Survivalist,
+		Override:true;
+	}
+
+	recipe Make Campfire Kit
+	{
+        	WoodChips,
+		Twigs = 2,
+
+        	Result:CampfireKit,
+        	Time:80.0,
+        	Category:Survivalist,
+		Override:true;
+	}
+}

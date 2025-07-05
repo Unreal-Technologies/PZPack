@@ -1,0 +1,42 @@
+module Base
+{
+	item EmptyJerryCan
+	{
+		DisplayCategory = VehicleMaintenance,
+		Weight	=	2.5,
+		Type	=	Normal,
+		DisplayName	=	Empty Jerrycan,
+		Icon	=	Jerrycan,
+		StaticModel = Jerrycan,
+		SurvivalGear = TRUE,
+		ReplaceInSecondHand = Bag_Jerrycan_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_Jerrycan_RHand holdingbagright,
+        WorldStaticModel = Jerrycan,
+        Tags = EmptyPetrol,
+        ReplaceTypes = PetrolSource JerryCan,
+	}
+
+	item JerryCan
+	{
+		DisplayCategory = VehicleMaintenance,
+		Weight	=	8,
+		Type	=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.0625,
+		DisplayName	=	Jerrycan,
+		Icon	=	Jerrycan,
+		ReplaceOnDeplete	=	EmptyJerryCan,
+		StaticModel = Jerrycan,
+		ReplaceInSecondHand = Bag_Jerrycan_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_Jerrycan_RHand holdingbagright,
+        WorldStaticModel = Jerrycan,
+		Tags = Petrol,
+	}
+
+	model Jerrycan
+	{
+		mesh = Jerrycan,
+		texture = Jerrycan,
+		scale = 0.70,
+	}
+}

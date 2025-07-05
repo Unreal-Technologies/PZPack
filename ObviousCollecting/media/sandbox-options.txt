@@ -1,0 +1,19 @@
+VERSION = 1,
+
+option ObviousCollecting.DisableLoot
+{
+    type = boolean,
+    default = false,
+    page = ObviousCollecting,
+    translation = ObviousCollecting_DisableLoot,
+}
+
+option ObviousCollecting.LootMultiplier
+{
+    type = double,
+    min = 0,
+    default = 1,
+    max = 100,
+    page = ObviousCollecting,
+    translation = ObviousCollecting_LootMultiplier,
+}

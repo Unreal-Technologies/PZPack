@@ -1,0 +1,6 @@
+IGUI_JP = {
+	IGUI_MergeALLMod = "すべて注ぐ",
+	IGUI_MergeALLOutsideMod = "取ってすべて注ぐ",
+	IGUI_CombineALLMod = "すべて結合",
+	IGUI_CombineALLOutsideMod = "取ってすべて結合",
+}

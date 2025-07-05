@@ -1,0 +1,4 @@
+ContextMenu_PL = {
+    ContextMenu_AddLabel = "Dodaj etykietê",
+    ContextMenu_RemoveLabel = "Usuñ etykietê",
+}

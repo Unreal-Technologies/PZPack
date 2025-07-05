@@ -1,0 +1,3 @@
+ContextMenu_FR = {
+	ContextMenu_SCEEP_VehicleHotwireSkill = "Il vous faut les clés ou<br>Mécanique niveau 2<br>pour démarrer avec les fils",
+}

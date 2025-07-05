@@ -1,0 +1,4 @@
+ContextMenu_CH = {
+    ContextMenu_AddLabel = "新增標籤",
+    ContextMenu_RemoveLabel = "移除標籤",
+}

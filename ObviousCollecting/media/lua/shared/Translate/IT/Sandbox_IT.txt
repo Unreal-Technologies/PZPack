@@ -1,0 +1,9 @@
+Sandbox_IT = {
+    Sandbox_ObviousCollecting = "Raccolta Ovvia",
+
+	Sandbox_ObviousCollecting_DisableLoot = "Disabilita bottino",
+	Sandbox_ObviousCollecting_DisableLoot_tooltip = "Se abilitato, i giocatori non riceveranno alcun oggetto raccogliendo oggetti ovvi. ",
+
+	Sandbox_ObviousCollecting_LootMultiplier = "Moltiplicatore del bottino",
+	Sandbox_ObviousCollecting_LootMultiplier_tooltip = "Moltiplica la quantità di oggetti ricevuti (se presenti) dai giocatori quando raccolgono oggetti ovvi. ",
+}

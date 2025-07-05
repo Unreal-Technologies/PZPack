@@ -1,0 +1,9 @@
+IGUI_RU = { 
+	IGUI_MergeALLMod = "Перелить всё",
+	IGUI_MergeALLOutsideMod = "Взять и всё перелить",
+	IGUI_CombineALLMod = "Объединить всё",
+	IGUI_CombineALLOutsideMod = "Взять и всё объединить",
+	IGUI_SA_MergeableSoap = "Маленькие куски мыла можно слепить",
+	IGUI_SA_MainMenu_tooltip = "Перейдите в главное меню, чтобы изменения вступили в силу.",
+	IGUI_SA_MergeableSoap_tooltip = "Объединение без какого-либо деления.",
+}

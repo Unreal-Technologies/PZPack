@@ -1,0 +1,4 @@
+UI_ES = {
+  UI_options_ReadWalkingStar_keyBind_Read = "Leer un libro",
+  UI_options_ReadWalkingStar_keyBind_Read_tooltip = "Selecciona un libro de habilidades de tu inventario o contenedor y comienza/detén la lectura.",
+}

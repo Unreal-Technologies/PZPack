@@ -1,0 +1,6 @@
+IGUI_CA = {
+  IGUI_MergeALLMod = "Aboca tot",
+  IGUI_MergeALLOutsideMod = "Agafa i aboca tot",
+  IGUI_CombineALLMod = "Combina tot",
+  IGUI_CombineALLOutsideMod = "Agafa i combina tot",
+}

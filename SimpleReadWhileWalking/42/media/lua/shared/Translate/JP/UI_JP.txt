@@ -1,0 +1,4 @@
+UI_JP = {
+  UI_options_ReadWalkingStar_keyBind_Read = "本を読む",
+  UI_options_ReadWalkingStar_keyBind_Read_tooltip = "インベントリまたはコンテナからスキルブックを選択し、読書を開始/停止します。",
+}

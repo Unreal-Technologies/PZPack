@@ -1,0 +1,9 @@
+Sandbox_FR = {
+	Sandbox_Mods = "Autres mods",
+
+	Sandbox_ReadWalking_FogDarkness = "Obscurité de lecture",
+	Sandbox_ReadWalking_FogDarkness_tooltip = "Le niveau d'obscurité pendant la lecture.\n0.0 signifie aucune obscurité.\n1.0 signifie obscurité totale.",
+
+	Sandbox_ReadWalking_ReadSpeed = "Multiplicateur de vitesse de lecture",
+	Sandbox_ReadWalking_ReadSpeed_tooltip = "Mod : Lire en marchant\n1.0 signifie vitesse par défaut.\n2.0 signifie vitesse x2, etc.",
+}

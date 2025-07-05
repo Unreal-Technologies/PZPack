@@ -1,0 +1,21 @@
+VERSION = 1,
+
+
+option StoryItemSpawner.RoomLootBaseChanceOnFloor
+{
+	type = integer,
+	default = 3,
+    min = 0,
+    max = 1000,
+    page = StoryItemSpawner,
+	translation = StoryItemSpawnerRoomLootBaseChanceOnFloor,
+}
+option StoryItemSpawner.RoomLootBaseChanceOnFurniture
+{
+	type = integer,
+	default = 25,
+    min = 0,
+    max = 1000,
+    page = StoryItemSpawner,
+	translation = StoryItemSpawnerRoomLootBaseChanceOnFurniture,
+}

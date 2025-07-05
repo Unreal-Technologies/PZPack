@@ -1,0 +1,9 @@
+Sandbox_DE = {
+	Sandbox_Mods = "Andere Mods",
+
+	Sandbox_ReadWalking_FogDarkness = "Lesen Nebel Dunkelheit",
+	Sandbox_ReadWalking_FogDarkness_tooltip = "Die Dunkelheit während des Lesens.\n0.0 bedeutet keine Dunkelheit.\n1.0 bedeutet völlige Dunkelheit.",
+
+	Sandbox_ReadWalking_ReadSpeed = "Lesegeschwindigkeit Multiplikator",
+	Sandbox_ReadWalking_ReadSpeed_tooltip = "Mod: Lesen beim Gehen\n1.0 bedeutet Standardgeschwindigkeit.\n2.0 bedeutet Geschwindigkeit x2, usw.",
+}

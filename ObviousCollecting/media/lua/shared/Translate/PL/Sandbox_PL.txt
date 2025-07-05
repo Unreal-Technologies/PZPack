@@ -1,0 +1,9 @@
+Sandbox_PL = {
+    Sandbox_ObviousCollecting = "Oczywiste zbieranie",
+
+	Sandbox_ObviousCollecting_DisableLoot = "Wy³¹cz £upy",
+	Sandbox_ObviousCollecting_DisableLoot_tooltip = "Jeœli ta opcja jest w³¹czona, gracze nie otrzymaj¹ ¿adnych przedmiotów za podniesienie oczywistych rzeczy. ",
+
+	Sandbox_ObviousCollecting_LootMultiplier = "Mno¿nik ³upów",
+	Sandbox_ObviousCollecting_LootMultiplier_tooltip = "Mno¿y iloœæ przedmiotów otrzymanych (jeœli w ogóle) przez graczy, którzy podnosz¹ oczywiste rzeczy. ",
+}

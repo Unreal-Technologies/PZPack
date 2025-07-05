@@ -1,0 +1,55 @@
+module Base
+{
+	item EmptyJerryCan
+	{
+		DisplayName = Empty Jerry Can,
+		DisplayCategory = VehicleMaintenance,
+		Type = Normal,
+		Weight = 2.5,
+		Icon	=	Jerrycan,
+		StaticModel = Jerrycan,
+		ReplaceInSecondHand = Bag_Jerrycan_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_Jerrycan_RHand holdingbagright,
+		SurvivalGear = TRUE,
+		StaticModel = Jerrycan,
+        WorldStaticModel = Jerrycan,
+		Tags = EmptyPetrol,
+
+		component FluidContainer
+        	{
+            	ContainerName   = Can,
+            	capacity        = 20.0,
+			}
+	}
+
+	item JerryCan
+	{
+	    DisplayCategory = VehicleMaintenance,
+		Weight = 2.5,
+		Type = Normal,
+		DisplayName	=	Jerrycan,
+		Icon	=	Jerrycan,
+		StaticModel = Jerrycan,
+		ReplaceInSecondHand = Bag_Jerrycan_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_Jerrycan_RHand holdingbagright,
+        WorldStaticModel = Jerrycan,
+		Tags = Petrol,
+
+        	component FluidContainer
+        	{
+            	ContainerName   = GasCan,
+            	capacity        = 20.0,
+            	Fluids
+            		{
+                	fluid           = Petrol:1.0,
+            		}
+        	}
+	}
+
+	model Jerrycan
+	{
+		mesh = Jerrycan,
+		texture = Jerrycan,
+		scale = 0.70,
+	}
+}

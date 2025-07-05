@@ -1,0 +1,6 @@
+IGUI_ES = {
+	IGUI_MergeALLMod = "Verter todo",
+	IGUI_MergeALLOutsideMod = "Tomar y verter todo",
+	IGUI_CombineALLMod = "Combinar todo",
+	IGUI_CombineALLOutsideMod = "Tomar y combinar todo",
+}

@@ -1,0 +1,6 @@
+IGUI_KO = {
+	IGUI_MergeALLMod = "모두 붓기",
+	IGUI_MergeALLOutsideMod = "가져와서 모두 붓기",
+	IGUI_CombineALLMod = "모두 결합",
+	IGUI_CombineALLOutsideMod = "가져와서 모두 결합",
+}

@@ -1,0 +1,11 @@
+VERSION = 1,
+
+option StackAll.MergeableSoap
+{
+	type = boolean,
+	default = false,
+
+	page = Mods,
+	translation = StackAll_MergeableSoap,
+}
+

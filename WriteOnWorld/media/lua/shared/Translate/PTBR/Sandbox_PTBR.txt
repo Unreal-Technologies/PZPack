@@ -1,0 +1,6 @@
+Sandbox_PTBR = {
+    Sandbox_WriteOnWorld = "Escreva no Mundo",
+
+    Sandbox_WriteOnWorlde_AdminsOnly = "Apenas Admins",
+    Sandbox_WriteOnWorlde_AdminsOnly_tooltip = "Se desativado, QUALQUER jogador pode escrever notas no mundo.",
+}

@@ -1,0 +1,6 @@
+Sandbox_JP = {
+	Sandbox_Mods = "その他のモッド",
+
+	Sandbox_StackAll_MergeableSoap = "結合可能な石鹸",
+	Sandbox_StackAll_MergeableSoap_tooltip = "小さな石鹸のかけらを結合できます。\n石鹸の結合は分割なしで行われます。",
+}

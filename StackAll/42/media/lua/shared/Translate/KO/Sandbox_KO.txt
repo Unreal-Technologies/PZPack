@@ -1,0 +1,6 @@
+Sandbox_KO = {
+	Sandbox_Mods = "기타 모드",
+
+	Sandbox_StackAll_MergeableSoap = "결합 가능한 비누",
+	Sandbox_StackAll_MergeableSoap_tooltip = "작은 비누 조각을 결합할 수 있습니다.\n비누 결합은 분할 없이 이루어집니다.",
+}

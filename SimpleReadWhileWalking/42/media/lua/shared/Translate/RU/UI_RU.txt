@@ -1,0 +1,4 @@
+UI_RU = {
+  UI_options_ReadWalkingStar_keyBind_Read = "Читать книгу",
+  UI_options_ReadWalkingStar_keyBind_Read_tooltip = "Выбрать книгу из инвентаря или контейнера и пере6ключить режим чтения (начать читать или прекратить чтение).",
+}

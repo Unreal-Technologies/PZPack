@@ -1,0 +1,4 @@
+UI_CH = {
+  UI_options_ReadWalkingStar_keyBind_Read = "閱讀書籍",
+  UI_options_ReadWalkingStar_keyBind_Read_tooltip = "從你的物品欄或容器中選擇一本技能書，開始/停止閱讀。",
+}

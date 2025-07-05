@@ -1,0 +1,9 @@
+Sandbox_CN = {
+	Sandbox_Mods = "其他模组",
+
+	Sandbox_ReadWalking_FogDarkness = "阅读雾暗度",
+	Sandbox_ReadWalking_FogDarkness_tooltip = "阅读时的雾暗程度。\n0.0 表示无暗度。\n1.0 表示完全黑暗。",
+
+	Sandbox_ReadWalking_ReadSpeed = "阅读速度倍数",
+	Sandbox_ReadWalking_ReadSpeed_tooltip = "模组：边走边读\n1.0 表示默认速度。\n2.0 表示速度 x2，依此类推。",
+}

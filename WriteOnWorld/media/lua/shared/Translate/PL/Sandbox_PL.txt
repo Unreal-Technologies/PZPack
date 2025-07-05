@@ -1,0 +1,6 @@
+Sandbox_PL = {
+    Sandbox_WriteOnWorld = "Pisz na œwiecie",
+
+    Sandbox_WriteOnWorlde_AdminsOnly = "Tylko administratorzy",
+    Sandbox_WriteOnWorlde_AdminsOnly_tooltip = "Jeœli wy³¹czone, KA¯DY gracz mo¿e pisaæ notatki na œwiecie.",
+}

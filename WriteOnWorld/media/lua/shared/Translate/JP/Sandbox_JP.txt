@@ -1,0 +1,6 @@
+Sandbox_JP = {
+    Sandbox_WriteOnWorld = "ワールドに書く",
+
+    Sandbox_WriteOnWorlde_AdminsOnly = "管理者のみ",
+    Sandbox_WriteOnWorlde_AdminsOnly_tooltip = "無効にすると、どのプレイヤーでもワールドにメモを書くことができます。",
+}

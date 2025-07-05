@@ -1,0 +1,9 @@
+Sandbox_CH = {
+    Sandbox_ObviousCollecting = "明顯收集",
+
+	Sandbox_ObviousCollecting_DisableLoot = "禁用戰利品",
+	Sandbox_ObviousCollecting_DisableLoot_tooltip = "如果啟用，玩家將不會因為拾取明顯的東西而收到任何物品。 ",
+
+	Sandbox_ObviousCollecting_LootMultiplier = "戰利品乘數",
+	Sandbox_ObviousCollecting_LootMultiplier_tooltip = "當玩家拾取明顯物品時，將玩家收到的物品數量（如果有）乘以。 ",
+}

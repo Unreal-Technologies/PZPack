@@ -1,0 +1,9 @@
+Sandbox_DE = {
+    Sandbox_ObviousCollecting = "Offensichtliches Sammeln",
+
+	Sandbox_ObviousCollecting_DisableLoot = "Beute deaktivieren",
+	Sandbox_ObviousCollecting_DisableLoot_tooltip = "Wenn diese Option aktiviert ist, erhalten Spieler keine Gegenstände, wenn sie offensichtliche Dinge aufheben. ",
+
+	Sandbox_ObviousCollecting_LootMultiplier = "Beutemultiplikator",
+	Sandbox_ObviousCollecting_LootMultiplier_tooltip = "Vervielfacht die Anzahl der Gegenstände, die Spieler erhalten (falls vorhanden), wenn sie offensichtliche Gegenstände aufheben. ",
+}
