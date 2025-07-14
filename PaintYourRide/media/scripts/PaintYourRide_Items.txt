@@ -1,0 +1,623 @@
+module PaintYourRide
+{
+    imports
+    {
+        Base
+    }
+
+    item VehiclePaintingMag1
+    {
+        Type = Literature,
+        DisplayCategory = SkillBook,
+        DisplayName = Autostyle Magazine - Vehicle Painting Vol. 1,
+        Icon = VehiclePaintingMag1,
+        Weight = 0.1,
+        TeachedRecipes = Vehicle Painting,
+        ReplaceOnUse = VehiclePaintingMag1,
+        Tooltip = Tooltip_PaintYourRide_Item_VehiclePaintingMag1,
+        StaticModel = Magazine,
+        WorldStaticModel = MagazineGround,
+    }
+
+    item VehiclePaintingMag2
+    {
+        Type = Literature,
+        DisplayCategory = SkillBook,
+        DisplayName = Autostyle Magazine - Vehicle Painting Vol. 2,
+        Icon = VehiclePaintingMag2,
+        Weight = 0.1,
+        TeachedRecipes = Paint Mixing,
+        ReplaceOnUse = VehiclePaintingMag2,
+        Tooltip = Tooltip_PaintYourRide_Item_VehiclePaintingMag2,
+        StaticModel = Magazine,
+        WorldStaticModel = MagazineGround,
+    }
+
+    item SprayGun
+    {
+        Type = Drainable,
+        DisplayCategory = Tool,
+        DisplayName = Spray Gun,
+        Icon = SprayGun,
+        Weight = 1.5,
+        DisappearOnUse = FALSE,
+        UseDelta = 0.001,
+        cantBeConsolided = TRUE,
+    }
+
+    item WireBrush
+    {
+        Type = Normal,
+        DisplayCategory = Tool,
+        DisplayName = Wire Brush,
+        Icon = WireBrush,
+        Weight = 0.7,
+        Tooltip = Tooltip_PaintYourRide_Item_WireBrush,
+    }
+
+    item CataloguePaintSpray
+    {
+        Type = Normal,
+        DisplayCategory = Literature,
+        DisplayName = HSV Spray Paint Catalogue,
+        Icon = CataloguePaint,
+        Weight = 0.1,
+    }
+
+    item CataloguePaintTints
+    {
+        Type = Normal,
+        DisplayCategory = Literature,
+        DisplayName = HSV Tinting Paint Catalogue,
+        Icon = CataloguePaint,
+        Weight = 0.1,
+    }
+
+    /************************ BOXES ************************/
+
+    item BoxAutomotivePaintTints
+    {
+        Type = Drainable,
+        DisplayName = Box with Automotive Tinting Paints,
+        Icon = BoxAutomotivePaintTints,
+        Weight = 2.7,
+        WeightEmpty = 0.3,
+        DisappearOnUse = TRUE,
+        UseWhileEquipped = FALSE,
+        UseDelta = 0.125,
+        cantBeConsolided = TRUE,
+    }
+
+    item BoxAutomotivePaintSprays1
+    {
+        Type = Drainable,
+        DisplayName = Box with Automotive Spray Paints,
+        Icon = BoxAutomotivePaintSprays1,
+        Weight = 8.6,
+        WeightEmpty = 0.6,
+        DisappearOnUse = TRUE,
+        UseWhileEquipped = FALSE,
+        UseDelta = 0.25,
+        cantBeConsolided = TRUE,
+    }
+
+    item BoxAutomotivePaintSprays2
+    {
+        Type = Drainable,
+        DisplayName = Box with Automotive Spray Paints,
+        Icon = BoxAutomotivePaintSprays2,
+        Weight = 8.6,
+        WeightEmpty = 0.6,
+        DisappearOnUse = TRUE,
+        UseWhileEquipped = FALSE,
+        UseDelta = 0.25,
+        cantBeConsolided = TRUE,
+    }
+
+    item BoxAutomotivePaintSprays3
+    {
+        Type = Drainable,
+        DisplayName = Box with Automotive Spray Paints,
+        Icon = BoxAutomotivePaintSprays3,
+        Weight = 8.6,
+        WeightEmpty = 0.6,
+        DisappearOnUse = TRUE,
+        UseWhileEquipped = FALSE,
+        UseDelta = 0.25,
+        cantBeConsolided = TRUE,
+    }
+
+    item BoxAutomotivePaintSprays4
+    {
+        Type = Drainable,
+        DisplayName = Box with Automotive Spray Paints,
+        Icon = BoxAutomotivePaintSprays4,
+        Weight = 8.6,
+        WeightEmpty = 0.6,
+        DisappearOnUse = TRUE,
+        UseWhileEquipped = FALSE,
+        UseDelta = 0.25,
+        cantBeConsolided = TRUE,
+    }
+
+    /************************ MIXING ************************/
+
+    /*********** Paint ***********/
+
+    item AutomotivePaintBucketEmpty
+    {
+        Type = Normal,
+        DisplayCategory = Material,
+        DisplayName = Empty Paint Bucket,
+        Icon = AutomotivePaintBucket_Empty,
+        Weight = 0.8,
+        MetalValue = 15,
+    }
+
+    item AutomotivePaintWhite
+    {
+        Type = Drainable,
+        DisplayCategory = VehiclePaint,
+        DisplayName = Automotive Paint White,
+        Icon = AutomotivePaintWhite,
+        Weight = 2.5,
+        ReplaceOnDeplete = AutomotivePaintBucketEmpty,
+        UseWhileEquipped = FALSE,
+        UseDelta = 0.1,
+        Tooltip = Tooltip_PaintYourRide_Item_AutomotivePaintWhite,
+    }
+
+    /*********** Tinting paint ***********/
+
+    item AutomotivePaintBottleEmpty
+    {
+        Type = Normal,
+        DisplayName = Empty Paint Bottle,
+        Icon = AutomotivePaintBottle_Empty,
+        Weight = 0.1,
+    }
+
+    item AutomotiveTintPaintBlack
+    {
+        Type = Drainable,
+        DisplayCategory = VehiclePaint,
+        DisplayName = Automotive Tinting Paint Black,
+        Icon = AutomotiveTintPaint_Black,
+        Weight = 0.3,
+        ReplaceOnDeplete = AutomotivePaintBottleEmpty,
+        UseWhileEquipped = FALSE,
+        UseDelta = 0.01,
+        Tooltip = Tooltip_PaintYourRide_Item_AutomotiveTintPaintBlack,
+    }
+
+    item AutomotiveTintPaintBlue
+    {
+        Type = Drainable,
+        DisplayCategory = VehiclePaint,
+        DisplayName = Automotive Tinting Paint Blue,
+        Icon = AutomotiveTintPaint_Blue,
+        Weight = 0.3,
+        ReplaceOnDeplete = AutomotivePaintBottleEmpty,
+        UseWhileEquipped = FALSE,
+        UseDelta = 0.01,
+        Tooltip = Tooltip_PaintYourRide_Item_AutomotiveTintPaintBlue,
+    }
+
+    item AutomotiveTintPaintCyan
+    {
+        Type = Drainable,
+        DisplayCategory = VehiclePaint,
+        DisplayName = Automotive Tinting Paint Aqua,
+        Icon = AutomotiveTintPaint_Cyan,
+        Weight = 0.3,
+        ReplaceOnDeplete = AutomotivePaintBottleEmpty,
+        UseWhileEquipped = FALSE,
+        UseDelta = 0.01,
+        Tooltip = Tooltip_PaintYourRide_Item_AutomotiveTintPaintCyan,
+    }
+
+    item AutomotiveTintPaintGreen
+    {
+        Type = Drainable,
+        DisplayCategory = VehiclePaint,
+        DisplayName = Automotive Tinting Paint Green,
+        Icon = AutomotiveTintPaint_Green,
+        Weight = 0.3,
+        ReplaceOnDeplete = AutomotivePaintBottleEmpty,
+        UseWhileEquipped = FALSE,
+        UseDelta = 0.01,
+        Tooltip = Tooltip_PaintYourRide_Item_AutomotiveTintPaintGreen,
+    }
+
+    item AutomotiveTintPaintMagenta
+    {
+        Type = Drainable,
+        DisplayCategory = VehiclePaint,
+        DisplayName = Automotive Tinting Paint Fuchsia,
+        Icon = AutomotiveTintPaint_Magenta,
+        Weight = 0.3,
+        ReplaceOnDeplete = AutomotivePaintBottleEmpty,
+        UseWhileEquipped = FALSE,
+        UseDelta = 0.01,
+        Tooltip = Tooltip_PaintYourRide_Item_AutomotiveTintPaintMagenta,
+    }
+
+    item AutomotiveTintPaintRed
+    {
+        Type = Drainable,
+        DisplayCategory = VehiclePaint,
+        DisplayName = Automotive Tinting Paint Red,
+        Icon = AutomotiveTintPaint_Red,
+        Weight = 0.3,
+        ReplaceOnDeplete = AutomotivePaintBottleEmpty,
+        UseWhileEquipped = FALSE,
+        UseDelta = 0.01,
+        Tooltip = Tooltip_PaintYourRide_Item_AutomotiveTintPaintRed,
+    }
+
+    item AutomotiveTintPaintYellow
+    {
+        Type = Drainable,
+        DisplayCategory = VehiclePaint,
+        DisplayName = Automotive Tinting Paint Yellow,
+        Icon = AutomotiveTintPaint_Yellow,
+        Weight = 0.3,
+        ReplaceOnDeplete = AutomotivePaintBottleEmpty,
+        UseWhileEquipped = FALSE,
+        UseDelta = 0.01,
+        Tooltip = Tooltip_PaintYourRide_Item_AutomotiveTintPaintYellow,
+    }
+
+    /************************ SPRAYS ************************/
+
+    item AutomotiveSprayCanEmpty
+    {
+        Type = Normal,
+        DisplayCategory = Material,
+        DisplayName = Empty Spray Can,
+        Icon = AutomotiveSprayCan_Empty,
+        Weight = 0.3,
+    }
+
+    /*********** Primer ***********/
+
+    item AutomotiveSprayPrimer
+    {
+        Type = Drainable,
+        DisplayCategory = VehiclePaint,
+        DisplayName = Automotive Primer,
+        Icon = AutomotiveSprayPrimer,
+        Weight = 2.0,
+        ReplaceOnDeplete = AutomotiveSprayCanEmpty,
+        UseWhileEquipped = FALSE,
+        UseDelta = 0.1,
+        Tooltip = Tooltip_PaintYourRide_Item_AutomotiveSprayPrimer,
+    }
+
+    /*********** Paint ***********/
+
+    item AutomotiveSprayPaintBlack
+    {
+        Type = Drainable,
+        DisplayCategory = VehiclePaint,
+        DisplayName = Automotive Spray Paint Black,
+        Icon = AutomotiveSprayPaint_Black,
+        Weight = 2.0,
+        ReplaceOnDeplete = AutomotiveSprayCanEmpty,
+        UseWhileEquipped = FALSE,
+        UseDelta = 0.1,
+        Tooltip = Tooltip_PaintYourRide_Item_AutomotiveSprayPaintBlack,
+    }
+
+    item AutomotiveSprayPaintBlue
+    {
+        Type = Drainable,
+        DisplayCategory = VehiclePaint,
+        DisplayName = Automotive Spray Paint Blue,
+        Icon = AutomotiveSprayPaint_Blue,
+        Weight = 2.0,
+        ReplaceOnDeplete = AutomotiveSprayCanEmpty,
+        UseWhileEquipped = FALSE,
+        UseDelta = 0.1,
+        Tooltip = Tooltip_PaintYourRide_Item_AutomotiveSprayPaintBlue,
+    }
+
+    item AutomotiveSprayPaintBlueNavy
+    {
+        Type = Drainable,
+        DisplayCategory = VehiclePaint,
+        DisplayName = Automotive Spray Paint Navy Blue,
+        Icon = AutomotiveSprayPaint_BlueNavy,
+        Weight = 2.0,
+        ReplaceOnDeplete = AutomotiveSprayCanEmpty,
+        UseWhileEquipped = FALSE,
+        UseDelta = 0.1,
+        Tooltip = Tooltip_PaintYourRide_Item_AutomotiveSprayPaintBlueNavy,
+    }
+
+    item AutomotiveSprayPaintBlueNeon
+    {
+        Type = Drainable,
+        DisplayCategory = VehiclePaint,
+        DisplayName = Automotive Spray Paint Neon Blue,
+        Icon = AutomotiveSprayPaint_BlueNeon,
+        Weight = 2.0,
+        ReplaceOnDeplete = AutomotiveSprayCanEmpty,
+        UseWhileEquipped = FALSE,
+        UseDelta = 0.1,
+        Tooltip = Tooltip_PaintYourRide_Item_AutomotiveSprayPaintBlueNeon,
+    }
+
+    item AutomotiveSprayPaintBlueOlympic
+    {
+        Type = Drainable,
+        DisplayCategory = VehiclePaint,
+        DisplayName = Automotive Spray Paint Olympic Blue,
+        Icon = AutomotiveSprayPaint_BlueOlympic,
+        Weight = 2.0,
+        ReplaceOnDeplete = AutomotiveSprayCanEmpty,
+        UseWhileEquipped = FALSE,
+        UseDelta = 0.1,
+        Tooltip = Tooltip_PaintYourRide_Item_AutomotiveSprayPaintBlueOlympic,
+    }
+
+    item AutomotiveSprayPaintBrownDarkChocolate
+    {
+        Type = Drainable,
+        DisplayCategory = VehiclePaint,
+        DisplayName = Automotive Spray Paint Dark Chocolate,
+        Icon = AutomotiveSprayPaint_BrownDarkChocolate,
+        Weight = 2.0,
+        ReplaceOnDeplete = AutomotiveSprayCanEmpty,
+        UseWhileEquipped = FALSE,
+        UseDelta = 0.1,
+        Tooltip = Tooltip_PaintYourRide_Item_AutomotiveSprayPaintBrownDarkChocolate,
+    }
+
+    item AutomotiveSprayPaintBrownRusty
+    {
+        Type = Drainable,
+        DisplayCategory = VehiclePaint,
+        DisplayName = Automotive Spray Paint Rusty Brown,
+        Icon = AutomotiveSprayPaint_BrownRusty,
+        Weight = 2.0,
+        ReplaceOnDeplete = AutomotiveSprayCanEmpty,
+        UseWhileEquipped = FALSE,
+        UseDelta = 0.1,
+        Tooltip = Tooltip_PaintYourRide_Item_AutomotiveSprayPaintBrownRusty,
+    }
+
+    item AutomotiveSprayPaintGreen
+    {
+        Type = Drainable,
+        DisplayCategory = VehiclePaint,
+        DisplayName = Automotive Spray Paint Green,
+        Icon = AutomotiveSprayPaint_Green,
+        Weight = 2.0,
+        ReplaceOnDeplete = AutomotiveSprayCanEmpty,
+        UseWhileEquipped = FALSE,
+        UseDelta = 0.1,
+        Tooltip = Tooltip_PaintYourRide_Item_AutomotiveSprayPaintGreen,
+    }
+
+    item AutomotiveSprayPaintGreenArmy
+    {
+        Type = Drainable,
+        DisplayCategory = VehiclePaint,
+        DisplayName = Automotive Spray Paint Army Green,
+        Icon = AutomotiveSprayPaint_GreenArmy,
+        Weight = 2.0,
+        ReplaceOnDeplete = AutomotiveSprayCanEmpty,
+        UseWhileEquipped = FALSE,
+        UseDelta = 0.1,
+        Tooltip = Tooltip_PaintYourRide_Item_AutomotiveSprayPaintGreenArmy,
+    }
+
+    item AutomotiveSprayPaintGreenForest
+    {
+        Type = Drainable,
+        DisplayCategory = VehiclePaint,
+        DisplayName = Automotive Spray Paint Forest Green,
+        Icon = AutomotiveSprayPaint_GreenForest,
+        Weight = 2.0,
+        ReplaceOnDeplete = AutomotiveSprayCanEmpty,
+        UseWhileEquipped = FALSE,
+        UseDelta = 0.1,
+        Tooltip = Tooltip_PaintYourRide_Item_AutomotiveSprayPaintGreenForest,
+    }
+
+    item AutomotiveSprayPaintGreenNeon
+    {
+        Type = Drainable,
+        DisplayCategory = VehiclePaint,
+        DisplayName = Automotive Spray Paint Neon Lime,
+        Icon = AutomotiveSprayPaint_GreenNeon,
+        Weight = 2.0,
+        ReplaceOnDeplete = AutomotiveSprayCanEmpty,
+        UseWhileEquipped = FALSE,
+        UseDelta = 0.1,
+        Tooltip = Tooltip_PaintYourRide_Item_AutomotiveSprayPaintGreenNeon,
+    }
+
+    item AutomotiveSprayPaintGrey
+    {
+        Type = Drainable,
+        DisplayCategory = VehiclePaint,
+        DisplayName = Automotive Spray Paint Grey,
+        Icon = AutomotiveSprayPaint_Grey,
+        Weight = 2.0,
+        ReplaceOnDeplete = AutomotiveSprayCanEmpty,
+        UseWhileEquipped = FALSE,
+        UseDelta = 0.1,
+        Tooltip = Tooltip_PaintYourRide_Item_AutomotiveSprayPaintGrey,
+    }
+
+    item AutomotiveSprayPaintGreySteel
+    {
+        Type = Drainable,
+        DisplayCategory = VehiclePaint,
+        DisplayName = Automotive Spray Paint Steel Grey,
+        Icon = AutomotiveSprayPaint_GreySteel,
+        Weight = 2.0,
+        ReplaceOnDeplete = AutomotiveSprayCanEmpty,
+        UseWhileEquipped = FALSE,
+        UseDelta = 0.1,
+        Tooltip = Tooltip_PaintYourRide_Item_AutomotiveSprayPaintGreySteel,
+    }
+
+    item AutomotiveSprayPaintOrangeTangerine
+    {
+        Type = Drainable,
+        DisplayCategory = VehiclePaint,
+        DisplayName = Automotive Spray Paint Tangerine,
+        Icon = AutomotiveSprayPaint_OrangeTangerine,
+        Weight = 2.0,
+        ReplaceOnDeplete = AutomotiveSprayCanEmpty,
+        UseWhileEquipped = FALSE,
+        UseDelta = 0.1,
+        Tooltip = Tooltip_PaintYourRide_Item_AutomotiveSprayPaintOrangeTangerine,
+    }
+
+    item AutomotiveSprayPaintPinkBubbleGum
+    {
+        Type = Drainable,
+        DisplayCategory = VehiclePaint,
+        DisplayName = Automotive Spray Paint Bubble Gum,
+        Icon = AutomotiveSprayPaint_PinkBubbleGum,
+        Weight = 2.0,
+        ReplaceOnDeplete = AutomotiveSprayCanEmpty,
+        UseWhileEquipped = FALSE,
+        UseDelta = 0.1,
+        Tooltip = Tooltip_PaintYourRide_Item_AutomotiveSprayPaintPinkBubbleGum,
+    }
+
+    item AutomotiveSprayPaintPinkGlamorous
+    {
+        Type = Drainable,
+        DisplayCategory = VehiclePaint,
+        DisplayName = Automotive Spray Paint Glamorous Pink,
+        Icon = AutomotiveSprayPaint_PinkGlamorous,
+        Weight = 2.0,
+        ReplaceOnDeplete = AutomotiveSprayCanEmpty,
+        UseWhileEquipped = FALSE,
+        UseDelta = 0.1,
+        Tooltip = Tooltip_PaintYourRide_Item_AutomotiveSprayPaintPinkGlamorous,
+    }
+
+    item AutomotiveSprayPaintRed
+    {
+        Type = Drainable,
+        DisplayCategory = VehiclePaint,
+        DisplayName = Automotive Spray Paint Red,
+        Icon = AutomotiveSprayPaint_Red,
+        Weight = 2.0,
+        ReplaceOnDeplete = AutomotiveSprayCanEmpty,
+        UseWhileEquipped = FALSE,
+        UseDelta = 0.1,
+        Tooltip = Tooltip_PaintYourRide_Item_AutomotiveSprayPaintRed,
+    }
+
+    item AutomotiveSprayPaintRedBurgundy
+    {
+        Type = Drainable,
+        DisplayCategory = VehiclePaint,
+        DisplayName = Automotive Spray Paint Burgundy,
+        Icon = AutomotiveSprayPaint_RedBurgundy,
+        Weight = 2.0,
+        ReplaceOnDeplete = AutomotiveSprayCanEmpty,
+        UseWhileEquipped = FALSE,
+        UseDelta = 0.1,
+        Tooltip = Tooltip_PaintYourRide_Item_AutomotiveSprayPaintRedBurgundy,
+    }
+
+    item AutomotiveSprayPaintRedCandyApple
+    {
+        Type = Drainable,
+        DisplayCategory = VehiclePaint,
+        DisplayName = Automotive Spray Paint Candy Apple,
+        Icon = AutomotiveSprayPaint_RedCandyApple,
+        Weight = 2.0,
+        ReplaceOnDeplete = AutomotiveSprayCanEmpty,
+        UseWhileEquipped = FALSE,
+        UseDelta = 0.1,
+        Tooltip = Tooltip_PaintYourRide_Item_AutomotiveSprayPaintRedCandyApple,
+    }
+
+    item AutomotiveSprayPaintVioletGrape
+    {
+        Type = Drainable,
+        DisplayCategory = VehiclePaint,
+        DisplayName = Automotive Spray Paint Grape,
+        Icon = AutomotiveSprayPaint_VioletGrape,
+        Weight = 2.0,
+        ReplaceOnDeplete = AutomotiveSprayCanEmpty,
+        UseWhileEquipped = FALSE,
+        UseDelta = 0.1,
+        Tooltip = Tooltip_PaintYourRide_Item_AutomotiveSprayPaintVioletGrape,
+    }
+
+    item AutomotiveSprayPaintVioletIndigo
+    {
+        Type = Drainable,
+        DisplayCategory = VehiclePaint,
+        DisplayName = Automotive Spray Paint Indigo,
+        Icon = AutomotiveSprayPaint_VioletIndigo,
+        Weight = 2.0,
+        ReplaceOnDeplete = AutomotiveSprayCanEmpty,
+        UseWhileEquipped = FALSE,
+        UseDelta = 0.1,
+        Tooltip = Tooltip_PaintYourRide_Item_AutomotiveSprayPaintVioletIndigo,
+    }
+
+    item AutomotiveSprayPaintWhite
+    {
+        Type = Drainable,
+        DisplayCategory = VehiclePaint,
+        DisplayName = Automotive Spray Paint White,
+        Icon = AutomotiveSprayPaint_White,
+        Weight = 2.0,
+        ReplaceOnDeplete = AutomotiveSprayCanEmpty,
+        UseWhileEquipped = FALSE,
+        UseDelta = 0.1,
+        Tooltip = Tooltip_PaintYourRide_Item_AutomotiveSprayPaintWhite,
+    }
+
+    item AutomotiveSprayPaintYellow
+    {
+        Type = Drainable,
+        DisplayCategory = VehiclePaint,
+        DisplayName = Automotive Spray Paint Yellow,
+        Icon = AutomotiveSprayPaint_Yellow,
+        Weight = 2.0,
+        ReplaceOnDeplete = AutomotiveSprayCanEmpty,
+        UseWhileEquipped = FALSE,
+        UseDelta = 0.1,
+        Tooltip = Tooltip_PaintYourRide_Item_AutomotiveSprayPaintYellow,
+    }
+
+    item AutomotiveSprayPaintYellowNeon
+    {
+        Type = Drainable,
+        DisplayCategory = VehiclePaint,
+        DisplayName = Automotive Spray Paint Neon Yellow,
+        Icon = AutomotiveSprayPaint_YellowNeon,
+        Weight = 2.0,
+        ReplaceOnDeplete = AutomotiveSprayCanEmpty,
+        UseWhileEquipped = FALSE,
+        UseDelta = 0.1,
+        Tooltip = Tooltip_PaintYourRide_Item_AutomotiveSprayPaintYellowNeon,
+    }
+
+    item AutomotiveSprayPaintYellowTuscany
+    {
+        Type = Drainable,
+        DisplayCategory = VehiclePaint,
+        DisplayName = Automotive Spray Paint Tuscany,
+        Icon = AutomotiveSprayPaint_YellowTuscany,
+        Weight = 2.0,
+        ReplaceOnDeplete = AutomotiveSprayCanEmpty,
+        UseWhileEquipped = FALSE,
+        UseDelta = 0.1,
+        Tooltip = Tooltip_PaintYourRide_Item_AutomotiveSprayPaintYellowTuscany,
+    }
+}

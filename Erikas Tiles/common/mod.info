@@ -1,0 +1,10 @@
+name=Erika's Tiles
+description=Erika's custom tilepack.
+poster=poster.png
+icon=poster.png
+modversion=2.0.2
+author=Erika
+id=Erikas_Tiles
+versionMin=42.0.0
+pack=Erikas_Tiles
+tiledef=Erikas_Tiles 1991

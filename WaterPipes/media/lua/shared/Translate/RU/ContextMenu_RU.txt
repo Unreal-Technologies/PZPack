@@ -1,0 +1,25 @@
+ContextMenu_RU = {
+    ContextMenu_WP_AddCharcoal = "Добавить угольный фильтр",
+    ContextMenu_WP_PumpInfo = "Информация о насосе",
+    ContextMenu_WP_AttachWater = "Прикрепить источник воды",
+    ContextMenu_WP_AttachFuel = "Прикрепить источник топлива",
+    ContextMenu_WP_Plumbing = "Сантехника",
+    ContextMenu_WP_WaterPipe = "Труба",
+    ContextMenu_WP_WaterPump = "Насос",
+    ContextMenu_WP_FuelTank = "Топливный бак",
+    ContextMenu_WP_Fuel = "Топливо",
+    ContextMenu_WP_ValveInfo = "Информация о клапане",
+    ContextMenu_WP_ChangeValves = "Заменить клапаны",
+    ContextMenu_WP_ChangeWest = "Запад",
+    ContextMenu_WP_ChangeSouth = "Юг",
+    ContextMenu_WP_ChangeNorth = "Север",
+    ContextMenu_WP_Changeeast = "Восток",
+    ContextMenu_WP_Valve = "Клапан",
+    ContextMenu_WP_ValveModeOne = "1-сторонний (только прием)",
+    ContextMenu_WP_ValveModeTwo = "2-сторонний",
+    ContextMenu_WP_Type = "Тип",
+    ContextMenu_WP_Flow = "Поток",
+    ContextMenu_WP_RemovePipe = "Удалить трубу",
+    ContextMenu_WP_DisassemblePump = "Разобрать насос"
+    ContextMenu_WP_FixPump = "Починить насос"
+}

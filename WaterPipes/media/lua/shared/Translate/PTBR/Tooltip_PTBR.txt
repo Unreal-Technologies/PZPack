@@ -1,0 +1,11 @@
+Tooltip_PTBR = {
+	Tooltip_WP_ThePumpIsWornOut = "A bomba está desgastada."
+	Tooltip_WP_NeedsPowerToOperate = "Precisa de energia para operar."
+	Tooltip_WP_NeedsCharcoal = "Precisa de carvão."
+	Tooltip_WP_Requires = "Requer:"
+	Tooltip_WP_BlowTorch = "Maçarico"
+	Tooltip_WP_WeldingMask = "Máscara de Solda"
+	Tooltip_WP_MetalworkMag2 = "Requer conhecimento específico: Revista de Metalurgia Vol. 2"
+	Tooltip_WP_MetalworkingSkillTooLow = "Habilidade de metalurgia muito baixa"
+    Tooltip_WP_NeedsScrapMetal = "Precisa de sucata de metal"
+}

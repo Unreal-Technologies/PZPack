@@ -1,0 +1,37 @@
+IGUI_FR = {
+
+	IGUI_HaloNote_PlaylistGet = "Nouvelle playlist importée avec ",
+	IGUI_HaloNote_PlaylistGetEnd = " musiques",
+
+	IGUI_ItemCat_Hygiene = "Hygiène",
+
+	IGUI_perks_Cleaning = "Nettoyage",
+	IGUI_perks_Meditation = "Méditation",
+	IGUI_perks_Dancing = "Danse",
+	IGUI_perks_Music = "Musique",
+	IGUI_perks_Lifestyle = "Divertissement",
+
+	IGUI_HaloNote_XP = "XP",
+	IGUI_HaloNote_XPBonus = "XP+",
+	IGUI_HaloNote_Stress = "Stress",
+	IGUI_HaloNote_Embarrassed = "Embarrassé",
+	IGUI_HaloNote_Boredom = "Ennui",
+	IGUI_HaloNote_Happyness = "Bonheur",
+	IGUI_HaloNote_Unhappyness = "Tristesse",
+	IGUI_HaloNote_Pain = "Douleur",
+	IGUI_HaloNote_Pain_BadPosture = "Douleur due aux muvaises postures",
+	IGUI_HaloNote_Bladder = "Vessie",
+	IGUI_HaloNote_Hygiene = "Hygiène",
+	IGUI_HaloNote_MintFresh = "Haleine fraîche",
+	IGUI_HaloNote_LearnSong = "Nouvelles musiques apprises",
+	IGUI_HaloNote_ReadSongPlusStart = " plus ",
+	IGUI_HaloNote_ReadSongPlusEnd = " plus ",
+	IGUI_HaloNote_WriteSongSuccess = "Nouvelle entrée dans le carnet de note",
+	IGUI_HaloNote_ChangeAPEnd = "styles",
+	IGUI_HaloNote_Attractive = "Séduisant",
+	IGUI_HaloNote_SmellGood = "Respire le bonheur",
+	IGUI_HaloNote_Nauseous = "Nauséeux",
+	
+	IGUI_HaloNote_CleaningNoPath = "Je ne peux pas atteindre la zone à nettoyer.",
+
+}

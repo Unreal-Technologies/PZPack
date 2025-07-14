@@ -1,0 +1,12 @@
+Sandbox_ES = {
+    Sandbox_Plumbing = "Plumbing"
+    
+    Sandbox_Plumbing.PumpFilterUsage = "Consumo del filtro de la bomba"
+    Sandbox_Plumbing.PumpFilterUsage_tooltip = "La fracción del filtro de la bomba de agua que se consume cada 10 minutos de juego."
+
+    Sandbox_Plumbing.PumpEfficiencyLoss = "Pérdida de eficiencia de la bomba"
+    Sandbox_Plumbing.PumpEfficiencyLoss_tooltip = "La fracción de la eficiencia que pierde una bomba de agua cada 10 minutos de juego."
+
+    Sandbox_Plumbing.PumpMaxWater = "Dosis de agua de la bomba"
+    Sandbox_Plumbing.PumpMaxWater_tooltip = "La cantidad de unidades de agua que una bomba 100% eficiente suministra cada 10 minutos de juego."
+}

@@ -1,0 +1,1694 @@
+module Base
+{
+	recipe Thread Barrel Of Browning Buck Mark
+	{
+	   Buckmark,
+	   keep TapDie,
+
+	   Result:BuckmarkThreaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Barrel Of Ruger Mk II
+	{
+	   Rugmark,
+	   keep TapDie,
+
+	   Result:RugmarkThreaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Barrel Of Calico M590 Pistol
+	{
+	   CalicoPistol,
+	   keep TapDie,
+
+	   Result:CalicoPistolThreaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Barrel Of Raven 25		
+	{		
+		Raven25,		
+		keep TapDie,
+		SmallSheetMetal=1,
+    	BlowTorch=2,
+		keep Saw,
+		keep [Recipe.GetItemTypes.WeldingMask],		
+				
+		Result:Raven25Threaded,		
+		Time:200.0,		
+		Category:Welding,		
+		SkillRequired:MetalWelding=4;Aiming=3,		
+		OnCreate:Recipe.OnCreate.CovertFirearm,		
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding15,		
+		OnTest:Recipe.OnTest.Guns93BarrelThreading,		
+	}		
+			
+	recipe Thread Barrel Of Jennings J-22		
+	{		
+		J22,		
+		keep TapDie,
+		SmallSheetMetal=1,
+    	BlowTorch=2,
+		keep Saw,
+		keep [Recipe.GetItemTypes.WeldingMask],		
+				
+		Result:J22Threaded,		
+		Time:200.0,		
+		Category:Welding,		
+		SkillRequired:MetalWelding=4;Aiming=3,		
+		OnCreate:Recipe.OnCreate.CovertFirearm,		
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding15,		
+		OnTest:Recipe.OnTest.Guns93BarrelThreading,		
+	}		
+			
+	recipe Thread Barrel Of Bobcat 21		
+	{		
+		Bobcat,		
+		keep TapDie,
+		SmallSheetMetal=1,
+    	BlowTorch=2,
+		keep Saw,
+		keep [Recipe.GetItemTypes.WeldingMask],		
+				
+		Result:BobcatThreaded,		
+		Time:200.0,		
+		Category:Welding,		
+		SkillRequired:MetalWelding=4;Aiming=3,		
+		OnCreate:Recipe.OnCreate.CovertFirearm,		
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding15,		
+		OnTest:Recipe.OnTest.Guns93BarrelThreading,		
+	}		
+			
+	recipe Thread Barrel Of Beretta M9		
+	{		
+		Pistol,		
+		keep TapDie,
+		SmallSheetMetal=1,
+    	BlowTorch=2,
+		keep Saw,
+		keep [Recipe.GetItemTypes.WeldingMask],		
+				
+		Result:M9Threaded,		
+		Time:200.0,		
+		Category:Welding,		
+		SkillRequired:MetalWelding=4;Aiming=3,		
+		OnCreate:Recipe.OnCreate.CovertFirearm,		
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding15,		
+		OnTest:Recipe.OnTest.Guns93BarrelThreading,		
+	}		
+			
+	recipe Thread Barrel Of Beretta 92FS		
+	{		
+		Beretta92FS,		
+		keep TapDie,
+		SmallSheetMetal=1,
+    	BlowTorch=2,
+		keep Saw,
+		keep [Recipe.GetItemTypes.WeldingMask],		
+				
+		Result:Beretta92FSThreaded,		
+		Time:200.0,		
+		Category:Welding,		
+		SkillRequired:MetalWelding=4;Aiming=3,		
+		OnCreate:Recipe.OnCreate.CovertFirearm,		
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding15,		
+		OnTest:Recipe.OnTest.Guns93BarrelThreading,		
+	}		
+			
+	recipe Thread Barrel Of HK P7M8		
+	{		
+		P7M8,		
+		keep TapDie,
+		SmallSheetMetal=1,
+    	BlowTorch=2,
+		keep Saw,
+		keep [Recipe.GetItemTypes.WeldingMask],		
+				
+		Result:P7M8Threaded,		
+		Time:200.0,		
+		Category:Welding,		
+		SkillRequired:MetalWelding=4;Aiming=3,		
+		OnCreate:Recipe.OnCreate.CovertFirearm,		
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding15,		
+		OnTest:Recipe.OnTest.Guns93BarrelThreading,		
+	}		
+			
+	recipe Thread Barrel Of HK P7M13		
+	{		
+		P7M13,		
+		keep TapDie,
+		SmallSheetMetal=1,
+    	BlowTorch=2,
+		keep Saw,
+		keep [Recipe.GetItemTypes.WeldingMask],		
+				
+		Result:P7M13Threaded,		
+		Time:200.0,		
+		Category:Welding,		
+		SkillRequired:MetalWelding=4;Aiming=3,		
+		OnCreate:Recipe.OnCreate.CovertFirearm,		
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding15,		
+		OnTest:Recipe.OnTest.Guns93BarrelThreading,		
+	}		
+			
+	recipe Thread Barrel Of Davis Ind. P380		
+	{		
+		P380,		
+		keep TapDie,
+		SmallSheetMetal=1,
+    	BlowTorch=2,
+		keep Saw,
+		keep [Recipe.GetItemTypes.WeldingMask],		
+				
+		Result:P380Threaded,		
+		Time:200.0,		
+		Category:Welding,		
+		SkillRequired:MetalWelding=4;Aiming=3,		
+		OnCreate:Recipe.OnCreate.CovertFirearm,		
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding15,		
+		OnTest:Recipe.OnTest.Guns93BarrelThreading,		
+	}		
+			
+	recipe Thread Barrel Of Beretta 83 Cheetah		
+	{		
+		83Cheetah,		
+		keep TapDie,
+		SmallSheetMetal=1,
+    	BlowTorch=2,
+		keep Saw,
+		keep [Recipe.GetItemTypes.WeldingMask],		
+				
+		Result:83CheetahThreaded,		
+		Time:200.0,		
+		Category:Welding,		
+		SkillRequired:MetalWelding=4;Aiming=3,		
+		OnCreate:Recipe.OnCreate.CovertFirearm,		
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding15,		
+		OnTest:Recipe.OnTest.Guns93BarrelThreading,		
+	}		
+			
+	recipe Thread Barrel Of Colt 1908 Pocket Hammerless		
+	{		
+		Hammerless,		
+		keep TapDie,
+		SmallSheetMetal=1,
+    	BlowTorch=2,
+		keep Saw,
+		keep [Recipe.GetItemTypes.WeldingMask],		
+				
+		Result:HammerlessThreaded,		
+		Time:200.0,		
+		Category:Welding,		
+		SkillRequired:MetalWelding=4;Aiming=3,		
+		OnCreate:Recipe.OnCreate.CovertFirearm,		
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding15,		
+		OnTest:Recipe.OnTest.Guns93BarrelThreading,		
+	}		
+			
+	recipe Thread Barrel Of Walther PPK		
+	{		
+		PPK,		
+		keep TapDie,
+		SmallSheetMetal=1,
+    	BlowTorch=2,
+		keep Saw,
+		keep [Recipe.GetItemTypes.WeldingMask],		
+				
+		Result:PPKThreaded,		
+		Time:200.0,		
+		Category:Welding,		
+		SkillRequired:MetalWelding=4;Aiming=3,		
+		OnCreate:Recipe.OnCreate.CovertFirearm,		
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding15,		
+		OnTest:Recipe.OnTest.Guns93BarrelThreading,		
+	}		
+			
+	recipe Thread Barrel Of IWI Desert Eagle		
+	{		
+		Pistol3,		
+		keep TapDie,
+		SmallSheetMetal=1,
+    	BlowTorch=2,
+		keep Saw,
+		keep [Recipe.GetItemTypes.WeldingMask],		
+				
+		Result:DE44Threaded,		
+		Time:200.0,		
+		Category:Welding,		
+		SkillRequired:MetalWelding=4;Aiming=3,		
+		OnCreate:Recipe.OnCreate.CovertFirearm,		
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding15,		
+		OnTest:Recipe.OnTest.Guns93BarrelThreading,		
+	}		
+			
+	recipe Thread Barrel Of Browning Hi Power		
+	{		
+		BHP,		
+		keep TapDie,
+		SmallSheetMetal=1,
+    	BlowTorch=2,
+		keep Saw,
+		keep [Recipe.GetItemTypes.WeldingMask],		
+				
+		Result:BHPThreaded,		
+		Time:200.0,		
+		Category:Welding,		
+		SkillRequired:MetalWelding=4;Aiming=3,		
+		OnCreate:Recipe.OnCreate.CovertFirearm,		
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding15,		
+		OnTest:Recipe.OnTest.Guns93BarrelThreading,		
+	}			
+			
+	recipe Thread Barrel Of Glock 17		
+	{		
+		Glock17,		
+		keep TapDie,
+		SmallSheetMetal=1,
+    	BlowTorch=2,
+		keep Saw,
+		keep [Recipe.GetItemTypes.WeldingMask],		
+				
+		Result:Glock17Threaded,		
+		Time:200.0,		
+		Category:Welding,		
+		SkillRequired:MetalWelding=4;Aiming=3,		
+		OnCreate:Recipe.OnCreate.CovertFirearm,		
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding15,		
+		OnTest:Recipe.OnTest.Guns93BarrelThreading,		
+	}		
+			
+	recipe Thread Barrel Of Glock 20		
+	{		
+		Glock20,		
+		keep TapDie,
+		SmallSheetMetal=1,
+    	BlowTorch=2,
+		keep Saw,
+		keep [Recipe.GetItemTypes.WeldingMask],		
+				
+		Result:Glock20Threaded,		
+		Time:200.0,		
+		Category:Welding,		
+		SkillRequired:MetalWelding=4;Aiming=3,		
+		OnCreate:Recipe.OnCreate.CovertFirearm,		
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding15,		
+		OnTest:Recipe.OnTest.Guns93BarrelThreading,		
+	}		
+			
+	recipe Thread Barrel Of Glock 21		
+	{		
+		Glock21,		
+		keep TapDie,
+		SmallSheetMetal=1,
+    	BlowTorch=2,
+		keep Saw,
+		keep [Recipe.GetItemTypes.WeldingMask],		
+				
+		Result:Glock21Threaded,		
+		Time:200.0,		
+		Category:Welding,		
+		SkillRequired:MetalWelding=4;Aiming=3,		
+		OnCreate:Recipe.OnCreate.CovertFirearm,		
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding15,		
+		OnTest:Recipe.OnTest.Guns93BarrelThreading,		
+	}		
+			
+	recipe Thread Barrel Of Glock 22		
+	{		
+		Glock22,		
+		keep TapDie,
+		SmallSheetMetal=1,
+    	BlowTorch=2,
+		keep Saw,
+		keep [Recipe.GetItemTypes.WeldingMask],		
+				
+		Result:Glock22Threaded,		
+		Time:200.0,		
+		Category:Welding,		
+		SkillRequired:MetalWelding=4;Aiming=3,		
+		OnCreate:Recipe.OnCreate.CovertFirearm,		
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding15,		
+		OnTest:Recipe.OnTest.Guns93BarrelThreading,		
+	}		
+			
+	recipe Thread Barrel Of S&W 5906		
+	{		
+		SW5906,		
+		keep TapDie,
+		SmallSheetMetal=1,
+    	BlowTorch=2,
+		keep Saw,
+		keep [Recipe.GetItemTypes.WeldingMask],		
+				
+		Result:SW5906Threaded,		
+		Time:200.0,		
+		Category:Welding,		
+		SkillRequired:MetalWelding=4;Aiming=3,		
+		OnCreate:Recipe.OnCreate.CovertFirearm,		
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding15,		
+		OnTest:Recipe.OnTest.Guns93BarrelThreading,		
+	}		
+			
+	recipe Thread Barrel Of S&W 4506		
+	{		
+		SW4506,		
+		keep TapDie,
+		SmallSheetMetal=1,
+    	BlowTorch=2,
+		keep Saw,
+		keep [Recipe.GetItemTypes.WeldingMask],		
+				
+		Result:SW4506Threaded,		
+		Time:200.0,		
+		Category:Welding,		
+		SkillRequired:MetalWelding=4;Aiming=3,		
+		OnCreate:Recipe.OnCreate.CovertFirearm,		
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding15,		
+		OnTest:Recipe.OnTest.Guns93BarrelThreading,		
+	}		
+			
+	recipe Thread Barrel Of S&W 4006		
+	{		
+		SW4006,		
+		keep TapDie,
+		SmallSheetMetal=1,
+    	BlowTorch=2,
+		keep Saw,
+		keep [Recipe.GetItemTypes.WeldingMask],		
+				
+		Result:SW4006Threaded,		
+		Time:200.0,		
+		Category:Welding,		
+		SkillRequired:MetalWelding=4;Aiming=3,		
+		OnCreate:Recipe.OnCreate.CovertFirearm,		
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding15,		
+		OnTest:Recipe.OnTest.Guns93BarrelThreading,		
+	}		
+			
+	recipe Thread Barrel Of Ruger P89		
+	{		
+		RugP89,		
+		keep TapDie,
+		SmallSheetMetal=1,
+    	BlowTorch=2,
+		keep Saw,
+		keep [Recipe.GetItemTypes.WeldingMask],		
+				
+		Result:RugP89Threaded,		
+		Time:200.0,		
+		Category:Welding,		
+		SkillRequired:MetalWelding=4;Aiming=3,		
+		OnCreate:Recipe.OnCreate.CovertFirearm,		
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding15,		
+		OnTest:Recipe.OnTest.Guns93BarrelThreading,		
+	}		
+			
+	recipe Thread Barrel Of Ruger P90		
+	{		
+		RugP90,		
+		keep TapDie,
+		SmallSheetMetal=1,
+    	BlowTorch=2,
+		keep Saw,
+		keep [Recipe.GetItemTypes.WeldingMask],		
+				
+		Result:RugP89Threaded,		
+		Time:200.0,		
+		Category:Welding,		
+		SkillRequired:MetalWelding=4;Aiming=3,		
+		OnCreate:Recipe.OnCreate.CovertFirearm,		
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding15,		
+		OnTest:Recipe.OnTest.Guns93BarrelThreading,		
+	}		
+			
+	recipe Thread Barrel Of Sig P226		
+	{		
+		P226,		
+		keep TapDie,
+		SmallSheetMetal=1,
+    	BlowTorch=2,
+		keep Saw,
+		keep [Recipe.GetItemTypes.WeldingMask],		
+				
+		Result:P226Threaded,		
+		Time:200.0,		
+		Category:Welding,		
+		SkillRequired:MetalWelding=4;Aiming=3,		
+		OnCreate:Recipe.OnCreate.CovertFirearm,		
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding15,		
+		OnTest:Recipe.OnTest.Guns93BarrelThreading,		
+	}		
+			
+	recipe Thread Barrel Of Sig P228		
+	{		
+		P228,		
+		keep TapDie,
+		SmallSheetMetal=1,
+    	BlowTorch=2,
+		keep Saw,
+		keep [Recipe.GetItemTypes.WeldingMask],		
+				
+		Result:P228Threaded,		
+		Time:200.0,		
+		Category:Welding,		
+		SkillRequired:MetalWelding=4;Aiming=3,		
+		OnCreate:Recipe.OnCreate.CovertFirearm,		
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding15,		
+		OnTest:Recipe.OnTest.Guns93BarrelThreading,		
+	}		
+			
+	recipe Thread Barrel Of HK USP9		
+	{		
+		USP9,		
+		keep TapDie,
+		SmallSheetMetal=1,
+    	BlowTorch=2,
+		keep Saw,
+		keep [Recipe.GetItemTypes.WeldingMask],		
+				
+		Result:USP9Threaded,		
+		Time:200.0,		
+		Category:Welding,		
+		SkillRequired:MetalWelding=4;Aiming=3,		
+		OnCreate:Recipe.OnCreate.CovertFirearm,		
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding15,		
+		OnTest:Recipe.OnTest.Guns93BarrelThreading,		
+	}		
+			
+	recipe Thread Barrel Of HK USP40		
+	{		
+		USP40,		
+		keep TapDie,
+		SmallSheetMetal=1,
+    	BlowTorch=2,
+		keep Saw,
+		keep [Recipe.GetItemTypes.WeldingMask],		
+				
+		Result:USP40Threaded,		
+		Time:200.0,		
+		Category:Welding,		
+		SkillRequired:MetalWelding=4;Aiming=3,		
+		OnCreate:Recipe.OnCreate.CovertFirearm,		
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding15,		
+		OnTest:Recipe.OnTest.Guns93BarrelThreading,		
+	}		
+			
+	recipe Thread Barrel Of CZ-75B		
+	{		
+		CZ75B,		
+		keep TapDie,
+		SmallSheetMetal=1,
+    	BlowTorch=2,
+		keep Saw,
+		keep [Recipe.GetItemTypes.WeldingMask],		
+				
+		Result:CZ75BThreaded,		
+		Time:200.0,		
+		Category:Welding,		
+		SkillRequired:MetalWelding=4;Aiming=3,		
+		OnCreate:Recipe.OnCreate.CovertFirearm,		
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding15,		
+		OnTest:Recipe.OnTest.Guns93BarrelThreading,		
+	}		
+			
+	recipe Thread Barrel Of M1911A1		
+	{		
+		Pistol2,		
+		keep TapDie,
+		SmallSheetMetal=1,
+    	BlowTorch=2,
+		keep Saw,
+		keep [Recipe.GetItemTypes.WeldingMask],		
+				
+		Result:M1911A1Threaded,		
+		Time:200.0,		
+		Category:Welding,		
+		SkillRequired:MetalWelding=4;Aiming=3,		
+		OnCreate:Recipe.OnCreate.CovertFirearm,		
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding15,		
+		OnTest:Recipe.OnTest.Guns93BarrelThreading,		
+	}		
+			
+	recipe Thread Barrel Of M1911A1		
+	{		
+		M1911A1Rail,		
+		keep TapDie,
+		SmallSheetMetal=1,
+    	BlowTorch=2,
+		keep Saw,
+		keep [Recipe.GetItemTypes.WeldingMask],		
+				
+		Result:M1911A1RailThreaded,		
+		Time:200.0,		
+		Category:Welding,		
+		SkillRequired:MetalWelding=4;Aiming=3,		
+		OnCreate:Recipe.OnCreate.CovertFirearm,		
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding15,		
+		OnTest:Recipe.OnTest.Guns93BarrelThreading,		
+	}	
+	
+	recipe Thread Barrel Of 1911 Government Model		
+	{		
+		Gov1911,		
+		keep TapDie,
+		SmallSheetMetal=1,
+    	BlowTorch=2,
+		keep Saw,
+		keep [Recipe.GetItemTypes.WeldingMask],		
+				
+		Result:Gov1911Threaded,		
+		Time:200.0,		
+		Category:Welding,		
+		SkillRequired:MetalWelding=4;Aiming=3,		
+		OnCreate:Recipe.OnCreate.CovertFirearm,		
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding15,		
+		OnTest:Recipe.OnTest.Guns93BarrelThreading,		
+	}		
+			
+	recipe Thread Barrel Of 1911 Government Model		
+	{		
+		Gov1911Rail,		
+		keep TapDie,
+		SmallSheetMetal=1,
+    	BlowTorch=2,
+		keep Saw,
+		keep [Recipe.GetItemTypes.WeldingMask],		
+				
+		Result:Gov1911RailThreaded,		
+		Time:200.0,		
+		Category:Welding,		
+		SkillRequired:MetalWelding=4;Aiming=3,		
+		OnCreate:Recipe.OnCreate.CovertFirearm,		
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding15,		
+		OnTest:Recipe.OnTest.Guns93BarrelThreading,		
+	}		
+
+	recipe Thread Barrel Of 1911 Commander Model		
+	{		
+		Command1911,		
+		keep TapDie,
+		SmallSheetMetal=1,
+    	BlowTorch=2,
+		keep Saw,
+		keep [Recipe.GetItemTypes.WeldingMask],		
+				
+		Result:Command1911Threaded,		
+		Time:200.0,		
+		Category:Welding,		
+		SkillRequired:MetalWelding=4;Aiming=3,		
+		OnCreate:Recipe.OnCreate.CovertFirearm,		
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding15,		
+		OnTest:Recipe.OnTest.Guns93BarrelThreading,		
+	}		
+			
+	recipe Thread Barrel Of 1911 Officer Model		
+	{		
+		Officer1911,		
+		keep TapDie,
+		SmallSheetMetal=1,
+    	BlowTorch=2,
+		keep Saw,
+		keep [Recipe.GetItemTypes.WeldingMask],		
+				
+		Result:Officer1911Threaded,		
+		Time:200.0,		
+		Category:Welding,		
+		SkillRequired:MetalWelding=4;Aiming=3,		
+		OnCreate:Recipe.OnCreate.CovertFirearm,		
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding15,		
+		OnTest:Recipe.OnTest.Guns93BarrelThreading,		
+	}		
+			
+	recipe Thread Barrel Of Colt Delta Elite		
+	{		
+		DeltaElite,		
+		keep TapDie,
+		SmallSheetMetal=1,
+    	BlowTorch=2,
+		keep Saw,
+		keep [Recipe.GetItemTypes.WeldingMask],		
+				
+		Result:DeltaEliteThreaded,		
+		Time:200.0,		
+		Category:Welding,		
+		SkillRequired:MetalWelding=4;Aiming=3,		
+		OnCreate:Recipe.OnCreate.CovertFirearm,		
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding15,		
+		OnTest:Recipe.OnTest.Guns93BarrelThreading,		
+	}		
+			
+	recipe Thread Barrel Of Colt Delta Elite		
+	{		
+		DeltaEliteRail,		
+		keep TapDie,
+		SmallSheetMetal=1,
+    	BlowTorch=2,
+		keep Saw,
+		keep [Recipe.GetItemTypes.WeldingMask],		
+				
+		Result:DeltaEliteRailThreaded,		
+		Time:200.0,		
+		Category:Welding,		
+		SkillRequired:MetalWelding=4;Aiming=3,		
+		OnCreate:Recipe.OnCreate.CovertFirearm,		
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding15,		
+		OnTest:Recipe.OnTest.Guns93BarrelThreading,		
+	}		
+			
+	recipe Thread Barrel Of AMT Longslide		
+	{		
+		Longslide,		
+		keep TapDie,
+		SmallSheetMetal=1,
+    	BlowTorch=2,
+		keep Saw,
+		keep [Recipe.GetItemTypes.WeldingMask],		
+				
+		Result:LongslideThreaded,		
+		Time:200.0,		
+		Category:Welding,		
+		SkillRequired:MetalWelding=4;Aiming=3,		
+		OnCreate:Recipe.OnCreate.CovertFirearm,		
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding15,		
+		OnTest:Recipe.OnTest.Guns93BarrelThreading,		
+	}		
+			
+	recipe Thread Barrel Of AMT Longslide		
+	{		
+		LongslideRail,		
+		keep TapDie,
+		SmallSheetMetal=1,
+    	BlowTorch=2,
+		keep Saw,
+		keep [Recipe.GetItemTypes.WeldingMask],		
+				
+		Result:LongslideRailThreaded,		
+		Time:200.0,		
+		Category:Welding,		
+		SkillRequired:MetalWelding=4;Aiming=3,		
+		OnCreate:Recipe.OnCreate.CovertFirearm,		
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding15,		
+		OnTest:Recipe.OnTest.Guns93BarrelThreading,		
+	}		
+
+	recipe Thread Barrel Of AMT Javelina		
+	{		
+		Javelina,		
+		keep TapDie,
+		SmallSheetMetal=1,
+    	BlowTorch=2,
+		keep Saw,
+		keep [Recipe.GetItemTypes.WeldingMask],		
+				
+		Result:JavelinaThreaded,		
+		Time:200.0,		
+		Category:Welding,		
+		SkillRequired:MetalWelding=4;Aiming=3,		
+		OnCreate:Recipe.OnCreate.CovertFirearm,		
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding15,		
+		OnTest:Recipe.OnTest.Guns93BarrelThreading,		
+	}
+
+	recipe Thread Barrel Of Remington 700 
+	{
+	   R308Rem700,
+	   keep TapDie,
+
+	   Result:R308Rem700Threaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Barrel Of Remington 700 
+	{
+	   R3006Rem700,
+	   keep TapDie,
+
+	   Result:R3006Rem700Threaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Barrel Of Remington 788 
+	{
+	   R223Rem788,
+	   keep TapDie,
+
+	   Result:R223Rem788Threaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Barrel Of Remington 700 
+	{
+	   VarmintRifle,
+	   keep TapDie,
+
+	   Result:R223Rem700Threaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Barrel Of Remington 788 
+	{
+	   HuntingRifle,
+	   keep TapDie,
+
+	   Result:R308Rem788Threaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Barrel Of M24 
+	{
+	   M24,
+	   keep TapDie,
+
+	   Result:M24Threaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Barrel Of Winchester M70 
+	{
+	   W308WinM70,
+	   keep TapDie,
+
+	   Result:W308WinM70Threaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Barrel Of Winchester M70 
+	{
+	   W3006WinM70,
+	   keep TapDie,
+
+	   Result:W3006WinM70Threaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Barrel Of Winchester M70 
+	{
+	   W223WinM70,
+	   keep TapDie,
+
+	   Result:W223WinM70Threaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Barrel Of Winchester Model 69
+	{
+	   Win69,
+	   keep TapDie,
+
+	   Result:Win69Threaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Barrel Of Ruger M77 
+	{
+	   R308RugM77,
+	   keep TapDie,
+
+	   Result:R308RugM77Threaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Barrel Of Ruger M77 
+	{
+	   R3006RugM77,
+	   keep TapDie,
+
+	   Result:R3006RugM77Threaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Barrel Of Ruger M77 
+	{
+	   R223RugM77,
+	   keep TapDie,
+
+	   Result:R223RugM77Threaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Barrel Of Springfield M1903
+	{
+	   M1903,
+	   keep TapDie,
+
+	   Result:M1903Threaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Barrel Of M1917 Enfield
+	{
+	   M1917,
+	   keep TapDie,
+
+	   Result:M1917Threaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Barrel Of Mauser Kar98K
+	{
+	   Mauser98K,
+	   keep TapDie,
+
+	   Result:Mauser98KThreaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Barrel Of M1 Garand
+	{
+	   M1Garand,
+	   keep TapDie,
+
+	   Result:M1GarandThreaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Barrel Of M1 Carbine
+	{
+	   M1Carbine,
+	   keep TapDie,
+
+	   Result:M1CarbineThreaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Barrel Of SKS
+	{
+	   SKS,
+	   keep TapDie,
+
+	   Result:SKSThreaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Barrel Of SKS No Bayonet
+	{
+	   SKSNoBayo,
+	   keep TapDie,
+
+	   Result:SKSNoBayoThreaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Barrel Of Ruger Mini-14
+	{
+	   Mini14,
+	   keep TapDie,
+
+	   Result:Mini14Threaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Barrel Of Ruger Mini-14
+	{
+	   Mini14Rail,
+	   keep TapDie,
+
+	   Result:Mini14RailThreaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Barrel Of Ruger Mini-30
+	{
+	   Mini30,
+	   keep TapDie,
+
+	   Result:Mini30Threaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Barrel Of Ruger Mini-30
+	{
+	   Mini30Rail,
+	   keep TapDie,
+
+	   Result:Mini30RailThreaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Barrel Of Valmet
+	{
+	   Valmet,
+	   keep TapDie,
+
+	   Result:ValmetThreaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Barrel Of Valmet
+	{
+	   ValmetFold,
+	   keep TapDie,
+
+	   Result:ValmetFoldThreaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Barrel Of Marlin Camp Carbine
+	{
+	   Marlin45,
+	   keep TapDie,
+
+	   Result:Marlin45Threaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Barrel Of Marlin Camp Carbine
+	{
+	   Marlin9,
+	   keep TapDie,
+
+	   Result:Marlin9Threaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Barrel Of Calico M900 Carbine
+	{
+	   CalicoRifle,
+	   keep TapDie,
+
+	   Result:CalicoRifleThreaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Barrel Of Calico M900 Carbine
+	{
+	   CalicoRifleFold,
+	   keep TapDie,
+
+	   Result:CalicoRifleFoldThreaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+	
+	recipe Thread Barrel M3 Grease Gun
+	{
+	   M3GreaseGun,
+	   keep TapDie,
+
+	   Result:M3GreaseGunThreaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Barrel Of M3 Grease Gun
+	{
+	   M3GreaseGunFold,
+	   keep TapDie,
+
+	   Result:M3GreaseGunFoldThreaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Barrel Of Ruger 10/22 Carbine
+	{
+	   Rug1022,
+	   keep TapDie,
+
+	   Result:Rug1022Threaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Barrel Of Marlin Model 60
+	{
+	   Marlin60,
+	   keep TapDie,
+
+	   Result:Marlin60Threaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Barrel Of Marlin 336
+	{
+	   Marlin3363030,
+	   keep TapDie,
+
+	   Result:Marlin3363030Threaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Barrel Of Marlin 336
+	{
+	   Marlin33644,
+	   keep TapDie,
+
+	   Result:Marlin33644Threaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Barrel Of Marlin Model 39A
+	{
+	   Marlin39A,
+	   keep TapDie,
+
+	   Result:Marlin39AThreaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Barrel Of Winchester Model 1894
+	{
+	   Win94357,
+	   keep TapDie,
+
+	   Result:Win94357Threaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Barrel Of Winchester Model 1894
+	{
+	   Win94357Spc,
+	   keep TapDie,
+
+	   Result:Win94357SpcThreaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Barrel Of Winchester Model 1894
+	{
+	   Win943030,
+	   keep TapDie,
+
+	   Result:Win943030Threaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Barrel Of Winchester Model 1894
+	{
+	   Win9445,
+	   keep TapDie,
+
+	   Result:Win9445Threaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Barrel Of Browning BAR
+	{
+	   Brown3006BAR,
+	   keep TapDie,
+
+	   Result:Brown3006BARThreaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Barrel Of Browning BAR
+	{
+	   Brown308BAR,
+	   keep TapDie,
+
+	   Result:Brown308BARThreaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Barrel Of Winchester Model 7400
+	{
+	   Win30067400,
+	   keep TapDie,
+
+	   Result:Win30067400Threaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Barrel Of Winchester Model 7400
+	{
+	   Win3087400,
+	   keep TapDie,
+
+	   Result:Win3087400Threaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Barrel Of Winchester Model 61
+	{
+	   Win61,
+	   keep TapDie,
+
+	   Result:Win61Threaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Barrel Of Remington 760 Gamemaster
+	{
+	   Rem3006760,
+	   keep TapDie,
+
+	   Result:Rem3006760Threaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Barrel Of Remington 760 Gamemaster
+	{
+	   Rem308760,
+	   keep TapDie,
+
+	   Result:Rem308760Threaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Barrel Of Remington 760 Gamemaster
+	{
+	   Rem223760,
+	   keep TapDie,
+
+	   Result:Rem223760Threaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Bore Of Remington 870 Police
+	{
+	   Rem870P,
+	   keep TapDie,
+
+	   Result:Rem870PThreaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Bore Of Sawed Off Remington 870
+	{
+	   ShotgunSawnoff,
+	   keep TapDie,
+
+	   Result:SORem870Threaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Bore Of M870
+	{
+	   M870,
+	   keep TapDie,
+
+	   Result:M870Threaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Bore Of Sawed Off Mossberg 500
+	{
+	   SOMoss500,
+	   keep TapDie,
+
+	   Result:SOMoss500Threaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Bore Of Mossberg 590
+	{
+	   Moss590,
+	   keep TapDie,
+
+	   Result:Moss590Threaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Bore Of M590
+	{
+	   M590,
+	   keep TapDie,
+
+	   Result:M590Threaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Bore Of Sawed Off Winchester Model 12
+	{
+	   SOWin1912,
+	   keep TapDie,
+
+	   Result:SOWin1912Threaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Bore Of Sawed Off Winchester Model 1200
+	{
+	   SOWin1200,
+	   keep TapDie,
+
+	   Result:SOWin1200Threaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Bore Of Sawed Off Winchester Model 1200 Defender
+	{
+	   Win1200Def,
+	   keep TapDie,
+
+	   Result:Win1200DefThreaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Bore Of Sawed Off Ithaca Model 37
+	{
+	   SOIthaca37,
+	   keep TapDie,
+
+	   Result:SOIthaca37Threaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Bore Of Sawed Off Browning Auto-5
+	{
+	   SOAuto5,
+	   keep TapDie,
+
+	   Result:SOAuto5Threaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Bore Of Sawed Off Winchester 1400
+	{
+	   SOWin1400,
+	   keep TapDie,
+
+	   Result:SOWin1400Threaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Bore Of Sawed Off Remington 1100
+	{
+	   SORem1100,
+	   keep TapDie,
+
+	   Result:SORem1100Threaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Bore Of Benelli M3
+	{
+	   BenelliM3,
+	   keep TapDie,
+
+	   Result:BenelliM3Threaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Bore Of Sawed Off Mossberg L395K
+	{
+	   SOL395K,
+	   keep TapDie,
+
+	   Result:SOL395KThreaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Bore Of Sawed Off Stoeger Uplander
+	{
+	   DoubleBarrelShotgunSawnoff,
+	   keep TapDie,
+
+	   Result:SOStoegerUplanderThreaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Bore Of Sawed Off Savage Fox
+	{
+	   SOSavageFox,
+	   keep TapDie,
+
+	   Result:SOSavageFoxThreaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Bore Of Sawed Off Winchester Model 37
+	{
+	   SOWin37,
+	   keep TapDie,
+
+	   Result:SOWin37Threaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	Recipe Thread Bore Of Sawed Off Browning Citori
+	{
+	   SOBrownCitori,
+	   keep TapDie,
+
+	   Result:SOBrownCitoriThreaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Bore Of Sawed Off Beretta 682
+	{
+	   SOBeretta682,
+	   keep TapDie,
+
+	   Result:SOBeretta682Threaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+}

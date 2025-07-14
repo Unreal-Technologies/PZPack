@@ -1,0 +1,15 @@
+IGUI_PL = {
+    IGUI_PaintVehicle_Panel_TintBlack = "Czarny",
+    IGUI_PaintVehicle_Panel_TintBlue = "Niebieski",
+    IGUI_PaintVehicle_Panel_TintCyan = "Aqua",
+    IGUI_PaintVehicle_Panel_TintGreen = "Zielony",
+    IGUI_PaintVehicle_Panel_TintMagenta = "Fuksja",
+    IGUI_PaintVehicle_Panel_TintRed = "Czerwony",
+    IGUI_PaintVehicle_Panel_TintYellow = "¯ó³ty",
+    IGUI_PaintVehicle_Panel_BtnApply = "Lakieruj",
+    IGUI_PaintVehicle_Panel_BtnClear = "Wyczyœæ",
+    IGUI_PaintVehicle_Panel_BtnClose = "Zamknij",
+    IGUI_PaintVehicle_Panel_Title = "Mieszanie lakieru",
+    IGUI_PaintVehicle_Panel_Disclaimer = "Uwaga: ostateczny kolor mo¿e siê nieco ró¿niæ.",
+    IGUI_PaintVehicle_Panel_Catalogue_Scale = "Skala 1:1",
+}

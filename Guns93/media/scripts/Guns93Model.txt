@@ -1,0 +1,7549 @@
+module Base
+{
+	model BHP
+	{
+		mesh = weapons/firearm/BHP,
+		texture = weapons/firearm/BHP,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.1380 -0.0180,
+			rotate = -90.0000 0.0000 -100.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.1340 -0.0180,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model 92FS
+	{
+		mesh = weapons/firearm/M9,
+		texture = weapons/firearm/92FS,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.1540 -0.0240,
+			rotate = -90.0000 0.0000 -100.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.1440 -0.0240,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model M9
+	{
+		mesh = weapons/firearm/M9,
+		texture = weapons/firearm/M9,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.1510 -0.0240,
+			rotate = -90.0000 0.0000 -100.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.1440 -0.0240,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model DE44
+	{
+		mesh = weapons/firearm/DE44,
+		texture = weapons/firearm/DE44,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.1730 -0.0250,
+			rotate = -90.0000 0.0000 -100.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.1250 -0.0500,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.1700 -0.0260,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.1110 -0.0500,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model 1911
+	{
+		mesh = weapons/firearm/1911,
+		texture = weapons/firearm/1911,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.1480 -0.0210,
+			rotate = -90.0000 0.0000 -100.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.1430 -0.0200,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model 1911Rail
+	{
+		mesh = weapons/firearm/1911Rail,
+		texture = weapons/firearm/1911,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.1480 -0.0210,
+			rotate = -90.0000 0.0000 -100.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0600 -0.0500,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.0600 -0.0500,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.1430 -0.0200,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model 1911Command
+	{
+		mesh = weapons/firearm/1911Command,
+		texture = weapons/firearm/1911Gov,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.1340 -0.0210,
+			rotate = -90.0000 0.0000 -100.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.1290 -0.0200,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model 1911Officer
+	{
+		mesh = weapons/firearm/1911Officer,
+		texture = weapons/firearm/1911Gov,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.1210 -0.0200,
+			rotate = -90.0000 0.0000 -100.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.1160 -0.0200,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model DeltaElite
+	{
+		mesh = weapons/firearm/1911,
+		texture = weapons/firearm/DeltaElite,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.1380 -0.0280,
+			rotate = -90.0000 0.0000 -100.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.1430 -0.0200,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model DeltaEliteRail
+	{
+		mesh = weapons/firearm/1911Rail,
+		texture = weapons/firearm/DeltaElite,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.1380 -0.0280,
+			rotate = -90.0000 0.0000 -100.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0600 -0.0500,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.0600 -0.0500,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.1430 -0.0200,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model 1911Gov
+	{
+		mesh = weapons/firearm/1911,
+		texture = weapons/firearm/1911Gov,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.1470 -0.0210,
+			rotate = -90.0000 0.0000 -100.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0670 -0.0380,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.0670 -0.0380,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.1430 -0.0200,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model 1911GovRail
+	{
+		mesh = weapons/firearm/1911Rail,
+		texture = weapons/firearm/1911Gov,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.1470 -0.0210,
+			rotate = -90.0000 0.0000 -100.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0600 -0.0500,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.0600 -0.0500,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.1430 -0.0200,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model Longslide
+	{
+		mesh = weapons/firearm/Longslide,
+		texture = weapons/firearm/Longslide,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.1730 -0.0210,
+			rotate = -90.0000 0.0000 -100.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0600 -0.0500,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.0600 -0.0500,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.0270 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.1720 -0.0200,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model LongslideRail
+	{
+		mesh = weapons/firearm/LongslideRail,
+		texture = weapons/firearm/Longslide,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.1730 -0.0210,
+			rotate = -90.0000 0.0000 -100.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0600 -0.0500,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.0600 -0.0500,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.1720 -0.0200,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model Glock
+	{
+		mesh = weapons/firearm/Glock,
+		texture = weapons/firearm/Glock,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.1340 -0.0220,
+			rotate = -90.0000 0.0000 -100.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.1300 -0.0210,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model SW5906
+	{
+		mesh = weapons/firearm/SW5906,
+		texture = weapons/firearm/SW5906,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.1350 -0.0240,
+			rotate = -90.0000 0.0000 -100.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.1310 -0.0240,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model SW4506
+	{
+		mesh = weapons/firearm/SW4506,
+		texture = weapons/firearm/SW5906,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.1540 -0.0230,
+			rotate = -90.0000 0.0000 -100.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.1500 -0.0240,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model RugP89
+	{
+		mesh = weapons/firearm/RugP89,
+		texture = weapons/firearm/RugP89,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.1410 -0.0220,
+			rotate = -90.0000 0.0000 -100.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.1380 -0.0200,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model P226
+	{
+		mesh = weapons/firearm/P226,
+		texture = weapons/firearm/P226,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.1390 -0.0250,
+			rotate = -90.0000 0.0000 -100.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.1350 -0.0230,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model P228
+	{
+		mesh = weapons/firearm/P228,
+		texture = weapons/firearm/P226,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.1290 -0.0250,
+			rotate = -90.0000 0.0000 -100.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.1250 -0.0220,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model P7M8
+	{
+		mesh = weapons/firearm/P7M8,
+		texture = weapons/firearm/P7M8,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.1160 -0.0160,
+			rotate = -90.0000 0.0000 -100.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.1130 -0.0170,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model USP
+	{
+		mesh = weapons/firearm/USP,
+		texture = weapons/firearm/USP,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.1290 -0.0200,
+			rotate = -90.0000 0.0000 -100.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.1270 -0.0200,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model CZ75B
+	{
+		mesh = weapons/firearm/CZ75B,
+		texture = weapons/firearm/CZ75B,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.1370 -0.0230,
+			rotate = -90.0000 0.0000 -100.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.1340 -0.0230,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model TEC9
+	{
+		mesh = weapons/firearm/TEC9,
+		texture = weapons/firearm/TEC9,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.1810 -0.0260,
+			rotate = -90.0000 0.0000 -100.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.1700 -0.0260,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model MAC10
+	{
+		mesh = weapons/firearm/MAC10,
+		texture = weapons/firearm/MAC10,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.1400 -0.0190,
+			rotate = -90.0000 0.0000 -100.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.1090 -0.0180,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model Uzi
+	{
+		mesh = weapons/firearm/Uzi,
+		texture = weapons/firearm/Uzi,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.1950 -0.0180,
+			rotate = -90.0000 0.0000 -100.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.1430 -0.0180,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model CalicoPistol
+	{
+		mesh = weapons/firearm/CalicoPistol,
+		texture = weapons/firearm/CalicoRifle,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.2420 -0.0090,
+			rotate = -90.0000 0.0000 -100.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.2360 -0.0090,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model Raven25
+	{
+		mesh = weapons/firearm/Raven25,
+		texture = weapons/firearm/Raven25,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.0920 -0.0120,
+			rotate = -90.0000 0.0000 -100.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.0870 -0.0130,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model J22
+	{
+		mesh = weapons/firearm/J22,
+		texture = weapons/firearm/J22,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.0960 -0.0130,
+			rotate = -90.0000 0.0000 -100.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.0920 -0.0130,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model P380
+	{
+		mesh = weapons/firearm/P380,
+		texture = weapons/firearm/P380,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.0990 -0.0140,
+			rotate = -90.0000 0.0000 -100.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.0950 -0.0140,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model 83Cheetah
+	{
+		mesh = weapons/firearm/83Cheetah,
+		texture = weapons/firearm/92FS,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.0990 -0.0140,
+			rotate = -90.0000 0.0000 -100.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.1140 -0.0180,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model Hammerless
+	{
+		mesh = weapons/firearm/Hammerless,
+		texture = weapons/firearm/Hammerless,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.0990 -0.0140,
+			rotate = -90.0000 0.0000 -100.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.1150 -0.0170,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model PPK
+	{
+		mesh = weapons/firearm/PPK,
+		texture = weapons/firearm/PPK,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.0990 -0.0140,
+			rotate = -90.0000 0.0000 -100.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.1030 -0.0150,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model Bobcat
+	{
+		mesh = weapons/firearm/Bobcat,
+		texture = weapons/firearm/Bobcat,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.0900 -0.0170,
+			rotate = -90.0000 0.0000 -100.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.0840 -0.0170,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model Buckmark
+	{
+		mesh = weapons/firearm/Buckmark,
+		texture = weapons/firearm/Buckmark,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.1590 -0.0160,
+			rotate = -90.0000 0.0000 -100.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.1550 -0.0170,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model Rugmark
+	{
+		mesh = weapons/firearm/Rugmark,
+		texture = weapons/firearm/Rugmark,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.1870 -0.0180,
+			rotate = -90.0000 0.0000 -100.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.1800 -0.0170,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model SW625
+	{
+		mesh = weapons/firearm/SW625,
+		texture = weapons/firearm/SW625,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.1600 -0.0340,
+			rotate = -90.0000 0.0000 -100.0000,
+		}
+	}
+	model SW625Rail
+	{
+		mesh = weapons/firearm/SW625Rail,
+		texture = weapons/firearm/SW625,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.1600 -0.0340,
+			rotate = -90.0000 0.0000 -100.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0800 -0.0600,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.0800 -0.0600,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model SW29
+	{
+		mesh = weapons/firearm/SW29,
+		texture = weapons/firearm/SW29,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.2020 -0.0320,
+			rotate = -90.0000 0.0000 -100.0000,
+		}
+	}
+	model SW29Rail
+	{
+		mesh = weapons/firearm/SW29Rail,
+		texture = weapons/firearm/SW29,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.2020 -0.0320,
+			rotate = -90.0000 0.0000 -100.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0800 -0.0600,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.0800 -0.0600,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model SW36
+	{
+		mesh = weapons/firearm/SW36,
+		texture = weapons/firearm/SW36,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.1370 -0.0250,
+			rotate = -90.0000 0.0000 -100.0000,
+		}
+	}
+	model SW10
+	{
+		mesh = weapons/firearm/SW10,
+		texture = weapons/firearm/SW10,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.1780 -0.0280,
+			rotate = -90.0000 0.0000 -100.0000,
+		}
+	}
+	model SW65
+	{
+		mesh = weapons/firearm/SW10,
+		texture = weapons/firearm/SW65,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.1790 -0.0280,
+			rotate = -90.0000 0.0000 -100.0000,
+		}
+	}
+	model SW586
+	{
+		mesh = weapons/firearm/SW586,
+		texture = weapons/firearm/SW29,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.1580 -0.0280,
+			rotate = -90.0000 0.0000 -100.0000,
+		}
+	}
+	model SW586Rail
+	{
+		mesh = weapons/firearm/SW586Rail,
+		texture = weapons/firearm/SW29,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.1580 -0.0280,
+			rotate = -90.0000 0.0000 -100.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0840 -0.0570,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.0840 -0.0570,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model SW17
+	{
+		mesh = weapons/firearm/SW17,
+		texture = weapons/firearm/SW10,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.2040 -0.0300,
+			rotate = -90.0000 0.0000 -100.0000,
+		}
+	}
+	model SW17Rail
+	{
+		mesh = weapons/firearm/SW17Rail,
+		texture = weapons/firearm/SW10,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.2040 -0.0300,
+			rotate = -90.0000 0.0000 -100.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0930 -0.0570,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.0930 -0.0570,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model GP100
+	{
+		mesh = weapons/firearm/GP100,
+		texture = weapons/firearm/GP100,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.1610 -0.0320,
+			rotate = -90.0000 0.0000 -100.0000,
+		}
+	}
+	model GP100Rail
+	{
+		mesh = weapons/firearm/GP100Rail,
+		texture = weapons/firearm/GP100,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.1610 -0.0320,
+			rotate = -90.0000 0.0000 -100.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0850 -0.0600,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.0850 -0.0600,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model GP101
+	{
+		mesh = weapons/firearm/GP101,
+		texture = weapons/firearm/GP100,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.1290 -0.0260,
+			rotate = -90.0000 0.0000 -100.0000,
+		}
+	}
+	model SecuritySix
+	{
+		mesh = weapons/firearm/SecuritySix,
+		texture = weapons/firearm/SecuritySix,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.1640 -0.0270,
+			rotate = -90.0000 0.0000 -100.0000,
+		}
+	}
+	model SecuritySixRail
+	{
+		mesh = weapons/firearm/SecuritySixRail,
+		texture = weapons/firearm/SecuritySix,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.1640 -0.0270,
+			rotate = -90.0000 0.0000 -100.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0820 -0.0520,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.0820 -0.0520,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model Python
+	{
+		mesh = weapons/firearm/Python,
+		texture = weapons/firearm/Python,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.1970 -0.0320,
+			rotate = -90.0000 0.0000 -100.0000,
+		}
+	}
+	model PythonRail
+	{
+		mesh = weapons/firearm/PythonRail,
+		texture = weapons/firearm/Python,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.1970 -0.0320,
+			rotate = -90.0000 0.0000 -100.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0850 -0.0600,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.0850 -0.0600,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model Anaconda
+	{
+		mesh = weapons/firearm/Anaconda,
+		texture = weapons/firearm/Python,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.1970 -0.0320,
+			rotate = -90.0000 0.0000 -100.0000,
+		}
+	}
+	model AnacondaRail
+	{
+		mesh = weapons/firearm/AnacondaRail,
+		texture = weapons/firearm/Python,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.1970 -0.0320,
+			rotate = -90.0000 0.0000 -100.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0850 -0.0600,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.0850 -0.0600,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model ColtDet
+	{
+		mesh = weapons/firearm/ColtDet,
+		texture = weapons/firearm/Python,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.1240 -0.0320,
+			rotate = -90.0000 0.0000 -100.0000,
+		}
+	}
+	model ColtArmy
+	{
+		mesh = weapons/firearm/ColtArmy,
+		texture = weapons/firearm/ColtArmy,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.2000 -0.0320,
+			rotate = -90.0000 0.0000 -100.0000,
+		}
+	}
+	model Rem700
+	{
+		mesh = weapons/firearm/Rem700,
+		texture = weapons/firearm/Rem700,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.5050 0.0220,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.1210 0.0480,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = -0.0010 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment stock
+		{
+			offset = 0.0000 0.0000 0.0050,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = -0.0010 0.0990 0.0410,
+			rotate = -179.0000 0.0000 -180.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 0.0000 0.0050,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.4700 0.0220,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model M24
+	{
+		mesh = weapons/firearm/M24,
+		texture = weapons/firearm/M24,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.5350 0.0220,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.1220 0.0480,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = -0.0010 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1570 -0.0430,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.1220 0.0480,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.5220 0.0220,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model Rem788
+	{
+		mesh = weapons/firearm/Rem788,
+		texture = weapons/firearm/Rem788,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4540 0.0200,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.1060 0.0450,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = -0.0010 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 0.0060 0.0060,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.1060 0.0450,
+			rotate = 0.0000 0.0000 -1.0000,
+		}
+
+		attachment stock
+		{
+			offset = 0.0000 0.0060 0.0060,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.4420 0.0200,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model WinM70
+	{
+		mesh = weapons/firearm/WinM70,
+		texture = weapons/firearm/WinM70,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.5050 0.0220,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.1250 0.0480,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = -0.0010 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 0.0030 0.0070,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = -0.0010 0.1250 0.0480,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment stock
+		{
+			offset = 0.0000 0.0030 0.0070,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.4900 0.0220,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model RugM77
+	{
+		mesh = weapons/firearm/RugM77,
+		texture = weapons/firearm/RugM77,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.5050 0.0220,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.1150 0.0480,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = -0.0010 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 0.0000 0.0070,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = -0.0010 0.1150 0.0480,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment stock
+		{
+			offset = 0.0000 0.0000 0.0070,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.4900 0.0220,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model SORem870
+	{
+		mesh = weapons/firearm/SORem870,
+		texture = weapons/firearm/Rem870,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.3030 0.0250,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.1050 0.0490,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = -0.0010 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.0200 0.0130,
+			rotate = 7.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = -0.0010 0.0990 0.0410,
+			rotate = -179.0000 0.0000 -180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.2960 0.0250,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model Rem870
+	{
+		mesh = weapons/firearm/Rem870,
+		texture = weapons/firearm/Rem870,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.5400 0.0270,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.1050 0.0490,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = -0.0010 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.0200 0.0130,
+			rotate = 7.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.1050 0.0490,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.5330 0.0270,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model Rem870P
+	{
+		mesh = weapons/firearm/Rem870P,
+		texture = weapons/firearm/Rem870,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4040 0.0250,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.1050 0.0490,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = -0.0010 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.0200 0.0130,
+			rotate = 7.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.1050 0.0490,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.4000 0.0250,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model M870
+	{
+		mesh = weapons/firearm/M870,
+		texture = weapons/firearm/M870,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4450 0.0260,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.1050 0.0490,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = -0.0010 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.0200 0.0130,
+			rotate = 7.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.1050 0.0490,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.4280 0.0250,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment stock
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model M870Bayo
+	{
+		mesh = weapons/firearm/M870Bayo,
+		texture = weapons/firearm/M870,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4450 0.0260,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.1050 0.0490,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = -0.0010 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.0200 0.0130,
+			rotate = 7.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.1050 0.0490,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model M870BayoUse
+	{
+		mesh = weapons/firearm/M870BayoUse,
+		texture = weapons/firearm/M870,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4450 0.0260,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.1050 0.0490,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.1050 0.0490,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 0.0300 0.0280,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.1050 0.0490,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment stock
+		{
+			offset = 0.0000 0.0500 0.0150,
+			rotate = -7.0000 0.0000 0.0000,
+		}
+	}
+	model Moss500
+	{
+		mesh = weapons/firearm/Moss500,
+		texture = weapons/firearm/Moss500,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.5310 0.0260,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.1050 0.0490,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = -0.0010 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.0200 0.0130,
+			rotate = 7.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.1050 0.0490,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.5260 0.0250,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model SOMoss500
+	{
+		mesh = weapons/firearm/SOMoss500,
+		texture = weapons/firearm/Moss500,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.3700 0.0240,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.1050 0.0490,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = -0.0010 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.0200 0.0130,
+			rotate = 7.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.1050 0.0490,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.3620 0.0230,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model Moss590
+	{
+		mesh = weapons/firearm/Moss590,
+		texture = weapons/firearm/Moss590,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.3930 0.0260,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.1050 0.0490,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = -0.0010 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.0200 0.0130,
+			rotate = 7.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.1050 0.0490,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.3890 0.0260,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model M590
+	{
+		mesh = weapons/firearm/M590,
+		texture = weapons/firearm/Moss590,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4210 0.0260,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.1050 0.0490,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = -0.0010 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.0200 0.0130,
+			rotate = 7.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.1050 0.0490,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.4160 0.0260,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model M590Bayo
+	{
+		mesh = weapons/firearm/M590Bayo,
+		texture = weapons/firearm/Moss590,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4210 0.0260,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.1050 0.0490,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = -0.0010 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.0200 0.0130,
+			rotate = 7.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.1050 0.0490,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model M590BayoUse
+	{
+		mesh = weapons/firearm/M590BayoUse,
+		texture = weapons/firearm/Moss590,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4210 0.0260,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.1050 0.0490,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = -0.0010 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 0.0300 0.0280,
+			rotate = -1.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.1050 0.0490,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment stock
+		{
+			offset = 0.0000 0.0500 0.0150,
+			rotate = -7.0000 0.0000 0.0000,
+		}
+	}
+	model Win1912
+	{
+		mesh = weapons/firearm/Win1912,
+		texture = weapons/firearm/Win1912,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.5280 0.0240,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.1050 0.0490,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = -0.0010 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.0200 0.0090,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.1050 0.0490,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.5230 0.0240,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model SOWin1912
+	{
+		mesh = weapons/firearm/SOWin1912,
+		texture = weapons/firearm/Win1912,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.3750 0.0240,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.1050 0.0490,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = -0.0010 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1570 -0.0430,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.1050 0.0490,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.3700 0.0240,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model Win1200
+	{
+		mesh = weapons/firearm/Win1200,
+		texture = weapons/firearm/Win1200,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.5400 0.0260,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.1050 0.0490,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = -0.0010 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.0090 0.0100,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.1050 0.0490,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.5370 0.0260,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model SOWin1200
+	{
+		mesh = weapons/firearm/SOWin1200,
+		texture = weapons/firearm/Win1200,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.3270 0.0250,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.1050 0.0490,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = -0.0010 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.0090 0.0100,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.1050 0.0490,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.3250 0.0250,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model Win1200Def
+	{
+		mesh = weapons/firearm/Win1200Def,
+		texture = weapons/firearm/Win1200Def,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4020 0.0230,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.1050 0.0490,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = -0.0010 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.0090 0.0100,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.1050 0.0490,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.3990 0.0240,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model Ithaca37
+	{
+		mesh = weapons/firearm/Ithaca37,
+		texture = weapons/firearm/Ithaca37,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.5290 0.0240,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.1050 0.0490,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = -0.0010 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.0230 0.0090,
+			rotate = 5.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.1050 0.0490,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment stock
+		{
+			offset = 0.0000 -0.0150 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.5240 0.0250,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model SOIthaca37
+	{
+		mesh = weapons/firearm/SOIthaca37,
+		texture = weapons/firearm/Ithaca37,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.3150 0.0240,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.1050 0.0490,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = -0.0010 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.0230 0.0090,
+			rotate = 5.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.1050 0.0490,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment stock
+		{
+			offset = 0.0000 -0.0150 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.3090 0.0250,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model Ithaca37Riot
+	{
+		mesh = weapons/firearm/Ithaca37Riot,
+		texture = weapons/firearm/Ithaca37,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4160 0.0240,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.1050 0.0490,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = -0.0010 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.0230 0.0090,
+			rotate = 5.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.1050 0.0490,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment stock
+		{
+			offset = 0.0000 -0.0150 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.4100 0.0250,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model StoegerUplander
+	{
+		mesh = Weapons/Firearm/StoegerUplander,
+		texture = weapons/firearm/StoegerUplander,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0040 0.5320 0.0270,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 0.0150 0.0090,
+			rotate = 5.0000 0.0000 0.0000,
+		}
+	}
+	model StoegerUplander_OPEN
+    {
+        mesh = Weapons/Firearm/StoegerUplander_OPEN,
+		texture = weapons/firearm/StoegerUplander,
+		scale = 1,
+    }
+	model SOStoegerUplander
+	{
+		mesh = Weapons/Firearm/SOStoegerUplander,
+		texture = weapons/firearm/StoegerUplander,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0040 0.2820 0.0270,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 0.0150 0.0090,
+			rotate = 5.0000 0.0000 0.0000,
+		}
+	}
+	model SOStoegerUplander_OPEN
+    {
+        mesh = Weapons/Firearm/SOStoegerUplander_OPEN,
+		texture = weapons/firearm/StoegerUplander,
+		scale = 1,
+    }
+	model SavageFox
+	{
+		mesh = Weapons/Firearm/StoegerUplander,
+		texture = weapons/firearm/SavageFox,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0040 0.5320 0.0270,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 0.0150 0.0090,
+			rotate = 5.0000 0.0000 0.0000,
+		}
+	}
+	model SavageFox_OPEN
+    {
+        mesh = Weapons/Firearm/StoegerUplander_OPEN,
+		texture = weapons/firearm/SavageFox,
+		scale = 1,
+    }
+	model SOSavageFox
+	{
+		mesh = Weapons/Firearm/SOStoegerUplander,
+		texture = weapons/firearm/SavageFox,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0040 0.2820 0.0270,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 0.0150 0.0090,
+			rotate = 5.0000 0.0000 0.0000,
+		}
+	}
+	model SOSavageFox_OPEN
+    {
+        mesh = Weapons/Firearm/SOStoegerUplander_OPEN,
+		texture = weapons/firearm/SavageFox,
+		scale = 1,
+    }
+	model Win37
+	{
+		mesh = Weapons/Firearm/Win37,
+		texture = weapons/firearm/Win37,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0040 0.4960 0.0210,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.4940 0.0210,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 0.0260 0.0060,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+	}
+	model Win37_OPEN
+	{
+		mesh = Weapons/Firearm/Win37_OPEN,
+		texture = weapons/firearm/Win37,
+		scale = 1,
+
+		attachment canon
+		{
+			offset = 0.0000 0.4870 -0.0720,
+			rotate = -14.0000 0.0000 0.0000,
+		}
+	}
+	model SOWin37
+	{
+		mesh = Weapons/Firearm/SOWin37,
+		texture = weapons/firearm/Win37,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0040 0.2500 0.0210,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.2480 0.0210,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model SOWin37_OPEN
+    {
+        mesh = Weapons/Firearm/SOWin37,
+		texture = weapons/firearm/Win37,
+		scale = 1,
+    }
+	model BrownCitori
+	{
+		mesh = Weapons/Firearm/BrownCitori,
+		texture = weapons/firearm/BrownCitori,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0040 0.5320 0.0270,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.0130 0.0140,
+			rotate = 6.0000 0.0000 0.0000,
+		}
+	}
+	model BrownCitori_OPEN
+    {
+        mesh = Weapons/Firearm/BrownCitori_OPEN,
+		texture = weapons/firearm/BrownCitori,
+		scale = 1,
+    }
+	model SOBrownCitori
+	{
+		mesh = Weapons/Firearm/SOBrownCitori,
+		texture = weapons/firearm/BrownCitori,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0040 0.2820 0.0270,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.0130 0.0140,
+			rotate = 6.0000 0.0000 0.0000,
+		}
+	}
+	model SOBrownCitori_OPEN
+    {
+        mesh = Weapons/Firearm/SOBrownCitori_OPEN,
+		texture = weapons/firearm/BrownCitori,
+		scale = 1,
+    }
+	model Beretta682
+	{
+		mesh = Weapons/Firearm/Beretta682,
+		texture = weapons/firearm/Beretta682,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0040 0.4510 0.0270,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.0250 0.0140,
+			rotate = 5.0000 0.0000 0.0000,
+		}
+	}
+	model Beretta682_OPEN
+    {
+        mesh = Weapons/Firearm/Beretta682_OPEN,
+		texture = weapons/firearm/Beretta682,
+		scale = 1,
+    }
+	model SOBeretta682
+	{
+		mesh = Weapons/Firearm/SOBeretta682,
+		texture = weapons/firearm/Beretta682,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0040 0.2490 0.0270,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.0250 0.0140,
+			rotate = 5.0000 0.0000 0.0000,
+		}
+	}
+	model SOBeretta682_OPEN
+    {
+        mesh = Weapons/Firearm/SOBeretta682_OPEN,
+		texture = weapons/firearm/Beretta682,
+		scale = 1,
+    }
+	model Auto5
+	{
+		mesh = weapons/firearm/Auto5,
+		texture = weapons/firearm/Auto5,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.5630 0.0320,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.1050 0.0490,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = -0.0010 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.0280 0.0080,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.1050 0.0490,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment stock
+		{
+			offset = 0.0000 -0.0100 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.5560 0.0340,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model SOAuto5
+	{
+		mesh = weapons/firearm/SOAuto5,
+		texture = weapons/firearm/Auto5,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.3270 0.0320,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.1050 0.0490,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = -0.0010 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.0280 0.0080,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.1050 0.0490,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment stock
+		{
+			offset = 0.0000 -0.0100 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.3200 0.0340,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model Win1400
+	{
+		mesh = weapons/firearm/Win1400,
+		texture = weapons/firearm/Win1400,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.5530 0.0240,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.1050 0.0490,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = -0.0010 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.0200 0.0070,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.1050 0.0490,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.5440 0.0250,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model SOWin1400
+	{
+		mesh = weapons/firearm/SOWin1400,
+		texture = weapons/firearm/Win1400,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.3450 0.0240,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.1050 0.0490,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = -0.0010 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.0200 0.0070,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.1050 0.0490,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.3370 0.0250,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model Rem1100
+	{
+		mesh = weapons/firearm/Rem1100,
+		texture = weapons/firearm/Rem1100,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.5220 0.0240,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.1050 0.0490,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = -0.0010 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.0300 0.0050,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.1050 0.0490,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.5200 0.0250,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model SORem1100
+	{
+		mesh = weapons/firearm/SORem1100,
+		texture = weapons/firearm/Rem1100,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.3310 0.0240,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.1050 0.0490,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = -0.0010 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.0300 0.0050,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.1050 0.0490,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.3290 0.0250,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model BenelliM3
+	{
+		mesh = weapons/firearm/BenelliM3,
+		texture = weapons/firearm/BenelliM3,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4380 0.0290,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.1050 0.0490,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = -0.0010 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.0180 0.0190,
+			rotate = 10.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.1050 0.0490,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.4310 0.0280,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model SPAS12
+	{
+		mesh = weapons/firearm/SPAS12,
+		texture = weapons/firearm/SPAS12,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4390 0.0270,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.1050 0.0490,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = -0.0010 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.0190 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.1050 0.0490,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.4310 0.0280,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment stock
+		{
+			offset = 0.0000 -0.0190 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model SPAS12Fold
+	{
+		mesh = weapons/firearm/SPAS12Fold,
+		texture = weapons/firearm/SPAS12,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4400 0.0260,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.1050 0.0490,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = -0.0010 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.0190 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.1050 0.0490,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.4310 0.0280,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment stock
+		{
+			offset = 0.0000 -0.0190 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model L395K
+	{
+		mesh = weapons/firearm/L395K,
+		texture = weapons/firearm/L395K,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.5230 0.0240,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.1050 0.0490,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = -0.0010 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1570 -0.0430,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.1050 0.0490,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 1.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.5210 0.0250,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model SOL395K
+	{
+		mesh = weapons/firearm/SOL395K,
+		texture = weapons/firearm/L395K,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.3000 0.0240,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.1050 0.0490,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = -0.0010 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1570 -0.0430,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.1050 0.0490,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.2950 0.0250,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model 308M14
+	{
+		mesh = weapons/firearm/308M14,
+		texture = weapons/firearm/308M14,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4920 0.0240,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.1260 0.0580,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = -0.0010 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1570 -0.0430,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.1260 0.0580,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.4450 0.0240,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model M14Bayo
+	{
+		mesh = weapons/firearm/M14Bayo,
+		texture = weapons/firearm/308M14,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4920 0.0240,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.1260 0.0580,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = -0.0010 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1570 -0.0430,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.1260 0.0580,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model M14BayoUse
+	{
+		mesh = weapons/firearm/M14BayoUse,
+		texture = weapons/firearm/308M14,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4920 0.0240,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.1800 0.0560,
+			rotate = -7.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.1800 0.0560,
+			rotate = -7.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1570 -0.0430,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.1800 0.0560,
+			rotate = -7.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model M14Rail
+	{
+		mesh = weapons/firearm/M14Rail,
+		texture = weapons/firearm/308M14,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4920 0.0240,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.1260 0.0580,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = -0.0010 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1570 -0.0430,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.1260 0.0580,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.4450 0.0240,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model M14RailBayo
+	{
+		mesh = weapons/firearm/M14RailBayo,
+		texture = weapons/firearm/308M14,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4920 0.0240,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.1260 0.0580,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = -0.0010 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1570 -0.0430,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.1260 0.0580,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model M14RailBayoUse
+	{
+		mesh = weapons/firearm/M14RailBayoUse,
+		texture = weapons/firearm/308M14,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4920 0.0240,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.1870 0.0560,
+			rotate = -7.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.1870 0.0560,
+			rotate = -7.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1570 -0.0430,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.1870 0.0560,
+			rotate = -7.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model M16A2
+	{
+		mesh = weapons/firearm/M16A2,
+		texture = weapons/firearm/M16A2,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4150 0.0280,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0830 0.0810,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1570 -0.0430,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.0830 0.0810,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.3860 0.0280,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model M16A2Bayo
+	{
+		mesh = weapons/firearm/M16A2Bayo,
+		texture = weapons/firearm/M16A2,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4150 0.0280,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0830 0.0810,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1570 -0.0430,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.0830 0.0810,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model M16A2BayoUse
+	{
+		mesh = weapons/firearm/M16A2BayoUse,
+		texture = weapons/firearm/M16A2,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4150 0.0280,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.1330 0.0610,
+			rotate = -3.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1570 -0.0430,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.1330 0.0610,
+			rotate = -3.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model M16A2Rail
+	{
+		mesh = weapons/firearm/M16A2Rail,
+		texture = weapons/firearm/M16A2,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4150 0.0280,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0830 0.0810,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 0.0830 0.0810,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.0830 0.0810,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.3860 0.0280,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model M16A2RailBayo
+	{
+		mesh = weapons/firearm/M16A2RailBayo,
+		texture = weapons/firearm/M16A2,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4150 0.0280,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0830 0.0810,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 0.0830 0.0810,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.0830 0.0810,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model M16A2RailBayoUse
+	{
+		mesh = weapons/firearm/M16A2RailBayoUse,
+		texture = weapons/firearm/M16A2,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4150 0.0280,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.1400 0.0860,
+			rotate = -5.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1570 -0.0430,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.1330 0.0610,
+			rotate = -3.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model AR15
+	{
+		mesh = weapons/firearm/AR15,
+		texture = weapons/firearm/AR15,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4150 0.0280,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0830 0.0810,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1570 -0.0430,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.0830 0.0810,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.3860 0.0280,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model AR15Bayo
+	{
+		mesh = weapons/firearm/AR15Bayo,
+		texture = weapons/firearm/AR15,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4150 0.0280,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0830 0.0810,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1570 -0.0430,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.0830 0.0810,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model AR15BayoUse
+	{
+		mesh = weapons/firearm/AR15BayoUse,
+		texture = weapons/firearm/AR15,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4150 0.0280,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.1330 0.0610,
+			rotate = -3.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1570 -0.0430,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.1330 0.0610,
+			rotate = -3.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model AR15Rail
+	{
+		mesh = weapons/firearm/AR15Rail,
+		texture = weapons/firearm/AR15,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4150 0.0280,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0830 0.0810,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1570 -0.0430,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.0830 0.0810,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.3860 0.0280,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model AR15RailBayo
+	{
+		mesh = weapons/firearm/AR15RailBayo,
+		texture = weapons/firearm/AR15,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4150 0.0280,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0830 0.0810,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1570 -0.0430,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.0830 0.0810,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model AR15RailBayoUse
+	{
+		mesh = weapons/firearm/AR15RailBayoUse,
+		texture = weapons/firearm/AR15,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4150 0.0280,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.1330 0.0610,
+			rotate = -3.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1570 -0.0430,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.1330 0.0610,
+			rotate = -3.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model CAR15
+	{
+		mesh = weapons/firearm/CAR15,
+		texture = weapons/firearm/CAR15,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.3620 0.0280,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0830 0.0810,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1570 -0.0430,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.0830 0.0810,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.3290 0.0280,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model CAR15Bayo
+	{
+		mesh = weapons/firearm/CAR15Bayo,
+		texture = weapons/firearm/CAR15,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.3620 0.0280,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0830 0.0810,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1570 -0.0430,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.0830 0.0810,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model CAR15BayoUse
+	{
+		mesh = weapons/firearm/CAR15BayoUse,
+		texture = weapons/firearm/CAR15,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4150 0.0280,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.1330 0.0610,
+			rotate = -3.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1570 -0.0430,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.1330 0.0610,
+			rotate = -3.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model CAR15Rail
+	{
+		mesh = weapons/firearm/CAR15Rail,
+		texture = weapons/firearm/CAR15,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.3610 0.0280,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0830 0.0810,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1570 -0.0430,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.0830 0.0810,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.3290 0.0280,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model CAR15RailBayo
+	{
+		mesh = weapons/firearm/CAR15RailBayo,
+		texture = weapons/firearm/CAR15,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.3610 0.0280,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0830 0.0810,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1570 -0.0430,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.0830 0.0810,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model CAR15RailBayoUse
+	{
+		mesh = weapons/firearm/CAR15RailBayoUse,
+		texture = weapons/firearm/CAR15,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4150 0.0280,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.1330 0.0610,
+			rotate = -3.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1570 -0.0430,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.1330 0.0610,
+			rotate = -3.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model M723
+	{
+		mesh = weapons/firearm/M723,
+		texture = weapons/firearm/CAR15,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.3400 0.0280,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0830 0.0810,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1570 -0.0430,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.0830 0.0810,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.3080 0.0280,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model M723Bayo
+	{
+		mesh = weapons/firearm/M723Bayo,
+		texture = weapons/firearm/CAR15,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.3400 0.0280,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0830 0.0810,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1570 -0.0430,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.0830 0.0810,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model M723BayoUse
+	{
+		mesh = weapons/firearm/M723BayoUse,
+		texture = weapons/firearm/CAR15,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4150 0.0280,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.1330 0.0610,
+			rotate = -3.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1570 -0.0430,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.1330 0.0610,
+			rotate = -3.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model M723Rail
+	{
+		mesh = weapons/firearm/M723Rail,
+		texture = weapons/firearm/CAR15,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.3400 0.0280,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0830 0.0810,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 0.0830 0.0810,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.0830 0.0810,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.3080 0.0280,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model M723RailBayo
+	{
+		mesh = weapons/firearm/M723RailBayo,
+		texture = weapons/firearm/CAR15,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.3400 0.0280,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0830 0.0810,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 0.0830 0.0810,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.0830 0.0810,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model M723RailBayoUse
+	{
+		mesh = weapons/firearm/M723RailBayoUse,
+		texture = weapons/firearm/CAR15,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4150 0.0280,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.1330 0.0610,
+			rotate = -3.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1570 -0.0430,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.1330 0.0610,
+			rotate = -3.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model M733
+	{
+		mesh = weapons/firearm/M733,
+		texture = weapons/firearm/CAR15,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.2970 0.0280,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0830 0.0810,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.0830 0.0810,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1570 -0.0430,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.0830 0.0810,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.2650 0.0280,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model M733Rail
+	{
+		mesh = weapons/firearm/M733Rail,
+		texture = weapons/firearm/CAR15,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.2990 0.0280,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0830 0.0810,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1570 -0.0430,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.0830 0.0810,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.2650 0.0280,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model M635
+	{
+		mesh = weapons/firearm/M635,
+		texture = weapons/firearm/CAR15,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.2800 0.0280,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0830 0.0810,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.0830 0.0810,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1570 -0.0430,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.0830 0.0810,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.2490 0.0280,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model M635Rail
+	{
+		mesh = weapons/firearm/M635Rail,
+		texture = weapons/firearm/CAR15,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.2800 0.0280,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0830 0.0810,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1570 -0.0430,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.0830 0.0810,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.2490 0.0280,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model M249
+	{
+		mesh = weapons/firearm/M249,
+		texture = weapons/firearm/M249,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4060 0.0360,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.3610 0.0360,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model M249Mag
+	{
+		mesh = weapons/firearm/M249Mag,
+		texture = weapons/firearm/M249,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4060 0.0360,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.3610 0.0360,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model M60
+	{
+		mesh = weapons/firearm/M60,
+		texture = weapons/firearm/M60,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4490 0.0310,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.4030 0.0310,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model M1903
+	{
+		mesh = weapons/firearm/M1903,
+		texture = weapons/firearm/M1903,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4860 0.0300,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.4760 0.0220,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 0.0000 0.0100,
+			rotate = 8.0000 0.0000 0.0000,
+		}
+	}
+	model M1903Bayo
+	{
+		mesh = weapons/firearm/M1903Bayo,
+		texture = weapons/firearm/M1903,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4860 0.0300,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 0.0000 0.0100,
+			rotate = 8.0000 0.0000 0.0000,
+		}
+	}
+	model M1903BayoUse
+	{
+		mesh = weapons/firearm/M1903BayoUse,
+		texture = weapons/firearm/M1903,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4860 0.0300,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 0.0500 0.0150,
+			rotate = -7.0000 0.0000 0.0000,
+		}
+	}
+	model M1917
+	{
+		mesh = weapons/firearm/M1917,
+		texture = weapons/firearm/M1917,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.5280 0.0270,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 0.0000 0.0100,
+			rotate = 8.0000 0.0000 0.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.5210 0.0270,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model M1917Bayo
+	{
+		mesh = weapons/firearm/M1917Bayo,
+		texture = weapons/firearm/M1917,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.5280 0.0270,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 0.0000 0.0100,
+			rotate = 8.0000 0.0000 0.0000,
+		}
+	}
+	model M1917BayoUse
+	{
+		mesh = weapons/firearm/M1917BayoUse,
+		texture = weapons/firearm/M1917,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4860 0.0300,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 0.0500 0.0200,
+			rotate = -4.0000 0.0000 0.0000,
+		}
+	}
+	model Mauser98K
+	{
+		mesh = weapons/firearm/Mauser98K,
+		texture = weapons/firearm/Mauser98K,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4870 0.0330,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 0.0100 0.0050,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.5020 0.0270,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model Mauser98KBayo
+	{
+		mesh = weapons/firearm/Mauser98KBayo,
+		texture = weapons/firearm/Mauser98K,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4870 0.0330,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 0.0100 0.0050,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model Mauser98KBayoUse
+	{
+		mesh = weapons/firearm/Mauser98KBayoUse,
+		texture = weapons/firearm/Mauser98K,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4870 0.0330,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 0.0100 0.0050,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model M1Garand
+	{
+		mesh = weapons/firearm/M1Garand,
+		texture = weapons/firearm/M1Garand,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4930 0.0350,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.4810 0.0290,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model M1GarandBayo
+	{
+		mesh = weapons/firearm/M1GarandBayo,
+		texture = weapons/firearm/M1Garand,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4930 0.0350,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model M1GarandBayoUse
+	{
+		mesh = weapons/firearm/M1GarandBayoUse,
+		texture = weapons/firearm/M1Garand,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4930 0.0350,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model M1Carbine
+	{
+		mesh = weapons/firearm/M1Carbine,
+		texture = weapons/firearm/M1Carbine,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.3760 0.0200,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.3690 0.0160,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model M1CarbineBayo
+	{
+		mesh = weapons/firearm/M1CarbineBayo,
+		texture = weapons/firearm/M1Carbine,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.3760 0.0200,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.3690 0.0160,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model M1CarbineBayoUse
+	{
+		mesh = weapons/firearm/M1CarbineBayoUse,
+		texture = weapons/firearm/M1Carbine,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.3760 0.0200,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.3690 0.0160,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model SKS
+	{
+		mesh = weapons/firearm/SKS,
+		texture = weapons/firearm/SKS,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4480 0.0260,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 0.0050 0.0100,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.4360 0.0260,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model SKSBayoOut
+	{
+		mesh = weapons/firearm/SKSBayoOut,
+		texture = weapons/firearm/SKS,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4480 0.0260,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 0.0050 0.0100,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model SKSBayoUse
+	{
+		mesh = weapons/firearm/SKSBayoUse,
+		texture = weapons/firearm/SKS,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4480 0.0260,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 0.0540 0.0230,
+			rotate = -5.0000 0.0000 0.0000,
+		}
+	}
+	model SKSNoBayo
+	{
+		mesh = weapons/firearm/SKSNoBayo,
+		texture = weapons/firearm/SKS,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4480 0.0260,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 0.0050 0.0100,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model T56
+	{
+		mesh = weapons/firearm/T56,
+		texture = weapons/firearm/T56,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.3630 0.0190,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment stock
+		{
+			offset = 0.0000 0.0050 0.0100,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.3420 0.0190,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model T56BayoOut
+	{
+		mesh = weapons/firearm/T56BayoOut,
+		texture = weapons/firearm/T56,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.3630 0.0190,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment stock
+		{
+			offset = 0.0000 0.0050 0.0100,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model T56BayoUse
+	{
+		mesh = weapons/firearm/T56BayoUse,
+		texture = weapons/firearm/T56,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.3630 0.0190,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment stock
+		{
+			offset = 0.0000 0.0540 0.0230,
+			rotate = -5.0000 0.0000 0.0000,
+		}
+	}
+	model T56NoBayo
+	{
+		mesh = weapons/firearm/T56NoBayo,
+		texture = weapons/firearm/T56,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.3630 0.0190,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment stock
+		{
+			offset = 0.0000 0.0050 0.0100,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model Mini14
+	{
+		mesh = weapons/firearm/Mini14,
+		texture = weapons/firearm/Mini14,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4010 0.0280,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.3960 0.0290,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model Mini14Rail
+	{
+		mesh = weapons/firearm/Mini14Rail,
+		texture = weapons/firearm/Mini14,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4010 0.0280,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.1160 0.0580,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = -0.0010 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1570 -0.0430,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.1160 0.0580,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.3960 0.0290,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model Mini30
+	{
+		mesh = weapons/firearm/Mini30,
+		texture = weapons/firearm/Mini30,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4010 0.0280,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.3960 0.0290,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model Mini30Rail
+	{
+		mesh = weapons/firearm/Mini30Rail,
+		texture = weapons/firearm/Mini30,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4010 0.0280,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.1160 0.0580,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = -0.0010 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1570 -0.0430,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.1160 0.0580,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.3960 0.0290,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model AKM
+	{
+		mesh = weapons/firearm/AKM,
+		texture = weapons/firearm/AKM,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.3630 0.0190,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.3460 0.0190,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model AKMBayo
+	{
+		mesh = weapons/firearm/AKMBayo,
+		texture = weapons/firearm/AKM,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.3630 0.0190,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model AKMBayoUse
+	{
+		mesh = weapons/firearm/AKMBayoUse,
+		texture = weapons/firearm/AKM,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.3630 0.0190,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model AKMS
+	{
+		mesh = weapons/firearm/AKMS,
+		texture = weapons/firearm/AKM,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.3630 0.0190,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.3470 0.0190,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model AKMSBayo
+	{
+		mesh = weapons/firearm/AKMSBayo,
+		texture = weapons/firearm/AKM,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.3630 0.0190,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model AKMSBayoUse
+	{
+		mesh = weapons/firearm/AKMSBayoUse,
+		texture = weapons/firearm/AKM,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.3630 0.0190,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model AKMSFold
+	{
+		mesh = weapons/firearm/AKMSFold,
+		texture = weapons/firearm/AKM,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.3630 0.0190,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.3470 0.0190,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model AKMSFoldBayo
+	{
+		mesh = weapons/firearm/AKMSFoldBayo,
+		texture = weapons/firearm/AKM,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.3630 0.0190,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model AKMSFoldBayoUse
+	{
+		mesh = weapons/firearm/AKMSFoldBayoUse,
+		texture = weapons/firearm/AKM,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.3630 0.0190,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model Valmet
+	{
+		mesh = weapons/firearm/Valmet,
+		texture = weapons/firearm/Valmet,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.3630 0.0190,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.3470 0.0190,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model ValmetFold
+	{
+		mesh = weapons/firearm/ValmetFold,
+		texture = weapons/firearm/Valmet,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.3630 0.0190,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.3470 0.0190,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model ValmetThreaded
+	{
+		mesh = weapons/firearm/ValmetThreaded,
+		texture = weapons/firearm/Valmet,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.3530 0.0220,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.3520 0.0220,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model ValmetFoldThreaded
+	{
+		mesh = weapons/firearm/ValmetFoldThreaded,
+		texture = weapons/firearm/Valmet,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.3630 0.0190,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.3470 0.0190,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model AR180
+	{
+		mesh = weapons/firearm/AR180,
+		texture = weapons/firearm/AR180,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.3940 0.0180,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.3610 0.0180,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model AR180Bayo
+	{
+		mesh = weapons/firearm/AR180Bayo,
+		texture = weapons/firearm/AR180,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.3940 0.0180,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model AR180BayoUse
+	{
+		mesh = weapons/firearm/AR180BayoUse,
+		texture = weapons/firearm/AR180,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.3940 0.0180,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0430 -0.0130,
+			rotate = -4.0000 0.0000 0.0000,
+		}
+	}
+	model AR180Fold
+	{
+		mesh = weapons/firearm/AR180Fold,
+		texture = weapons/firearm/AR180,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.3940 0.0180,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.3650 0.0210,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model AR180FoldBayo
+	{
+		mesh = weapons/firearm/AR180FoldBayo,
+		texture = weapons/firearm/AR180,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.3940 0.0180,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model AR180FoldBayoUse
+	{
+		mesh = weapons/firearm/AR180FoldBayoUse,
+		texture = weapons/firearm/AR180,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.3940 0.0180,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model HK91
+	{
+		mesh = weapons/firearm/HK91,
+		texture = weapons/firearm/HK91,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4120 0.0320,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.3810 0.0220,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model HK91Rail
+	{
+		mesh = weapons/firearm/HK91Rail,
+		texture = weapons/firearm/HK91,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4120 0.0320,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.3810 0.0220,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0650 0.0770,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.0650 0.0770,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model HK91StockOut
+	{
+		mesh = weapons/firearm/HK91StockOut,
+		texture = weapons/firearm/HK91,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4120 0.0320,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.3810 0.0220,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model HK91StockOutRail
+	{
+		mesh = weapons/firearm/HK91StockOutRail,
+		texture = weapons/firearm/HK91,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4120 0.0320,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.3810 0.0220,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0650 0.0770,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.0650 0.0770,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model HK91StockIn
+	{
+		mesh = weapons/firearm/HK91StockIn,
+		texture = weapons/firearm/HK91,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4120 0.0320,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.3810 0.0220,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model HK91StockInRail
+	{
+		mesh = weapons/firearm/HK91StockInRail,
+		texture = weapons/firearm/HK91,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4120 0.0320,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.3810 0.0220,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0650 0.0770,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.0650 0.0770,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model HK91RetractStock
+	{
+		mesh = weapons/parts/HK91RetractStock,
+		texture = weapons/firearm/HK91,
+	}
+	model HK91FixStock
+	{
+		mesh = weapons/parts/HK91FixStock,
+		texture = weapons/firearm/HK91,
+	}
+	model FAL
+	{
+		mesh = weapons/firearm/FAL,
+		texture = weapons/firearm/FAL,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4590 0.0110,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.4090 0.0110,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model MarlinCamp
+	{
+		mesh = weapons/firearm/MarlinCamp,
+		texture = weapons/firearm/MarlinCamp,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.3400 0.0180,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0820 0.0410,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = -0.0010 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1570 -0.0430,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.0820 0.0410,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.3300 0.0180,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model MP5
+	{
+		mesh = weapons/firearm/MP5,
+		texture = weapons/firearm/MP5,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.2630 0.0200,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0820 0.0410,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = -0.0010 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1570 -0.0430,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.0820 0.0410,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.2470 0.0190,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model MP5Rail
+	{
+		mesh = weapons/firearm/MP5Rail,
+		texture = weapons/firearm/MP5,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.2630 0.0200,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0870 0.0770,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.0870 0.0770,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1570 -0.0430,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.0870 0.0770,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.2470 0.0190,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model MP5StockOut
+	{
+		mesh = weapons/firearm/MP5StockOut,
+		texture = weapons/firearm/MP5,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.2630 0.0200,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0820 0.0410,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = -0.0010 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1570 -0.0430,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.0820 0.0410,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.2470 0.0190,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model MP5StockOutRail
+	{
+		mesh = weapons/firearm/MP5StockOutRail,
+		texture = weapons/firearm/MP5,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.2630 0.0200,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0870 0.0770,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.0870 0.0770,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1570 -0.0430,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.0870 0.0770,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.2470 0.0190,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model MP5StockIn
+	{
+		mesh = weapons/firearm/MP5StockIn,
+		texture = weapons/firearm/MP5,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.2630 0.0200,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0820 0.0410,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = -0.0010 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1570 -0.0430,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.0820 0.0410,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.2470 0.0190,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model MP5StockInRail
+	{
+		mesh = weapons/firearm/MP5StockInRail,
+		texture = weapons/firearm/MP5,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.2630 0.0200,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0870 0.0770,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.0870 0.0770,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1570 -0.0430,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.0870 0.0770,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.2470 0.0190,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model MP5RetractStock
+	{
+		mesh = weapons/parts/MP5RetractStock,
+		texture = weapons/firearm/MP5,
+	}
+	model MP5FixStock
+	{
+		mesh = weapons/parts/MP5FixStock,
+		texture = weapons/firearm/MP5,
+	}
+	model M3GreaseGun
+	{
+		mesh = weapons/firearm/M3GreaseGun,
+		texture = weapons/firearm/M3GreaseGun,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.2820 0.0160,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0870 0.0770,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.0870 0.0770,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1570 -0.0430,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.0870 0.0770,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.2820 0.0160,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model M3GreaseGunFold
+	{
+		mesh = weapons/firearm/M3GreaseGunFold,
+		texture = weapons/firearm/M3GreaseGun,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.2820 0.0170,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0870 0.0770,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.0870 0.0770,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1570 -0.0430,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.0870 0.0770,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.2820 0.0170,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model CalicoRifle
+	{
+		mesh = weapons/firearm/CalicoRifle,
+		texture = weapons/firearm/CalicoRifle,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.3320 0.0120,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.3240 0.0110,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model CalicoRifleFold
+	{
+		mesh = weapons/firearm/CalicoRifleFold,
+		texture = weapons/firearm/CalicoRifle,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.3320 0.0120,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.3240 0.0110,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model Rug1022
+	{
+		mesh = weapons/firearm/Rug1022,
+		texture = weapons/firearm/Rug1022,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.3870 0.0220,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0900 0.0450,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = -0.0010 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1570 -0.0430,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.0900 0.0450,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.3830 0.0220,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model BrownBAR
+	{
+		mesh = weapons/firearm/BrownBAR,
+		texture = weapons/firearm/BrownBAR,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4480 0.0230,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0960 0.0470,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = -0.0010 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1570 -0.0430,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.0960 0.0470,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.4380 0.0230,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model Win7400
+	{
+		mesh = weapons/firearm/Win7400,
+		texture = weapons/firearm/Win7400,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4560 0.0230,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0960 0.0470,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = -0.0010 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1570 -0.0430,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = -0.0010 0.0960 0.0470,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.4460 0.0230,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model Rem760
+	{
+		mesh = weapons/firearm/Rem760,
+		texture = weapons/firearm/Rem760,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4510 0.0230,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0960 0.0470,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = -0.0010 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1570 -0.0430,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = -0.0010 0.0960 0.0470,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.4450 0.0230,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model Marlin60
+	{
+		mesh = weapons/firearm/Marlin60,
+		texture = weapons/firearm/Marlin60,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4010 0.0200,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0960 0.0420,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = -0.0010 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1570 -0.0430,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = -0.0010 0.0960 0.0420,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.3960 0.0210,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model Marlin336
+	{
+		mesh = weapons/firearm/Marlin336,
+		texture = weapons/firearm/Marlin336,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4120 0.0230,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0960 0.0470,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = -0.0010 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1570 -0.0430,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = -0.0010 0.0960 0.0470,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.4030 0.0230,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model Marlin39A
+	{
+		mesh = weapons/firearm/Marlin39A,
+		texture = weapons/firearm/Marlin39A,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4370 0.0230,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0960 0.0470,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = -0.0010 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1570 -0.0430,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = -0.0010 0.0960 0.0470,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.4320 0.0230,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model Win61
+	{
+		mesh = weapons/firearm/Win61,
+		texture = weapons/firearm/Win61,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4510 0.0160,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0900 0.0390,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = -0.0010 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = -0.0010 0.0900 0.0390,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.4450 0.0160,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment stock
+		{
+			offset = 0.0000 -0.0070 0.0000,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+	}
+	model Win69
+	{
+		mesh = weapons/firearm/Win69,
+		texture = weapons/firearm/Win69,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4600 0.0240,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0900 0.0440,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = -0.0010 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1570 -0.0430,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = -0.0010 0.0900 0.0440,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.4540 0.0240,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model Win94
+	{
+		mesh = weapons/firearm/Win94,
+		texture = weapons/firearm/Win94,
+		scale = 1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4010 0.0230,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0960 0.0470,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = -0.0010 0.0910 0.0390,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1570 -0.0430,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = -0.0010 0.0960 0.0470,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.0120 0.0050,
+			rotate = 5.0000 0.0000 0.0000,
+		}
+
+		attachment canon
+		{
+			offset = 0.0000 0.3930 0.0230,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model RedDot
+	{
+	    mesh = Weapons/parts/RedDot,
+	    texture = Weapons/parts/RedDot,
+	}
+	model CMore
+	{
+	    mesh = Weapons/parts/CMore,
+	    texture = Weapons/parts/CMore,
+	}
+	model AccuDot
+	{
+	    mesh = Weapons/parts/AccuDot,
+	    texture = Weapons/parts/AccuDot,
+	}
+	model RedDotPistol
+	{
+	    mesh = Weapons/parts/RedDotPistol,
+	    texture = Weapons/parts/RedDot,
+	}
+	model AccuDotPistol
+	{
+	    mesh = Weapons/parts/AccuDotPistol,
+	    texture = Weapons/parts/AccuDot,
+	}
+	model 2Scope
+	{
+	    mesh = Weapons/parts/2Scope,
+	    texture = Weapons/parts/Scope,
+	}
+	model 2ScopePistol
+	{
+	    mesh = Weapons/parts/2ScopePistol,
+	    texture = Weapons/parts/Scope,
+	}
+	model 3Scope
+	{
+	    mesh = Weapons/parts/3Scope,
+	    texture = Weapons/parts/Scope,
+	}
+	model 3ScopePistol
+	{
+	    mesh = Weapons/parts/3ScopePistol,
+	    texture = Weapons/parts/Scope,
+	}
+	model 4Scope
+	{
+	    mesh = Weapons/parts/4Scope,
+	    texture = Weapons/parts/Scope,
+	}
+	model 4ScopePistol
+	{
+	    mesh = Weapons/parts/4ScopePistol,
+	    texture = Weapons/parts/Scope,
+	}
+	model 6Scope
+	{
+	    mesh = Weapons/parts/6Scope,
+	    texture = Weapons/parts/Scope,
+	}
+	model 8Scope
+	{
+	    mesh = Weapons/parts/8Scope,
+	    texture = Weapons/parts/Scope,
+	}
+	model 10Scope
+	{
+	    mesh = Weapons/parts/10Scope,
+	    texture = Weapons/parts/Scope,
+	}
+	model ARTScope
+	{
+	    mesh = Weapons/parts/ARTScope,
+	    texture = Weapons/parts/ARTScope,
+	}
+	model M14ARTScope
+	{
+	    mesh = Weapons/parts/M14ARTScope,
+	    texture = Weapons/parts/ARTScope,
+	}
+	model M16RailWorld
+	{
+	    mesh = WorldItems/M16RailWorld,
+	    texture = Weapons/parts/Scope,
+	}
+	model M14MountWorld
+	{
+	    mesh = WorldItems/M14Mount,
+	    texture = weapons/parts/Scope,
+	}
+	model Mini14RailWorld
+	{
+	    mesh = WorldItems/Mini14RailWorld,
+	    texture = weapons/firearm/Mini14,
+	}
+	model HKClawWorld
+	{
+	    mesh = WorldItems/HKClawWorld,
+	    texture = weapons/firearm/MP5,
+	}
+	model PistolDoubleStackWorld
+	{
+	    mesh = WorldItems/doublestackmagworld,
+	    texture = weapons/firearm/92FS,
+	}
+	model M16MagWorld
+	{
+	    mesh = WorldItems/M16World,
+	    texture = weapons/firearm/M16A2,
+	}
+	model M14MagWorld
+	{
+	    mesh = WorldItems/M14World,
+	    texture = weapons/firearm/308M14,
+	}
+	model 4Handle
+	{
+	    mesh = Weapons/parts/4handle,
+	    texture = Weapons/parts/4Handle,
+	}
+	model 4AR180
+	{
+	    mesh = Weapons/parts/x4AR180,
+	    texture = Weapons/parts/4Handle,
+	}
+	model 1911RailWorld
+	{
+	    mesh = WorldItems/1911RailWorld,
+	    texture = weapons/firearm/1911,
+	}
+	model 1911Comp
+	{
+	    mesh = Weapons/parts/1911Comp,
+	    texture = weapons/firearm/1911,
+	}
+	model 1911CompWorld
+	{
+	    mesh = WorldItems/1911CompWorld,
+	    texture = weapons/firearm/1911,
+	}
+	model ShotgunBrake
+	{
+	    mesh = Weapons/parts/ShotgunBrake,
+	    texture = Weapons/parts/Brake,
+	}
+	model ShotgunBrakeWorld
+	{
+	    mesh = WorldItems/ShotgunBrakeWorld,
+	    texture = Weapons/parts/Brake,
+	}
+	model RifleBrake
+	{
+	    mesh = Weapons/parts/RifleBrake,
+	    texture = Weapons/parts/RifleBrake,
+	}
+	model RifleBrakeWorld
+	{
+	    mesh = WorldItems/RifleBrakeWorld,
+	    texture = Weapons/parts/RifleBrake,
+	}
+	model CarbineBrake
+	{
+	    mesh = Weapons/parts/CarbineBrake,
+	    texture = Weapons/parts/RifleBrake,
+	}
+	model CarbineBrakeWorld
+	{
+	    mesh = WorldItems/CarbineBrakeWorld,
+	    texture = Weapons/parts/RifleBrake,
+	}
+	model RevolverRailWorld
+	{
+	    mesh = WorldItems/RevolverRailWorld,
+	    texture = weapons/firearm/SW625,
+	}
+	model RedDotWorld
+	{
+	    mesh = WorldItems/RedDotWorld,
+	    texture = Weapons/parts/RedDot,
+	}
+	model CMoreWorld
+	{
+	    mesh = WorldItems/CMoreWorld,
+	    texture = Weapons/parts/CMore,
+	}
+	model AccuDotWorld
+	{
+	    mesh = WorldItems/AccuDotWorld,
+	    texture = Weapons/parts/AccuDot,
+	}
+	model 2ScopeWorld
+	{
+	    mesh = WorldItems/2ScopeWorld,
+	    texture = Weapons/parts/Scope,
+	}
+	model 3ScopeWorld
+	{
+	    mesh = WorldItems/3ScopeWorld,
+	    texture = Weapons/parts/Scope,
+	}
+	model 4ScopeWorld
+	{
+	    mesh = WorldItems/4ScopeWorld,
+	    texture = Weapons/parts/Scope,
+	}
+	model 6ScopeWorld
+	{
+	    mesh = WorldItems/6ScopeWorld,
+	    texture = Weapons/parts/Scope,
+	}
+	model 8ScopeWorld
+	{
+	    mesh = WorldItems/8ScopeWorld,
+	    texture = Weapons/parts/Scope,
+	}
+	model 10ScopeWorld
+	{
+	    mesh = WorldItems/10ScopeWorld,
+	    texture = Weapons/parts/Scope,
+	}
+	model ARTScopeWorld
+	{
+	    mesh = WorldItems/ARTScopeWorld,
+	    texture = Weapons/parts/ARTScope,
+	}
+	model M14ARTScopeWorld
+	{
+	    mesh = WorldItems/M14ARTScopeWorld,
+	    texture = Weapons/parts/ARTScope,
+	}
+	model 4HandleWorld
+	{
+	    mesh = WorldItems/4handleWorld,
+	    texture = Weapons/parts/4Handle,
+	}
+	model 4AR180World
+	{
+	    mesh = WorldItems/x4AR180World,
+	    texture = Weapons/parts/4Handle,
+	}
+	model PistolsingleStackWorld
+	{
+	    mesh = WorldItems/singlestackmagworld,
+	    texture = weapons/firearm/1911,
+	}
+	model BoltActionMag
+	{
+	    mesh = WorldItems/BoltActionMag,
+	    texture = weapons/firearm/Rem700,
+	}
+	model SMGMagWorld
+	{
+	    mesh = WorldItems/SMGMagWorld,
+	    texture = weapons/firearm/TEC9,
+	}
+	model MP5MagWorld
+	{
+	    mesh = WorldItems/MP5MagWorld,
+	    texture = weapons/firearm/MP5,
+	}
+	model CalicoMagWorld
+	{
+	    mesh = WorldItems/CalicoMagWorld,
+	    texture = weapons/firearm/CalicoRifle,
+	}
+	model M249Box
+	{
+	    mesh = WorldItems/M249Box,
+	    texture = weapons/firearm/M249,
+	}
+	model M60Box
+	{
+	    mesh = WorldItems/M60Box,
+	    texture = weapons/firearm/M60,
+	}
+	model SightBoxCombat
+	{
+	    mesh = WorldItems/SightBoxCombat,
+	    texture = Weapons/parts/Sightbox,
+	}
+	model SightBoxTarget
+	{
+	    mesh = WorldItems/SightBoxTarget,
+	    texture = Weapons/parts/Sightbox,
+	}
+	model EBlocWorld
+	{
+	    mesh = WorldItems/EBlocWorld,
+	    texture = Weapons/firearm/M1Garand,
+	}
+	model MoonClipWorld
+	{
+	    mesh = WorldItems/MoonClipWorld,
+	    texture = Weapons/firearm/SW625,
+	}
+	model SightBoxGhost
+	{
+	    mesh = WorldItems/SightBoxGhost,
+	    texture = Weapons/parts/Sightbox,
+	}
+	model ShellCarrier
+	{
+	    mesh = Weapons/parts/ShellCarrier,
+	    texture = Weapons/parts/AmmoCarrier,
+	}
+	model ShellCarrierSlugs
+	{
+	    mesh = Weapons/parts/ShellCarrier,
+	    texture = Weapons/parts/AmmoCarrierSlugs,
+	}
+	model ShellCarrierWorld
+	{
+	    mesh = WorldItems/ShellCarrierWorld,
+	    texture = Weapons/parts/AmmoCarrier,
+	}
+	model NylonAmmoCarrier
+	{
+	    mesh = Weapons/parts/NylonAmmoCarrier,
+	    texture = Weapons/parts/AmmoCarrier,
+	}
+	model NylonPistolAmmoCarrier
+	{
+	    mesh = Weapons/parts/NylonPistolAmmoCarrier,
+	    texture = Weapons/parts/AmmoCarrier,
+	}
+	model NylonBuckshotAmmoCarrier
+	{
+	    mesh = Weapons/parts/NylonShotAmmoCarrier,
+	    texture = Weapons/parts/AmmoCarrier,
+	}
+	model NylonSlugAmmoCarrier
+	{
+	    mesh = Weapons/parts/NylonShotAmmoCarrier,
+	    texture = Weapons/parts/AmmoCarrierSlugs,
+	}
+	model NylonAmmoCarrierWorld
+	{
+	    mesh = WorldItems/NylonAmmoCarrierWorld,
+	    texture = Weapons/parts/AmmoCarrier,
+	}
+	model ODAmmoCarrier
+	{
+	    mesh = Weapons/parts/ODAmmoCarrier,
+	    texture = Weapons/parts/AmmoCarrier,
+	}
+	model ODPistolAmmoCarrier
+	{
+	    mesh = Weapons/parts/ODPistolAmmoCarrier,
+	    texture = Weapons/parts/AmmoCarrier,
+	}
+	model ODBuckshotAmmoCarrier
+	{
+	    mesh = Weapons/parts/ODShotAmmoCarrier,
+	    texture = Weapons/parts/AmmoCarrier,
+	}
+	model ODSlugAmmoCarrier
+	{
+	    mesh = Weapons/parts/ODShotAmmoCarrier,
+	    texture = Weapons/parts/AmmoCarrierSlugs,
+	}
+	model ODAmmoCarrierWorld
+	{
+	    mesh = WorldItems/ODAmmoCarrierWorld,
+	    texture = Weapons/parts/AmmoCarrier,
+	}
+	model LeatherAmmoCarrier
+	{
+	    mesh = Weapons/parts/LeatherAmmoCarrier,
+	    texture = Weapons/parts/AmmoCarrier,
+	}
+	model LeatherPistolAmmoCarrier
+	{
+	    mesh = Weapons/parts/LeatherPistolAmmoCarrier,
+	    texture = Weapons/parts/AmmoCarrier,
+	}
+	model LeatherBuckshotAmmoCarrier
+	{
+	    mesh = Weapons/parts/LeatherShotAmmoCarrier,
+	    texture = Weapons/parts/AmmoCarrier,
+	}
+	model LeatherSlugAmmoCarrier
+	{
+	    mesh = Weapons/parts/LeatherShotAmmoCarrier,
+	    texture = Weapons/parts/AmmoCarrierSlugs,
+	}
+	model LeatherAmmoCarrierWorld
+	{
+	    mesh = WorldItems/LeatherAmmoCarrierWorld,
+	    texture = Weapons/parts/AmmoCarrier,
+	}
+	model CleaningKitWorld
+	{
+	    mesh = WorldItems/CleaningKitWorld,
+	    texture = WorldItems/CleaningKit,
+	}
+	model SKSBayonet
+	{
+	    mesh = Weapons/1handed/SKSBayonet,
+	    texture = Weapons/firearm/SKS,
+	}
+	model T56Bayonet
+	{
+	    mesh = Weapons/1handed/T56Bayonet,
+	    texture = Weapons/firearm/T56,
+	}
+	model AKBayonet
+	{
+	    mesh = Weapons/1handed/AKBayonet,
+	    texture = Weapons/firearm/AKM,
+	}
+	model M4Bayonet
+	{
+	    mesh = Weapons/1handed/M4Bayonet,
+	    texture = Weapons/firearm/M1Carbine,
+	}
+	model M5Bayonet
+	{
+	    mesh = Weapons/1handed/M5Bayonet,
+	    texture = Weapons/firearm/M1Garand,
+	}
+	model M6Bayonet
+	{
+	    mesh = Weapons/1handed/M6Bayonet,
+	    texture = Weapons/firearm/308M14,
+	}
+	model M9Bayonet
+	{
+	    mesh = Weapons/1handed/M9Bayonet,
+	    texture = Weapons/firearm/M16A2,
+	}
+	model M1905Bayonet
+	{
+	    mesh = Weapons/1handed/M1905Bayonet,
+	    texture = Weapons/firearm/M1903,
+	}
+	model M1917Bayonet
+	{
+	    mesh = Weapons/1handed/M1917Bayonet,
+	    texture = Weapons/firearm/M1917,
+	}
+	model MauserBayonet
+	{
+	    mesh = Weapons/1handed/MauserBayonet,
+	    texture = Weapons/firearm/Mauser98K,
+	}
+	model RifleBulkBox
+	{
+	    mesh = WorldItems/RifleBulkBox,
+	    texture = WorldItems/AmmoBoxes,
+	}
+	model BoxRifleAmmo
+	{
+	    mesh = WorldItems/BoxRifleAmmo,
+	    texture = WorldItems/AmmoBoxes,
+	}
+	model RifleSurplusBox
+	{
+	    mesh = WorldItems/RifleSurplusBox,
+	    texture = WorldItems/AmmoBoxes,
+	}
+	model RifleSurplus2Box
+	{
+	    mesh = WorldItems/RifleSurplus2Box,
+	    texture = WorldItems/AmmoBoxes,
+	}
+	model LinkBox
+	{
+	    mesh = WorldItems/LinkBox,
+	    texture = WorldItems/AmmoBoxes,
+	}
+	model HandgunBox
+	{
+	    mesh = WorldItems/RifleHandgunBox,
+	    texture = WorldItems/AmmoBoxes,
+	}
+	model MagnumBox
+	{
+	    mesh = WorldItems/RifleMagnumBox,
+	    texture = WorldItems/AmmoBoxes,
+	}
+	model BuckshotBox
+	{
+	    mesh = WorldItems/BuckshotBox,
+	    texture = WorldItems/AmmoBoxes,
+	}
+	model SlugBox
+	{
+	    mesh = WorldItems/SlugBox,
+	    texture = WorldItems/AmmoBoxes,
+	}
+	model 22RoundsWorld
+	{
+	    mesh = WorldItems/22RoundsWorld,
+	    texture = Weapons/parts/AmmoCarrier,
+	}
+	model 556RoundsWorld
+	{
+	    mesh = WorldItems/556RoundsWorld,
+	    texture = Weapons/parts/AmmoCarrier,
+	}
+	model 76239RoundsWorld
+	{
+	    mesh = WorldItems/76239RoundsWorld,
+	    texture = Weapons/parts/AmmoCarrier,
+	}
+	model PistolRoundsWorld
+	{
+	    mesh = WorldItems/PistolRoundsWorld,
+	    texture = Weapons/parts/AmmoCarrier,
+	}
+	model RevolverRoundsWorld
+	{
+	    mesh = WorldItems/RevolverRoundsWorld,
+	    texture = Weapons/parts/AmmoCarrier,
+	}
+	model RifleRoundLongWorld
+	{
+	    mesh = WorldItems/RifleRoundLongWorld,
+	    texture = Weapons/parts/AmmoCarrier,
+	}
+	model RifleRoundShortWorld
+	{
+	    mesh = WorldItems/RifleRoundShortWorld,
+	    texture = Weapons/parts/AmmoCarrier,
+	}
+	model ShotgunShellsWorld
+	{
+	    mesh = WorldItems/ShotgunShellsWorld,
+	    texture = Weapons/parts/AmmoCarrier,
+	}
+	model SlugShellsWorld
+	{
+	    mesh = WorldItems/SlugShellsWorld,
+	    texture = Weapons/parts/AmmoCarrierSlugs,
+	}
+	model Belt556World
+	{
+	    mesh = WorldItems/Belt556World,
+	    texture = weapons/firearm/M249,
+	}
+	model BeltLink
+	{
+	    mesh = WorldItems/BeltLink,
+	    texture = weapons/firearm/M249,
+	}
+	model LargePistolCan
+	{
+	    mesh = Weapons/parts/LargePistolCan,
+	    texture = Weapons/parts/Silencers,
+	}
+	model LargePistolCanWorld
+	{
+	    mesh = WorldItems/LargePistolCanWorld,
+	    texture = Weapons/parts/Silencers,
+	}
+	model 45TwoStageSilencer
+	{
+	    mesh = Weapons/parts/45TwoStageSilencer,
+	    texture = Weapons/parts/Silencers,
+	}
+	model 45TwoStageSilencerWorld
+	{
+	    mesh = WorldItems/45TwoStageSilencerWorld,
+	    texture = Weapons/parts/Silencers,
+	}
+	model 556RifleCan
+	{
+	    mesh = Weapons/parts/556RifleCan,
+	    texture = Weapons/parts/Silencers,
+	}
+	model 556RifleCanWorld
+	{
+	    mesh = WorldItems/556RifleCanWorld,
+	    texture = Weapons/parts/Silencers,
+	}
+	model 30RifleCan
+	{
+	    mesh = Weapons/parts/30RifleCan,
+	    texture = Weapons/parts/Silencers,
+	}
+	model 30RifleCanWorld
+	{
+	    mesh = WorldItems/30RifleCanWorld,
+	    texture = Weapons/parts/Silencers,
+	}
+	model 22SilencerCan
+	{
+	    mesh = Weapons/parts/22SilencerCan,
+	    texture = Weapons/parts/Silencers,
+	}
+	model 22SilencerCanWorld
+	{
+	    mesh = WorldItems/22SilencerCanWorld,
+	    texture = Weapons/parts/Silencers,
+	}
+	model DIYLargePistolCan
+	{
+	    mesh = Weapons/parts/DIYLargePistolCan,
+	    texture = Weapons/parts/Silencers,
+	}
+	model DIYLargePistolCanWorld
+	{
+	    mesh = WorldItems/DIYLargePistolCanWorld,
+	    texture = Weapons/parts/Silencers,
+	}
+	model DIY556RifleCan
+	{
+	    mesh = Weapons/parts/DIY556RifleCan,
+	    texture = Weapons/parts/Silencers,
+	}
+	model DIY556RifleCanWorld
+	{
+	    mesh = WorldItems/DIY556RifleCanWorld,
+	    texture = Weapons/parts/Silencers,
+	}
+	model DIY30RifleCan
+	{
+	    mesh = Weapons/parts/DIY30RifleCan,
+	    texture = Weapons/parts/Silencers,
+	}
+	model DIY30RifleCanWorld
+	{
+	    mesh = WorldItems/DIY30RifleCanWorld,
+	    texture = Weapons/parts/Silencers,
+	}
+	model DIY22SilencerCan
+	{
+	    mesh = Weapons/parts/DIY22SilencerCan,
+	    texture = Weapons/parts/Silencers,
+	}
+	model DIY22SilencerCanWorld
+	{
+	    mesh = WorldItems/DIY22SilencerCanWorld,
+	    texture = Weapons/parts/Silencers,
+	}
+	model DIY12gaSilencer
+	{
+	    mesh = Weapons/parts/12gaSilencer,
+	    texture = Weapons/parts/Silencers,
+	}
+	model DIY12gaSilencerWorld
+	{
+	    mesh = WorldItems/12gaSilencerWorld,
+	    texture = Weapons/parts/Silencers,
+	}
+	model OilFilter
+	{
+	    mesh = WorldItems/OilFilter,
+	    texture = Weapons/parts/OilFilter,
+	}
+	model OilFilterSilencer
+	{
+	    mesh = Weapons/parts/OilFilterSilencer,
+	    texture = Weapons/parts/OilFilter,
+	}
+	model OilFilterSilencerWorld
+	{
+	    mesh = WorldItems/OilFilterSilencerWorld,
+	    texture = Weapons/parts/OilFilter,
+	}
+	model OilFilterSilencerUsed
+	{
+	    mesh = WorldItems/OilFilterUsed,
+	    texture = Weapons/parts/OilFilter,
+	}
+	model LargeOilFilter
+	{
+	    mesh = WorldItems/LargeOilFilterWorld,
+	    texture = Weapons/parts/OilFilter,
+	}
+	model LargeOilFilterSilencer
+	{
+	    mesh = Weapons/parts/LargeOilFilterSilencer,
+	    texture = Weapons/parts/OilFilter,
+	}
+	model LargeOilFilterSilencerWorld
+	{
+	    mesh = WorldItems/LargeOilFilterSilencerWorld,
+	    texture = Weapons/parts/OilFilter,
+	}
+	model LargeOilFilterSilencerUsed
+	{
+	    mesh = WorldItems/LargeOilFilterUsed,
+	    texture = Weapons/parts/OilFilter,
+	}
+	model ThreadAdapter
+	{
+	    mesh = WorldItems/ThreadAdapterWorld,
+	    texture = Weapons/parts/OilFilter,
+	}
+	model CanBooster
+	{
+	    mesh = WorldItems/CanBooster,
+	    texture = WorldItems/CanBooster,
+	}
+	model TapDie
+	{
+	    mesh = WorldItems/TapDie,
+	    texture = WorldItems/TapDie,
+	}
+	model ToolFile
+	{
+	    mesh = Weapons/1handed/ToolFile,
+	    texture = WorldItems/ToolFile,
+	}
+	model MotorOil
+	{
+	    mesh = WorldItems/MotorOil,
+	    texture = WorldItems/MotorOil,
+	}
+	model SilencerMag
+    {
+        mesh = WorldItems/Magazine,
+        texture = WorldItems/SilencerMag,
+        scale = 0.4,
+    }
+	model AutoConMag
+    {
+        mesh = WorldItems/Magazine,
+        texture = WorldItems/AutoConMag,
+        scale = 0.4,
+    }
+}

@@ -1,0 +1,10 @@
+Recipes_ES = {
+    -- Magazines
+    Recipe_Vehicle_Painting = "Pintura de vehículos",
+    Recipe_Paint_Mixing = "Mezcla de pinturas",
+    -- Actions
+    Recipe_Cut_Empty_Spray_Can = "Cortar lata de aerosol vacía",
+    Recipe_Insert_Battery_into_Spray_Gun = "Insertar batería en la pistola de pintura",
+    Recipe_Dismantle_Spray_Gun = "Desmontar pistola de pintura",
+    Recipe_Open_Box_with_Automotive_Paint = "Abrir caja con pinturas automotricez",
+}

@@ -1,0 +1,25 @@
+ContextMenu_PL = {
+    ContextMenu_WP_AddCharcoal = "Dodaj filtr wêglowy",
+    ContextMenu_WP_PumpInfo = "Informacje o pompie",
+    ContextMenu_WP_AttachWater = "Do³¹cz Ÿród³o wody",
+    ContextMenu_WP_AttachFuel = "Do³¹cz Ÿród³o paliwa",
+    ContextMenu_WP_Plumbing = "Instalacja wodoci¹gowa",
+    ContextMenu_WP_WaterPipe = "Rura",
+    ContextMenu_WP_WaterPump = "Pompa",
+    ContextMenu_WP_FuelTank = "Zbiornik paliwa",
+    ContextMenu_WP_Fuel = "Paliwo",
+    ContextMenu_WP_ValveInfo = "informacje o zaworach",
+    ContextMenu_WP_ChangeValves = "Zmieñ zawór",
+    ContextMenu_WP_ChangeWest = "Zachodni",
+    ContextMenu_WP_ChangeSouth = "Po³udniowy",
+    ContextMenu_WP_ChangeNorth = "Pó³nocny",
+    ContextMenu_WP_ChangeEast = "Wschodni",
+    ContextMenu_WP_Valve = "Zawór",
+    ContextMenu_WP_ValveModeOne = "jednokierunkowy (obiór)",
+    ContextMenu_WP_ValveModeTwo = "dwukierunkowy",
+    ContextMenu_WP_Type = "Typ",
+    ContextMenu_WP_Flow = "Przep³yw",
+    ContextMenu_WP_RemovePipe = "Usuñ rurê",
+    ContextMenu_WP_DisassemblePump = "Zdemontuj pompê"
+    ContextMenu_WP_FixPump = "Napraw pompê"
+}

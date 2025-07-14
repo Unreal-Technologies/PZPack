@@ -1,0 +1,25 @@
+ContextMenu_UA = {
+    ContextMenu_WP_AddCharcoal = "Додати вугільний фільтр",
+    ContextMenu_WP_PumpInfo = "Інформація про насос",
+    ContextMenu_WP_AttachWater = "Приєднати джерело води",
+    ContextMenu_WP_AttachFuel = "Приєднати джерело палива",
+    ContextMenu_WP_Plumbing = "Сантехніка",
+    ContextMenu_WP_WaterPipe = "Труба",
+    ContextMenu_WP_WaterPump = "Насос",
+    ContextMenu_WP_FuelTank = "Паливний бак",
+    ContextMenu_WP_Fuel = "Паливо",
+    ContextMenu_WP_ValveInfo = "Інформація про клапан",
+    ContextMenu_WP_ChangeValves = "Змінити клапани",
+    ContextMenu_WP_ChangeWest = "Захід",
+    ContextMenu_WP_ChangeSouth = "Південь",
+    ContextMenu_WP_ChangeNorth = "Північ",
+    ContextMenu_WP_ChangeEast = "Схід",
+    ContextMenu_WP_Valve = "Клапан",
+    ContextMenu_WP_ValveModeOne = "1-сторонній (лише отримання)",
+    ContextMenu_WP_ValveModeTwo = "2-сторонній",
+    ContextMenu_WP_Type = "Тип",
+    ContextMenu_WP_Flow = "Потік",
+    ContextMenu_WP_RemovePipe = "Видалити трубу",
+    ContextMenu_WP_DisassemblePump = "Демонтаж насоса"
+    ContextMenu_WP_FixPump = "Відремонтувати насос"
+}

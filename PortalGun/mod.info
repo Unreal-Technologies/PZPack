@@ -1,0 +1,6 @@
+name=Portal Gun
+poster=PortalGun.png
+id=PortalGun
+description=Adds portal gun to project zomboid. Realism level: 0%. Fun level 99%.
+icon=PortalGunIcon.png
+require=TchernoLib

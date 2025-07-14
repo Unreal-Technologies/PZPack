@@ -1,0 +1,5 @@
+name=Dirkerdam Alpha 0.05
+id=Dirkerdam
+description=Dirkerdam_Alpha_0.05
+poster=poster.png
+require=tkTiles_01,Diederiks Tile Palooza,PertsPartyTiles

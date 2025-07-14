@@ -1,0 +1,8 @@
+Recipes_EN {
+    Recipe_Craft_Standing_Microphone = "Craft Standing Microphone",
+    Recipe_Craft_Standing_Disco_Ball = "Craft Standing Disco Ball",
+	Recipe_Create_Music_Sheet_Book = "Make Music Notebook",
+	Recipe_Make_Bucket_of_Water_and_Bleach = "Mix Water and Bleach",
+    Recipe_Assemble_DJ_Booth = "Assemble DJ Booth",
+	Recipe_Fill_Empty_Palette_with_Paint = "Fill Empty Palette with Paint",
+}

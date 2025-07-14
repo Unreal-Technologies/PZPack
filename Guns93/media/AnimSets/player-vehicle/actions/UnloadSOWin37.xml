@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends="UnloadWin37.xml">
+	<m_Name>UnloadSOWin37</m_Name>
+	<m_Conditions />
+	<m_Conditions>
+		<m_StringValue>SOWin37</m_StringValue>
+	</m_Conditions>
+	<m_Conditions />
+	<m_Events />
+	<m_Events />
+	<m_Events>
+		<m_ParameterValue>SOWin37_OPEN</m_ParameterValue>
+	</m_Events>
+</animNode>

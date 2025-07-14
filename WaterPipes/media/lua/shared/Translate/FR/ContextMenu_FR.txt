@@ -1,0 +1,25 @@
+ContextMenu_FR = {
+    ContextMenu_WP_AddCharcoal = "Ajouter un filtre à charbon",
+    ContextMenu_WP_PumpInfo = "Informations sur la pompe",
+    ContextMenu_WP_AttachWater = "Attacher la source d'eau",
+    ContextMenu_WP_AttachFuel = "Attacher la source de carburant",
+    ContextMenu_WP_Plumbing = "Plomberie",
+    ContextMenu_WP_WaterPipe = "Tuyau",
+    ContextMenu_WP_WaterPump = "Pompe",
+    ContextMenu_WP_FuelTank = "Réservoir de carburant",
+    ContextMenu_WP_Fuel = "Carburant",
+    ContextMenu_WP_ValveInfo = "Informations sur la vanne",
+    ContextMenu_WP_ChangeValves = "Changer les vannes",
+    ContextMenu_WP_ChangeWest = "Ouest",
+    ContextMenu_WP_ChangeSouth = "Sud",
+    ContextMenu_WP_ChangeNorth = "Nord",
+    ContextMenu_WP_ChangeEast = "Est",
+    ContextMenu_WP_Valve = "Valve",
+    ContextMenu_WP_ValveModeOne = "1 voie (réception uniquement)",
+    ContextMenu_WP_ValveModeTwo = "2 voies",
+    ContextMenu_WP_Type = "Type",
+    ContextMenu_WP_Flow = "Flux",
+    ContextMenu_WP_RemovePipe = "Supprimer le tuyau",
+    ContextMenu_WP_DisassemblePump = "Démonter la pompe"
+    ContextMenu_WP_FixPump = "Réparer la pompe"
+}

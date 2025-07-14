@@ -1,0 +1,27 @@
+module Base
+{
+    recipe Convert ATARoofLightItem
+    {
+        ATAFrontRoofLightItem=1,
+        BlowTorch=3,
+        keep WeldingMask,
+        Result:ATARoofLightItem,
+        Time:35.0,
+        Category:Welding,
+        SkillRequired:MetalWelding=2,
+        OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+        NeedToBeLearn:false,
+    }
+    recipe Convert ATAFrontRoofLightItem
+    {
+        ATARoofLightItem=1,
+        BlowTorch=3,
+        keep WeldingMask,
+        Result:ATAFrontRoofLightItem,
+        Time:35.0,
+        Category:Welding,
+        SkillRequired:MetalWelding=2,
+        OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+        NeedToBeLearn:false,
+    }
+}

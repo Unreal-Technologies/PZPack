@@ -1,0 +1,15 @@
+IGUI_ES = {
+    IGUI_PaintVehicle_Panel_TintBlack = "Negro",
+    IGUI_PaintVehicle_Panel_TintBlue = "Azul",
+    IGUI_PaintVehicle_Panel_TintCyan = "Aqua",
+    IGUI_PaintVehicle_Panel_TintGreen = "Verde",
+    IGUI_PaintVehicle_Panel_TintMagenta = "Magenta",
+    IGUI_PaintVehicle_Panel_TintRed = "Rojo",
+    IGUI_PaintVehicle_Panel_TintYellow = "Amarillo",
+    IGUI_PaintVehicle_Panel_BtnApply = "Pintura",
+    IGUI_PaintVehicle_Panel_BtnClear = "Borrar",
+    IGUI_PaintVehicle_Panel_BtnClose = "Cerrar",
+    IGUI_PaintVehicle_Panel_Title = "Mezcla de pintura",
+    IGUI_PaintVehicle_Panel_Disclaimer = "Nota: el color real puede variar ligeramente.",
+	IGUI_PaintVehicle_Panel_Catalogue_Scale = "Escala 1:1",
+}

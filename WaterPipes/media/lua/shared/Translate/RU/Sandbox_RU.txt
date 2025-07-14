@@ -1,0 +1,12 @@
+Sandbox_RU = {
+    Sandbox_Plumbing = "Plumbing"
+    
+    Sandbox_Plumbing.PumpFilterUsage = "Расход фильтра насоса"
+    Sandbox_Plumbing.PumpFilterUsage_tooltip = "Доля фильтра водяного насоса, которая расходуется каждые 10 игровых минут".
+
+    Sandbox_Plumbing.PumpEfficiencyLoss = "Потери эффективности насоса"
+    Sandbox_Plumbing.PumpEfficiencyLoss_tooltip = "Доля эффективности, которую теряет водяной насос каждые 10 игровых минут".
+
+    Sandbox_Plumbing.PumpMaxWater = "Доза воды в насосе"
+    Sandbox_Plumbing.PumpMaxWater_tooltip = "Количество единиц воды, которое насос со 100-процентной эффективностью подает каждые 10 игровых минут."
+}

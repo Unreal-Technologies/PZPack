@@ -1,0 +1,317 @@
+module Base
+{
+	item PistolCase1Guns93
+    {
+        DisplayCategory = Container,
+        WeightReduction	=	5,
+        Weight	=	0.5,
+        Type	=	Container,
+        Capacity	=	4,
+        DisplayName	=	Gun Case,
+        Icon	=	PistolCase,
+        RunSpeedModifier = 0.99,
+        MetalValue = 15,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        ReplaceInSecondHand = Bag_PistolCase_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_PistolCase_RHand holdingbagright,
+        WorldStaticModel = GunCase_Ground,
+    }
+
+	item PistolCase2Guns93
+    {
+        DisplayCategory = Container,
+        WeightReduction	=	5,
+        Weight	=	0.5,
+        Type	=	Container,
+        Capacity	=	4,
+        DisplayName	=	Gun Case,
+        Icon	=	PistolCase,
+        RunSpeedModifier = 0.99,
+        MetalValue = 15,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        ReplaceInSecondHand = Bag_PistolCase_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_PistolCase_RHand holdingbagright,
+        WorldStaticModel = GunCase_Ground,
+    }
+
+	item PistolCase3Guns93
+    {
+        DisplayCategory = Container,
+        WeightReduction	=	5,
+        Weight	=	0.5,
+        Type	=	Container,
+        Capacity	=	4,
+        DisplayName	=	Gun Case,
+        Icon	=	PistolCase,
+        RunSpeedModifier = 0.99,
+        MetalValue = 15,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        ReplaceInSecondHand = Bag_PistolCase_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_PistolCase_RHand holdingbagright,
+        WorldStaticModel = GunCase_Ground,
+    }
+
+	item PistolCase4Guns93
+    {
+        DisplayCategory = Container,
+        WeightReduction	=	5,
+        Weight	=	0.5,
+        Type	=	Container,
+        Capacity	=	4,
+        DisplayName	=	Gun Case,
+        Icon	=	PistolCase,
+        RunSpeedModifier = 0.99,
+        MetalValue = 15,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        ReplaceInSecondHand = Bag_PistolCase_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_PistolCase_RHand holdingbagright,
+        WorldStaticModel = GunCase_Ground,
+    }
+
+	item PistolCase5Guns93
+    {
+        DisplayCategory = Container,
+        WeightReduction	=	5,
+        Weight	=	0.5,
+        Type	=	Container,
+        Capacity	=	4,
+        DisplayName	=	Gun Case,
+        Icon	=	PistolCase,
+        RunSpeedModifier = 0.99,
+        MetalValue = 15,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        ReplaceInSecondHand = Bag_PistolCase_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_PistolCase_RHand holdingbagright,
+        WorldStaticModel = GunCase_Ground,
+    }
+
+    item RevolverCase1Guns93
+    {
+        DisplayCategory = Container,
+        WeightReduction	=	5,
+        Weight	=	0.5,
+        Type	=	Container,
+        Capacity	=	4,
+        DisplayName	=	Gun Case,
+        Icon	=	PistolCase,
+        RunSpeedModifier = 0.99,
+        MetalValue = 15,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        ReplaceInSecondHand = Bag_PistolCase_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_PistolCase_RHand holdingbagright,
+        WorldStaticModel = GunCase_Ground,
+    }
+
+	item RevolverCase2Guns93
+    {
+        DisplayCategory = Container,
+        WeightReduction	=	5,
+        Weight	=	0.5,
+        Type	=	Container,
+        Capacity	=	4,
+        DisplayName	=	Gun Case,
+        Icon	=	PistolCase,
+        RunSpeedModifier = 0.99,
+        MetalValue = 15,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        ReplaceInSecondHand = Bag_PistolCase_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_PistolCase_RHand holdingbagright,
+        WorldStaticModel = GunCase_Ground,
+    }
+
+	item RevolverCase3Guns93
+    {
+        DisplayCategory = Container,
+        WeightReduction	=	5,
+        Weight	=	0.5,
+        Type	=	Container,
+        Capacity	=	4,
+        DisplayName	=	Gun Case,
+        Icon	=	PistolCase,
+        RunSpeedModifier = 0.99,
+        MetalValue = 15,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        ReplaceInSecondHand = Bag_PistolCase_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_PistolCase_RHand holdingbagright,
+        WorldStaticModel = GunCase_Ground,
+    }
+    
+    item RifleCase1Guns93
+    {
+        DisplayCategory = Container,
+        WeightReduction	=	20,
+        Weight	=	1,
+        Type	=	Container,
+        Capacity	=	7,
+        DisplayName	=	Gun Case,
+        Icon	=	GuitarCase02,
+        RunSpeedModifier = 0.97,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        ReplaceInSecondHand = Bag_FlightCase_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_FlightCase_RHand holdingbagright,
+        WorldStaticModel = GuitarCase_Ground,
+    }
+
+	item RifleCase2Guns93
+    {
+        DisplayCategory = Container,
+        WeightReduction	=	20,
+        Weight	=	1,
+        Type	=	Container,
+        Capacity	=	7,
+        DisplayName	=	Gun Case,
+        Icon	=	GuitarCase02,
+        RunSpeedModifier = 0.97,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        ReplaceInSecondHand = Bag_FlightCase_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_FlightCase_RHand holdingbagright,
+        WorldStaticModel = GuitarCase_Ground,
+    }
+
+	item RifleCase3Guns93
+    {
+        DisplayCategory = Container,
+        WeightReduction	=	20,
+        Weight	=	1,
+        Type	=	Container,
+        Capacity	=	7,
+        DisplayName	=	Gun Case,
+        Icon	=	GuitarCase02,
+        RunSpeedModifier = 0.97,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        ReplaceInSecondHand = Bag_FlightCase_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_FlightCase_RHand holdingbagright,
+        WorldStaticModel = GuitarCase_Ground,
+    }
+
+    item RifleCase4Guns93
+    {
+        DisplayCategory = Container,
+        WeightReduction	=	20,
+        Weight	=	1,
+        Type	=	Container,
+        Capacity	=	7,
+        DisplayName	=	Gun Case,
+        Icon	=	GuitarCase02,
+        RunSpeedModifier = 0.97,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        ReplaceInSecondHand = Bag_FlightCase_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_FlightCase_RHand holdingbagright,
+        WorldStaticModel = GuitarCase_Ground,
+    }
+
+    item RifleCase5Guns93
+    {
+        DisplayCategory = Container,
+        WeightReduction	=	20,
+        Weight	=	1,
+        Type	=	Container,
+        Capacity	=	7,
+        DisplayName	=	Gun Case,
+        Icon	=	GuitarCase02,
+        RunSpeedModifier = 0.97,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        ReplaceInSecondHand = Bag_FlightCase_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_FlightCase_RHand holdingbagright,
+        WorldStaticModel = GuitarCase_Ground,
+    }
+
+    item RifleCase6Guns93
+    {
+        DisplayCategory = Container,
+        WeightReduction	=	20,
+        Weight	=	1,
+        Type	=	Container,
+        Capacity	=	7,
+        DisplayName	=	Gun Case,
+        Icon	=	GuitarCase02,
+        RunSpeedModifier = 0.97,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        ReplaceInSecondHand = Bag_FlightCase_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_FlightCase_RHand holdingbagright,
+        WorldStaticModel = GuitarCase_Ground,
+    }
+
+    item ShotgunCase1Guns93
+    {
+        DisplayCategory = Container,
+        WeightReduction	=	20,
+        Weight	=	1,
+        Type	=	Container,
+        Capacity	=	7,
+        DisplayName	=	Gun Case,
+        Icon	=	GuitarCase02,
+        RunSpeedModifier = 0.97,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        ReplaceInSecondHand = Bag_FlightCase_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_FlightCase_RHand holdingbagright,
+        WorldStaticModel = GuitarCase_Ground,
+    }
+
+	item ShotgunCase2Guns93
+    {
+        DisplayCategory = Container,
+        WeightReduction	=	20,
+        Weight	=	1,
+        Type	=	Container,
+        Capacity	=	7,
+        DisplayName	=	Gun Case,
+        Icon	=	GuitarCase02,
+        RunSpeedModifier = 0.97,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        ReplaceInSecondHand = Bag_FlightCase_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_FlightCase_RHand holdingbagright,
+        WorldStaticModel = GuitarCase_Ground,
+    }
+
+	item ShotgunCase3Guns93
+    {
+        DisplayCategory = Container,
+        WeightReduction	=	20,
+        Weight	=	1,
+        Type	=	Container,
+        Capacity	=	7,
+        DisplayName	=	Gun Case,
+        Icon	=	GuitarCase02,
+        RunSpeedModifier = 0.97,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        ReplaceInSecondHand = Bag_FlightCase_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_FlightCase_RHand holdingbagright,
+        WorldStaticModel = GuitarCase_Ground,
+    }
+    
+}

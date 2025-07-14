@@ -1,0 +1,435 @@
+VERSION = 1,
+option Guns93.Guns9322LRAmmoDistro {
+	type = boolean,
+	default = false,
+	page = Guns93,
+	translation = Guns9322LRAmmoDistro,
+}
+option Guns93.Guns9325ACPAmmoDistro {
+	type = boolean,
+	default = false,
+	page = Guns93,
+	translation = Guns9325ACPAmmoDistro,
+}
+option Guns93.Guns93380ACPAmmoDistro {
+	type = boolean,
+	default = false,
+	page = Guns93,
+	translation = Guns93380ACPAmmoDistro,
+}
+option Guns93.Guns9338SPCAmmoDistro {
+	type = boolean,
+	default = false,
+	page = Guns93,
+	translation = Guns9338SPCAmmoDistro,
+}
+option Guns93.Guns939mmAmmoDistro {
+	type = boolean,
+	default = false,
+	page = Guns93,
+	translation = Guns939mmAmmoDistro,
+}
+option Guns93.Guns9340SWAmmoDistro {
+	type = boolean,
+	default = false,
+	page = Guns93,
+	translation = Guns9340SWAmmoDistro,
+}
+option Guns93.Guns9345ACPAmmoDistro {
+	type = boolean,
+	default = false,
+	page = Guns93,
+	translation = Guns9345ACPAmmoDistro,
+}
+option Guns93.Guns9345ColtAmmoDistro {
+	type = boolean,
+	default = false,
+	page = Guns93,
+	translation = Guns9345ColtAmmoDistro,
+}
+option Guns93.Guns9310mmAmmoDistro {
+	type = boolean,
+	default = false,
+	page = Guns93,
+	translation = Guns9310mmAmmoDistro,
+}
+option Guns93.Guns93357MAGAmmoDistro {
+	type = boolean,
+	default = false,
+	page = Guns93,
+	translation = Guns93357MAGAmmoDistro,
+}
+option Guns93.Guns9344MAGAmmoDistro {
+	type = boolean,
+	default = false,
+	page = Guns93,
+	translation = Guns9344MAGAmmoDistro,
+}
+option Guns93.Guns93223556AmmoDistro {
+	type = boolean,
+	default = false,
+	page = Guns93,
+	translation = Guns93223556AmmoDistro,
+}
+option Guns93.Guns9330CARAmmoDistro {
+	type = boolean,
+	default = false,
+	page = Guns93,
+	translation = Guns9330CARAmmoDistro,
+}
+option Guns93.Guns93308AmmoDistro {
+	type = boolean,
+	default = false,
+	page = Guns93,
+	translation = Guns93308AmmoDistro,
+}
+option Guns93.Guns933006AmmoDistro {
+	type = boolean,
+	default = false,
+	page = Guns93,
+	translation = Guns933006AmmoDistro,
+}
+option Guns93.Guns933030AmmoDistro {
+	type = boolean,
+	default = false,
+	page = Guns93,
+	translation = Guns933030AmmoDistro,
+}
+option Guns93.Guns93762x39AmmoDistro {
+	type = boolean,
+	default = false,
+	page = Guns93,
+	translation = Guns93762x39AmmoDistro,
+}
+option Guns93.Guns93MauserAmmoDistro {
+	type = boolean,
+	default = false,
+	page = Guns93,
+	translation = Guns93MauserAmmoDistro,
+}
+option Guns93.Guns93ShotgunAmmoDistro {
+	type = boolean,
+	default = false,
+	page = Guns93,
+	translation = Guns93ShotgunAmmoDistro,
+}
+option Guns93.Guns93SlugsAmmoDistro {
+	type = boolean,
+	default = false,
+	page = Guns93,
+	translation = Guns93SlugsAmmoDistro,
+}
+option Guns93.Guns93AmmoSwitching {
+	type = boolean,
+	default = false,
+	page = Guns93,
+	translation = Guns93AmmoSwitching,
+}
+option Guns93.Guns93StockFold {
+	type = boolean,
+	default = false,
+	page = Guns93,
+	translation = Guns93StockFold,
+}
+option Guns93.Guns93AutoDistro {
+	type = boolean,
+	default = false,
+	page = Guns93,
+	translation = Guns93AutoDistro,
+}
+option Guns93.Guns93DIYAutoDistro {
+	type = boolean,
+	default = false,
+	page = Guns93,
+	translation = Guns93DIYAutoDistro,
+}
+option Guns93.Guns93RailsDistro {
+	type = boolean,
+	default = false,
+	page = Guns93,
+	translation = Guns93RailsDistro,
+}
+option Guns93.Guns93BayoDistro {
+	type = boolean,
+	default = false,
+	page = Guns93,
+	translation = Guns93BayoDistro,
+}
+option Guns93.Guns93SilencerDistro {
+	type = boolean,
+	default = false,
+	page = Guns93,
+	translation = Guns93SilencerDistro,
+}
+option Guns93.Guns93BarrelThreading {
+	type = boolean,
+	default = false,
+	page = Guns93,
+	translation = Guns93BarrelThreading,
+}
+option Guns93.Guns93DIYSilencerDistro {
+	type = boolean,
+	default = false,
+	page = Guns93,
+	translation = Guns93DIYSilencerDistro,
+}
+option Guns93.Guns93ZedBayonet {
+	type = boolean,
+	default = false,
+	page = Guns93,
+	translation = Guns93ZedBayonet,
+}
+option Guns93.Guns93ZedGuns {
+	type = boolean,
+	default = false,
+	page = Guns93,
+	translation = Guns93ZedGuns,
+}
+option Guns93.Guns9322LRRarity {
+	type = double, 
+	min = 0.0, 
+	max = 10,
+	default = 1.0,
+	page = Guns93R,
+	translation = Guns9322LRRarity,
+}
+option Guns93.Guns9325ACPRarity {
+	type = double, 
+	min = 0.0, 
+	max = 10,
+	default = 1.0,
+	page = Guns93R,
+	translation = Guns9325ACPRarity,
+}
+option Guns93.Guns93380ACPRarity {
+	type = double, 
+	min = 0.0, 
+	max = 10,
+	default = 1.0,
+	page = Guns93R,
+	translation = Guns93380ACPRarity,
+}
+option Guns93.Guns9338SPCRarity {
+	type = double, 
+	min = 0.0, 
+	max = 10,
+	default = 1.0,
+	page = Guns93R,
+	translation = Guns9338SPCRarity,
+}
+option Guns93.Guns939mmRarity {
+	type = double, 
+	min = 0.0, 
+	max = 10,
+	default = 1.0,
+	page = Guns93R,
+	translation = Guns939mmRarity,
+}
+option Guns93.Guns9340SWRarity {
+	type = double, 
+	min = 0.0, 
+	max = 10,
+	default = 1.0,
+	page = Guns93R,
+	translation = Guns9340SWRarity,
+}
+option Guns93.Guns9345ACPRarity {
+	type = double, 
+	min = 0.0, 
+	max = 10,
+	default = 1.0,
+	page = Guns93R,
+	translation = Guns9345ACPRarity,
+}
+option Guns93.Guns9345ColtRarity {
+	type = double, 
+	min = 0.0, 
+	max = 10,
+	default = 1.0,
+	page = Guns93R,
+	translation = Guns9345ColtRarity,
+}
+option Guns93.Guns9310mmRarity {
+	type = double, 
+	min = 0.0, 
+	max = 10,
+	default = 1.0,
+	page = Guns93R,
+	translation = Guns9310mmRarity,
+}
+option Guns93.Guns93357MAGRarity {
+	type = double, 
+	min = 0.0, 
+	max = 10,
+	default = 1.0,
+	page = Guns93R,
+	translation = Guns93357MAGRarity,
+}
+option Guns93.Guns9344MAGRarity {
+	type = double, 
+	min = 0.0, 
+	max = 10,
+	default = 1.0,
+	page = Guns93R,
+	translation = Guns9344MAGRarity,
+}
+option Guns93.Guns93223556Rarity {
+	type = double, 
+	min = 0.0, 
+	max = 10,
+	default = 1.0,
+	page = Guns93R,
+	translation = Guns93223556Rarity,
+}
+option Guns93.Guns9330CARRarity {
+	type = double, 
+	min = 0.0, 
+	max = 10,
+	default = 1.0,
+	page = Guns93R,
+	translation = Guns9330CARRarity,
+}
+option Guns93.Guns93308Rarity {
+	type = double, 
+	min = 0.0, 
+	max = 10,
+	default = 1.0,
+	page = Guns93R,
+	translation = Guns93308Rarity,
+}
+option Guns93.Guns933006Rarity {
+	type = double, 
+	min = 0.0, 
+	max = 10,
+	default = 1.0,
+	page = Guns93R,
+	translation = Guns933006Rarity,
+}
+option Guns93.Guns933030Rarity {
+	type = double, 
+	min = 0.0, 
+	max = 10,
+	default = 1.0,
+	page = Guns93R,
+	translation = Guns933030Rarity,
+}
+option Guns93.Guns93762x39Rarity {
+	type = double, 
+	min = 0.0, 
+	max = 10,
+	default = 1.0,
+	page = Guns93R,
+	translation = Guns93762x39Rarity,
+}
+option Guns93.Guns93MauserRarity {
+	type = double, 
+	min = 0.0, 
+	max = 10,
+	default = 1.0,
+	page = Guns93R,
+	translation = Guns93MauserRarity,
+}
+option Guns93.Guns93ShotShellRarity {
+	type = double, 
+	min = 0.0, 
+	max = 10,
+	default = 1.0,
+	page = Guns93R,
+	translation = Guns93ShotShellRarity,
+}
+option Guns93.Guns93PistolRarity {
+	type = double, 
+	min = 0.0, 
+	max = 10,
+	default = 1.0,
+	page = Guns93R,
+	translation = Guns93PistolRarity,
+}
+option Guns93.Guns93RevolverRarity {
+	type = double, 
+	min = 0.0, 
+	max = 10,
+	default = 1.0,
+	page = Guns93R,
+	translation = Guns93RevolverRarity,
+}
+option Guns93.Guns93RifleRarity {
+	type = double, 
+	min = 0.0, 
+	max = 10,
+	default = 1.0,
+	page = Guns93R,
+	translation = Guns93RifleRarity,
+}
+option Guns93.Guns93ShotgunRarity {
+	type = double, 
+	min = 0.0, 
+	max = 10,
+	default = 1.0,
+	page = Guns93R,
+	translation = Guns93ShotgunRarity,
+}
+option Guns93.Guns93MagazineRarity {
+	type = double, 
+	min = 0.0, 
+	max = 10,
+	default = 1.0,
+	page = Guns93R,
+	translation = Guns93MagazineRarity,
+}
+option Guns93.Guns93UpgradeRarity {
+	type = double, 
+	min = 0.0, 
+	max = 10,
+	default = 1.0,
+	page = Guns93R,
+	translation = Guns93UpgradeRarity,
+}
+option Guns93.Guns93SilencerRarity {
+	type = double, 
+	min = 0.0, 
+	max = 10,
+	default = 1.0,
+	page = Guns93R,
+	translation = Guns93SilencerRarity,
+}
+option Guns93.Guns93SoundAdjust {
+	type = double, 
+	min = 0.0, 
+	max = 2,
+	default = 1.0,
+	page = Guns93R,
+	translation = Guns93SoundAdjust,
+}
+option Guns93.Guns93SilencerEff {
+	type = double, 
+	min = 0.0, 
+	max = 1.25,
+	default = 1.0,
+	page = Guns93R,
+	translation = Guns93SilencerEff,
+}
+option Guns93.Guns93RecoilAdjust {
+	type = double, 
+	min = 0.0, 
+	max = 2.0,
+	default = 1.0,
+	page = Guns93R,
+	translation = Guns93RecoilAdjust,
+}
+option Guns93.Guns93HandgunRecoilMin {
+	type = double, 
+	min = 0.0, 
+	max = 30.0,
+	default = 15.0,
+	page = Guns93R,
+	translation = Guns93HandgunRecoilMin,
+}
+option Guns93.Guns93LongGunRecoilMin {
+	type = double, 
+	min = 0.0, 
+	max = 30.0,
+	default = 0.0,
+	page = Guns93R,
+	translation = Guns93LongGunRecoilMin,
+}

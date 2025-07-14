@@ -1,0 +1,5 @@
+name=Standardized Vehicle Upgrades 3 - Quiet Upgrades
+id=StandardizedVehicleUpgrades3TS
+description=Reduces the volume of Tsarslib's vehicle armoring sounds.
+poster=poster.png
+require=tsarslib,StandardizedVehicleUpgrades3Core

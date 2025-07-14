@@ -1,0 +1,6 @@
+IGUI_EN = {
+    IGUI_CreatePortal = "Create Portal (admin)",
+    IGUI_RemovePortal = "Remove Portal (admin)",
+    IGUI_InfoPortal = "Portal Info (admin)",
+    IGUI_CakeIsALie_OnEat = "The cake is a lie!",
+}

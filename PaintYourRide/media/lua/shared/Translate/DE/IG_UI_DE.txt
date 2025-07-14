@@ -1,0 +1,16 @@
+IGUI_DE = {
+    IGUI_ItemCat_VehiclePaint = "Autofarbe",
+    IGUI_PaintVehicle_Panel_TintBlack = "Schwarz",
+    IGUI_PaintVehicle_Panel_TintBlue = "Blau",
+    IGUI_PaintVehicle_Panel_TintCyan = "Aqua",
+    IGUI_PaintVehicle_Panel_TintGreen = "Grün",
+    IGUI_PaintVehicle_Panel_TintMagenta = "Fuchsia",
+    IGUI_PaintVehicle_Panel_TintRed = "Rot",
+    IGUI_PaintVehicle_Panel_TintYellow = "Gelb",
+    IGUI_PaintVehicle_Panel_BtnApply = "Paint",
+    IGUI_PaintVehicle_Panel_BtnClear = "Clear",
+    IGUI_PaintVehicle_Panel_BtnClose = "Close",
+    IGUI_PaintVehicle_Panel_Title = "Paint Mixing",
+    IGUI_PaintVehicle_Panel_Disclaimer = "Note: Actual color may vary slightly.",
+    IGUI_PaintVehicle_Panel_Catalogue_Scale = "1:1 Maßstab",
+}

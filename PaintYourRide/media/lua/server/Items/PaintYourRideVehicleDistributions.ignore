@@ -1,0 +1,17 @@
+--require "Items/VehicleDistributions"
+
+table.insert(VehicleDistributions["GloveBox"]["junk"].items, "PaintYourRide.CataloguePaintSpray")
+table.insert(VehicleDistributions["GloveBox"]["junk"].items, 0.5)
+
+table.insert(VehicleDistributions["FossoilTruckBed"].items, "PaintYourRide.AutomotiveSprayPaintGrey")
+table.insert(VehicleDistributions["FossoilTruckBed"].items, 0.5)
+table.insert(VehicleDistributions["FossoilTruckBed"].items, "PaintYourRide.AutomotiveSprayPaintGreySteel")
+table.insert(VehicleDistributions["FossoilTruckBed"].items, 0.1)
+
+table.insert(VehicleDistributions["McCoyTruckBed"].items, "Hat_DustMask")
+table.insert(VehicleDistributions["McCoyTruckBed"].items, 0.3)
+table.insert(VehicleDistributions["McCoyTruckBed"].items, "PaintYourRide.AutomotiveSprayPaintBrownDarkChocolate")
+table.insert(VehicleDistributions["McCoyTruckBed"].items, 0.5)
+
+table.insert(VehicleDistributions["RangerTruckBed"].items, "PaintYourRide.AutomotiveSprayPaintGreenForest")
+table.insert(VehicleDistributions["RangerTruckBed"].items, 0.3)

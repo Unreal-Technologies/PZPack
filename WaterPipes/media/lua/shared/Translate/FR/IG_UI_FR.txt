@@ -1,0 +1,14 @@
+IGUI_FR = {
+    IGUI_WP_Status = "Statut",
+    IGUI_WP_Active = "Actif",
+    IGUI_WP_Inactive = "Inactif",
+    IGUI_WP_Electricity = "Puissance",
+    IGUI_WP_Available = "Disponible",
+    IGUI_WP_Unavailable = "Indisponible",
+    IGUI_WP_ConnectedSource = "Source connectée",
+    IGUI_WP_Water = "Eau",
+    IGUI_WP_Gas = "Gaz",
+    IGUI_WP_Efficiency = "Efficacité",
+    IGUI_WP_Filter = "Filtre",
+    IGUI_WP_PumpInfoText = "La capacité de la pompe diminuera avec le temps. <LINE> Les pompes usées cesseront de fonctionner ou provoqueront un incendie. <LINE> Ajoutez du charbon pour filtrer l'eau contaminée. <LINE>",
+}

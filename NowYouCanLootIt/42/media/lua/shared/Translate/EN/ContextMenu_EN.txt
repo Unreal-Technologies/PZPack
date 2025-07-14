@@ -1,0 +1,5 @@
+ContextMenu_EN = {
+	ContextMeny_GetBricks = "Take bricks"
+
+	ContextMenu_GetHay = "Take hay"
+}

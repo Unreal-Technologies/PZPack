@@ -1,0 +1,133 @@
+Moodles_EN = {
+
+	Moodles_MindfulState_L1 = "Mindfulness",
+	Moodles_MindfulState_L1_desc = "Your mind is clear...",
+	Moodles_MindfulState_L2 = "Strong Mindfulness",
+	Moodles_MindfulState_L2_desc = "Abandon pain and hunger...",
+	Moodles_MindfulState_L3 = "Perfect Mindfulness",
+	Moodles_MindfulState_L3_desc = "Your eyes are truly open...",
+
+	Moodles_HomeSick_L1 = "Homesick",
+	Moodles_HomeSick_L1_desc = "Missing the comfort of a house.",
+	Moodles_HomeSick_L2 = "Bad Homesickness",
+	Moodles_HomeSick_L2_desc = "Yearning to be back indoors.",
+	Moodles_HomeSick_L3 = "Very Bad Homesickness",
+	Moodles_HomeSick_L3_desc = "Desperate for a place to lie-down.",
+	Moodles_HomeSick_L4 = "Severe Homesickness",
+	Moodles_HomeSick_L4_desc = "Each passing hour is torment.",
+
+	Moodles_AtHouse_L1 = "Comfortably Inside",
+	Moodles_AtHouse_L1_desc = "Spent some time indoors. Not a care in the world.",
+
+	Moodles_MusicGood_L1 = "Nice Tunes",
+	Moodles_MusicGood_L1_desc = "Enjoyed a good song recently.",
+	Moodles_MusicGood_L2 = "Great Music",
+	Moodles_MusicGood_L2_desc = "The harmonious melody fills you with joy.",
+	
+	Moodles_MusicBad_L1 = "Bland Music",
+	Moodles_MusicBad_L1_desc = "Why even bother listening to this?",
+	Moodles_MusicBad_L2 = "Awful Noise",
+	Moodles_MusicBad_L2_desc = "AAahh!! Make it stop!",
+
+	Moodles_PartyGood_L1 = "Chill Party",
+	Moodles_PartyGood_L1_desc = "Not bad, not great. If only we could get more people here.",
+	Moodles_PartyGood_L2 = "Killer Party",
+	Moodles_PartyGood_L2_desc = "Just let loose like there's no tomorrow.",
+	Moodles_PartyGood_L3 = "Insane Party",
+	Moodles_PartyGood_L3_desc = "Damn, this is gonna be one for the books!",
+	
+	Moodles_PartyBad_L1 = "Annoying Party",
+	Moodles_PartyBad_L1_desc = "Wishing they could be somewhere less cringe.",
+	Moodles_PartyBad_L2 = "Very Annoying Party",
+	Moodles_PartyBad_L2_desc = "High risk of stress.",
+	Moodles_PartyBad_L3 = "Extremely Annoying Party",
+	Moodles_PartyBad_L3_desc = "Forced fun, mindless chatter, and all I want is an escape.",
+
+	Moodles_DJAudience_L1 = "Small Crew",
+	Moodles_DJAudience_L1_desc = "Spinning for a post-apocalyptic audience!",
+	Moodles_DJAudience_L2 = "Sizable Audience",
+	Moodles_DJAudience_L2_desc = "Volume up, crowd's large – time to shine!",
+	Moodles_DJAudience_L3 = "Big Crowd",
+	Moodles_DJAudience_L3_desc = "Turning up the energy for this massive gathering!",
+	
+	Moodles_Embarrassed_L1 = "A Bit Embarrassed",
+	Moodles_Embarrassed_L1_desc = "Embarrassed yourself",
+	Moodles_Embarrassed_L2 = "Embarrassed",
+	Moodles_Embarrassed_L2_desc = "Risk of becoming unhappy",
+	Moodles_Embarrassed_L3 = "Very Embarrassed",
+	Moodles_Embarrassed_L3_desc = "Very high risk of becoming unhappy",
+	Moodles_Embarrassed_L4 = "Extremely Embarrassed",
+	Moodles_Embarrassed_L4_desc = "I wish the ground would swallow me!",
+
+	Moodles_Uncomfortable_L1 = "Uncomfortable",
+	Moodles_Uncomfortable_L1_desc = "Experiencing mild physical discomfort.",
+
+	Moodles_Comfort_L1 = "Comfortable",
+	Moodles_Comfort_L1_desc = "Feeling at ease and relaxed.",
+	Moodles_Comfort_L2 = "Very Comfortable",
+	Moodles_Comfort_L2_desc = "In a state of profound comfort and relaxation.",
+	Moodles_Comfort_L3 = "Extremely Comfortable",
+	Moodles_Comfort_L3_desc = "Indulging in an extravagant level of comfort.",
+	Moodles_Comfort_L4 = "Luxuriantly Comfortable",
+	Moodles_Comfort_L4_desc = "I've found my happy place, and it's right here.",
+
+	Moodles_BeautyNeg_L1 = "Dirty Surroundings",
+	Moodles_BeautyNeg_L1_desc = "Not the cleanest place in the world.",
+	Moodles_BeautyNeg_L2 = "Awful Environment",
+	Moodles_BeautyNeg_L2_desc = "Can hardly stand the reek of this dreadful place.",
+
+	Moodles_BladderNeed_L1 = "Slight Urge",
+	Moodles_BladderNeed_L1_desc = "Feeling a small need to relieve yourself. No effect on mood.",
+	Moodles_BladderNeed_L2 = "Full Bladder",
+	Moodles_BladderNeed_L2_desc = "Experiencing a discomfortable full bladder.",
+	Moodles_BladderNeed_L3 = "Urgent Need",
+	Moodles_BladderNeed_L3_desc = "In a critical state, you can't hold for much longer.",
+	Moodles_BladderNeed_L4 = "About To Burst",
+	Moodles_BladderNeed_L4_desc = "Nature is calling... NOW.",
+
+	Moodles_HygieneGood_L1 = "Clean",
+	Moodles_HygieneGood_L1_desc = "Feeling extra-fresh.",
+	Moodles_HygieneGood_L2 = "Squeaky Clean",
+	Moodles_HygieneGood_L2_desc = "Yay for personal hygiene!",
+	Moodles_HygieneGood_L3 = "Spotlessly Clean",
+	Moodles_HygieneGood_L3_desc = "There's clean, and then there's spotlessly clean!",
+	Moodles_HygieneGood_L4 = "Sparkling Clean",
+	Moodles_HygieneGood_L4_desc = "Won't need to worry about getting dirty for a while!",
+
+	Moodles_HygieneBad_L1 = "Dirty",
+	Moodles_HygieneBad_L1_desc = "Due for a date with a shower.",
+	Moodles_HygieneBad_L2 = "A Bit Stinky",
+	Moodles_HygieneBad_L2_desc = "Past due the date with a shower.",
+	Moodles_HygieneBad_L3 = "Smelly",
+	Moodles_HygieneBad_L3_desc = "Yuck, can't seem to shed this horrible smell.",
+	Moodles_HygieneBad_L4 = "Reeking",
+	Moodles_HygieneBad_L4_desc = "Feeling and smelling absolutely rotten.",
+
+	Moodles_Nauseous_L1 = "Nauseous Smell",
+	Moodles_Nauseous_L1_desc = "Someone around here stinks worse than the dead.",
+
+	Moodles_MintFresh_L1 = "Minty Breath",
+	Moodles_MintFresh_L1_desc = "Good oral hygiene is a small luxury in these times, but it sure beats the alternative.",
+
+	Moodles_BathCold_L1 = "Bone-Chilling Water",
+	Moodles_BathCold_L1_desc = "So co-co-cold...",
+
+	Moodles_BathHot_L1 = "Steaming Hot Water",
+	Moodles_BathHot_L1_desc = "Invigorating and refreshing.",
+
+	Moodles_WasTaughtMeditation_L1 = "Good Advice (Meditation)",
+	Moodles_WasTaughtMeditation_L1_desc = "I was taught some useful lessons by a meditation master. Time to put into practice!",
+
+	Moodles_TaughtSkill_L1 = "Feeling Important",
+	Moodles_TaughtSkill_L1_desc = "I gave insight into something and it blew someone's mind!",
+
+	Moodles_AdviceWasted_L1 = "Wasted Advice",
+	Moodles_AdviceWasted_L1_desc = "I tried to share my thoughts but they didn't seem to care...",
+
+	Moodles_Attractive_L1 = "Feeling Good About Me",
+	Moodles_Attractive_L1_desc = "Mirror, mirror on the wall...",
+
+	Moodles_SmellGood_L1 = "Exuding Bliss",
+	Moodles_SmellGood_L1_desc = "This fragrance infused me with a good dose of optimism.",
+
+}

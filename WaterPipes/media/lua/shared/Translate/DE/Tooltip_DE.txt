@@ -1,0 +1,11 @@
+Tooltip_DE = {
+    Tooltip_WP_ThePumpIsWornOut = "Die Pumpe ist abgenutzt."
+    Tooltip_WP_NeedsPowerToOperate = "Benötigt Strom zum Betrieb."
+    Tooltip_WP_NeedsCharcoal = "Benötige Holzkohle."
+    Tooltip_WP_Requires = "Erforderlich:"
+    Tooltip_WP_BlowTorch = "Gasbrenner"
+    Tooltip_WP_WeldingMask = "Schweißmaske"
+    Tooltip_WP_MetalworkMag2 = "Wissen: Welder Magazine Nr. 2"
+    Tooltip_WP_MetalworkingSkillTooLow = "Metallbearbeitungskenntnisse zu gering"
+    Tooltip_WP_NeedsScrapMetal = "Brauche Altmetall"
+}

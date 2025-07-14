@@ -1,0 +1,11 @@
+Tooltip_EN = {
+	Tooltip_WP_ThePumpIsWornOut = "The pump is worn out."
+	Tooltip_WP_NeedsPowerToOperate = "Needs power to operate."
+	Tooltip_WP_NeedsCharcoal = "Needs charcoal."
+	Tooltip_WP_Requires = "Requires:"
+	Tooltip_WP_BlowTorch = "Propane Torch"
+	Tooltip_WP_WeldingMask = "Welder Mask"
+	Tooltip_WP_MetalworkMag2 = "Knowledge of: The Metalwork Magazine Vol. 2"
+	Tooltip_WP_MetalworkingSkillTooLow = "Metalworking skill too low"
+    Tooltip_WP_NeedsScrapMetal = "Need scrap metal"
+}
