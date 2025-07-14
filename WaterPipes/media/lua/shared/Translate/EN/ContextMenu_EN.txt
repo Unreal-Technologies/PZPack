@@ -1,0 +1,25 @@
+ContextMenu_EN = {
+    ContextMenu_WP_AddCharcoal = "Add charcoal Filter",
+    ContextMenu_WP_PumpInfo = "Pump info",
+    ContextMenu_WP_AttachWater = "Attach water source",
+    ContextMenu_WP_AttachFuel = "Attach fuel source",
+    ContextMenu_WP_Plumbing = "Plumbing",
+    ContextMenu_WP_WaterPipe = "Pipe",
+    ContextMenu_WP_WaterPump = "Pump",
+    ContextMenu_WP_FuelTank = "Fuel Tank",
+    ContextMenu_WP_Fuel = "Fuel",
+    ContextMenu_WP_ValveInfo = "Valve info",
+    ContextMenu_WP_ChangeValves = "Change valves",
+    ContextMenu_WP_ChangeWest = "West",
+    ContextMenu_WP_ChangeSouth = "South",
+    ContextMenu_WP_ChangeNorth = "North",
+    ContextMenu_WP_ChangeEast = "East",
+    ContextMenu_WP_Valve = "Valve",
+    ContextMenu_WP_ValveModeOne = "1-way (receive only)",
+    ContextMenu_WP_ValveModeTwo = "2-way",
+    ContextMenu_WP_Type = "Type",
+    ContextMenu_WP_Flow = "Flow",
+    ContextMenu_WP_RemovePipe = "Remove Pipe",
+    ContextMenu_WP_DisassemblePump = "Disassemble pump"
+    ContextMenu_WP_FixPump = "Fix pump"
+}

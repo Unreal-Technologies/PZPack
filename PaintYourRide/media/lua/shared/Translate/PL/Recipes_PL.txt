@@ -1,0 +1,11 @@
+Recipes_PL = {
+    -- Magazines
+    Recipe_Vehicle_Painting = "Lakierowanie samochodu",
+    Recipe_Paint_Mixing = "Mieszanie lakieru",
+    -- Actions
+    Recipe_Cut_Empty_Spray_Can = "Potnij puszkê po lakierze",
+    Recipe_Insert_Battery_into_Spray_Gun = "Insert Battery into Spray Gun",
+    Recipe_Insert_Battery_into_Spray_Gun = "W³ó¿ bateriê do pistoletu lakierniczego",
+    Recipe_Dismantle_Spray_Gun = "Rozmontuj pistolet lakierniczy",
+    Recipe_Open_Box_with_Automotive_Paint = "Otwórz paczkê lakieru w sprayu",
+}

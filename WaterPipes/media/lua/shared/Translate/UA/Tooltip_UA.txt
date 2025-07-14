@@ -1,0 +1,11 @@
+Tooltip_UA = {
+    Tooltip_WP_ThePumpIsWornOut = "Насос зношений."
+    Tooltip_WP_NeedsPowerToOperate = "Для роботи потрібна потужність."
+    Tooltip_WP_NeedsCharcoal = "Потрібне деревне вугілля."
+    Tooltip_WP_Requires = "Обов'язково:"
+    Tooltip_WP_BlowTorch = "Газовий пальник"
+    Tooltip_WP_WeldingMask = "Зварювальна маска"
+    Tooltip_WP_MetalworkMag2 = "Знання: Журнал зварювальника № 2"
+    Tooltip_WP_MetalworkingSkillTooLow = "Рівень металообробки занадто низький"
+    Tooltip_WP_NeedsScrapMetal = "Потрібен металобрухт"
+}

@@ -1,0 +1,942 @@
+seams
+{
+	VERSION = 1,
+
+	tileset
+	{
+		name = pert_roofs_01,
+
+		/* pert_roofs_01_0 */
+		tile
+		{
+			xy = 0x0,
+
+			east
+			{
+				pert_roofs_01_0 =,
+				pert_roofs_01_8 =,
+			}
+
+			belowSouth
+			{
+				pert_roofs_01_6 =,
+				pert_roofs_01_2 =,
+				pert_roofs_01_13 =,
+			}
+		}
+
+		/* pert_roofs_01_1 */
+		tile
+		{
+			xy = 1x0,
+
+			east
+			{
+				pert_roofs_01_1 =,
+				pert_roofs_01_9 =,
+			}
+
+			south
+			{
+				pert_roofs_01_0 =,
+				pert_roofs_01_11 =,
+			}
+		}
+
+		/* pert_roofs_01_2 */
+		tile
+		{
+			xy = 2x0,
+
+			east
+			{
+				pert_roofs_01_2 =,
+				pert_roofs_01_10 =,
+			}
+
+			south
+			{
+				pert_roofs_01_1 =,
+				pert_roofs_01_12 =,
+			}
+		}
+
+		/* pert_roofs_01_3 */
+		tile
+		{
+			xy = 3x0,
+
+			east
+			{
+				pert_roofs_01_4 =,
+				pert_roofs_01_12 =,
+			}
+
+			south
+			{
+				pert_roofs_01_3 =,
+				pert_roofs_01_10 =,
+			}
+		}
+
+		/* pert_roofs_01_4 */
+		tile
+		{
+			xy = 4x0,
+
+			east
+			{
+				pert_roofs_01_5 =,
+				pert_roofs_01_11 =,
+			}
+
+			south
+			{
+				pert_roofs_01_4 =,
+				pert_roofs_01_9 =,
+			}
+		}
+
+		/* pert_roofs_01_5 */
+		tile
+		{
+			xy = 5x0,
+
+			south
+			{
+				pert_roofs_01_5 =,
+				pert_roofs_01_8 =,
+			}
+
+			belowEast
+			{
+				pert_roofs_01_7 =,
+				pert_roofs_01_3 =,
+				pert_roofs_01_13 =,
+			}
+		}
+
+		/* pert_roofs_01_6 */
+		tile
+		{
+			xy = 6x0,
+
+			east
+			{
+				pert_roofs_01_6 =,
+			}
+		}
+
+		/* pert_roofs_01_7 */
+		tile
+		{
+			xy = 7x0,
+
+			south
+			{
+				pert_roofs_01_7 =,
+			}
+		}
+
+		/* pert_roofs_01_8 */
+		tile
+		{
+			xy = 0x1,
+
+			belowEast
+			{
+				pert_roofs_01_7 =,
+				pert_roofs_01_3 =,
+				pert_roofs_01_13 =,
+			}
+
+			belowSouth
+			{
+				pert_roofs_01_6 =,
+				pert_roofs_01_2 =,
+				pert_roofs_01_13 =,
+			}
+		}
+
+		/* pert_roofs_01_9 */
+		tile
+		{
+			xy = 1x1,
+
+			east
+			{
+				pert_roofs_01_5 =,
+				pert_roofs_01_11 =,
+			}
+
+			south
+			{
+				pert_roofs_01_0 =,
+				pert_roofs_01_11 =,
+			}
+		}
+
+		/* pert_roofs_01_10 */
+		tile
+		{
+			xy = 2x1,
+
+			east
+			{
+				pert_roofs_01_4 =,
+				pert_roofs_01_12 =,
+			}
+
+			south
+			{
+				pert_roofs_01_1 =,
+				pert_roofs_01_12 =,
+			}
+		}
+
+		/* pert_roofs_01_11 */
+		tile
+		{
+			xy = 3x1,
+
+			east
+			{
+				pert_roofs_01_8 =,
+				pert_roofs_01_0 =,
+			}
+
+			south
+			{
+				pert_roofs_01_8 =,
+				pert_roofs_01_5 =,
+			}
+		}
+
+		/* pert_roofs_01_12 */
+		tile
+		{
+			xy = 4x1,
+
+			east
+			{
+				pert_roofs_01_1 =,
+				pert_roofs_01_9 =,
+			}
+
+			south
+			{
+				pert_roofs_01_4 =,
+				pert_roofs_01_9 =,
+			}
+		}
+
+		/* pert_roofs_01_13 */
+		tile
+		{
+			xy = 5x1,
+
+			east
+			{
+				pert_roofs_01_10 =,
+				pert_roofs_01_2 =,
+			}
+
+			south
+			{
+				pert_roofs_01_10 =,
+				pert_roofs_01_3 =,
+			}
+		}
+
+		/* pert_roofs_01_20 */
+		tile
+		{
+			xy = 4x2,
+
+			east
+			{
+				pert_roofs_01_21 =,
+			}
+
+			south
+			{
+				pert_roofs_01_21 =,
+			}
+		}
+
+		/* pert_roofs_01_24 */
+		tile
+		{
+			xy = 0x3,
+
+			east
+			{
+				pert_roofs_01_0 =,
+				pert_roofs_01_8 =,
+			}
+
+			belowSouth
+			{
+				pert_roofs_01_6 =,
+				pert_roofs_01_13 =,
+				pert_roofs_01_2 =,
+			}
+		}
+
+		/* pert_roofs_01_25 */
+		tile
+		{
+			xy = 1x3,
+
+			east
+			{
+				pert_roofs_01_1 =,
+				pert_roofs_01_9 =,
+			}
+
+			south
+			{
+				pert_roofs_01_0 =,
+				pert_roofs_01_11 =,
+			}
+		}
+
+		/* pert_roofs_01_26 */
+		tile
+		{
+			xy = 2x3,
+
+			east
+			{
+				pert_roofs_01_2 =,
+				pert_roofs_01_10 =,
+			}
+
+			south
+			{
+				pert_roofs_01_1 =,
+				pert_roofs_01_12 =,
+			}
+		}
+
+		/* pert_roofs_01_27 */
+		tile
+		{
+			xy = 3x3,
+
+			east
+			{
+				pert_roofs_01_4 =,
+				pert_roofs_01_12 =,
+			}
+
+			south
+			{
+				pert_roofs_01_3 =,
+				pert_roofs_01_10 =,
+			}
+		}
+
+		/* pert_roofs_01_28 */
+		tile
+		{
+			xy = 4x3,
+
+			east
+			{
+				pert_roofs_01_5 =,
+				pert_roofs_01_11 =,
+			}
+
+			south
+			{
+				pert_roofs_01_4 =,
+				pert_roofs_01_9 =,
+			}
+		}
+
+		/* pert_roofs_01_29 */
+		tile
+		{
+			xy = 5x3,
+
+			south
+			{
+				pert_roofs_01_8 =,
+				pert_roofs_01_5 =,
+			}
+
+			belowEast
+			{
+				pert_roofs_01_7 =,
+				pert_roofs_01_3 =,
+				pert_roofs_01_13 =,
+			}
+		}
+
+		/* pert_roofs_01_32 */
+		tile
+		{
+			xy = 0x4,
+
+			properties
+			{
+				master = pert_roofs_01_0,
+			}
+		}
+
+		/* pert_roofs_01_33 */
+		tile
+		{
+			xy = 1x4,
+
+			properties
+			{
+				master = pert_roofs_01_1,
+			}
+		}
+
+		/* pert_roofs_01_34 */
+		tile
+		{
+			xy = 2x4,
+
+			properties
+			{
+				master = pert_roofs_01_2,
+			}
+		}
+
+		/* pert_roofs_01_35 */
+		tile
+		{
+			xy = 3x4,
+
+			properties
+			{
+				master = pert_roofs_01_3,
+			}
+		}
+
+		/* pert_roofs_01_36 */
+		tile
+		{
+			xy = 4x4,
+
+			properties
+			{
+				master = pert_roofs_01_4,
+			}
+		}
+
+		/* pert_roofs_01_37 */
+		tile
+		{
+			xy = 5x4,
+
+			properties
+			{
+				master = pert_roofs_01_5,
+			}
+		}
+
+		/* pert_roofs_01_38 */
+		tile
+		{
+			xy = 6x4,
+
+			properties
+			{
+				master = pert_roofs_01_6,
+			}
+		}
+
+		/* pert_roofs_01_39 */
+		tile
+		{
+			xy = 7x4,
+
+			properties
+			{
+				master = pert_roofs_01_7,
+			}
+		}
+
+		/* pert_roofs_01_40 */
+		tile
+		{
+			xy = 0x5,
+
+			properties
+			{
+				master = pert_roofs_01_8,
+			}
+		}
+
+		/* pert_roofs_01_41 */
+		tile
+		{
+			xy = 1x5,
+
+			properties
+			{
+				master = pert_roofs_01_9,
+			}
+		}
+
+		/* pert_roofs_01_42 */
+		tile
+		{
+			xy = 2x5,
+
+			properties
+			{
+				master = pert_roofs_01_10,
+			}
+		}
+
+		/* pert_roofs_01_43 */
+		tile
+		{
+			xy = 3x5,
+
+			properties
+			{
+				master = pert_roofs_01_11,
+			}
+		}
+
+		/* pert_roofs_01_44 */
+		tile
+		{
+			xy = 4x5,
+
+			properties
+			{
+				master = pert_roofs_01_12,
+			}
+		}
+
+		/* pert_roofs_01_45 */
+		tile
+		{
+			xy = 5x5,
+
+			properties
+			{
+				master = pert_roofs_01_13,
+			}
+		}
+
+		/* pert_roofs_01_52 */
+		tile
+		{
+			xy = 4x6,
+
+			properties
+			{
+				master = pert_roofs_01_20,
+			}
+		}
+
+		/* pert_roofs_01_56 */
+		tile
+		{
+			xy = 0x7,
+
+			properties
+			{
+				master = pert_roofs_01_24,
+			}
+		}
+
+		/* pert_roofs_01_57 */
+		tile
+		{
+			xy = 1x7,
+
+			properties
+			{
+				master = pert_roofs_01_25,
+			}
+		}
+
+		/* pert_roofs_01_58 */
+		tile
+		{
+			xy = 2x7,
+
+			properties
+			{
+				master = pert_roofs_01_26,
+			}
+		}
+
+		/* pert_roofs_01_59 */
+		tile
+		{
+			xy = 3x7,
+
+			properties
+			{
+				master = pert_roofs_01_27,
+			}
+		}
+
+		/* pert_roofs_01_60 */
+		tile
+		{
+			xy = 4x7,
+
+			properties
+			{
+				master = pert_roofs_01_28,
+			}
+		}
+
+		/* pert_roofs_01_61 */
+		tile
+		{
+			xy = 5x7,
+
+			properties
+			{
+				master = pert_roofs_01_29,
+			}
+		}
+
+		/* pert_roofs_01_67 */
+		tile
+		{
+			xy = 3x8,
+
+			east
+			{
+				pert_roofs_01_64 =,
+			}
+
+			south
+			{
+				pert_roofs_01_64 =,
+			}
+		}
+
+		/* pert_roofs_01_68 */
+		tile
+		{
+			xy = 4x8,
+
+			east
+			{
+				pert_roofs_01_65 =,
+			}
+
+			south
+			{
+				pert_roofs_01_65 =,
+			}
+		}
+
+		/* pert_roofs_01_69 */
+		tile
+		{
+			xy = 5x8,
+
+			east
+			{
+				pert_roofs_01_66 =,
+			}
+
+			south
+			{
+				pert_roofs_01_66 =,
+			}
+		}
+
+		/* pert_roofs_01_70 */
+		tile
+		{
+			xy = 6x8,
+
+			south
+			{
+				pert_roofs_01_70 =,
+				pert_roofs_01_66 =,
+			}
+		}
+
+		/* pert_roofs_01_71 */
+		tile
+		{
+			xy = 7x8,
+
+			east
+			{
+				pert_roofs_01_71 =,
+				pert_roofs_01_66 =,
+			}
+		}
+
+		/* pert_roofs_01_75 */
+		tile
+		{
+			xy = 3x9,
+
+			properties
+			{
+				master = pert_roofs_01_67,
+			}
+		}
+
+		/* pert_roofs_01_76 */
+		tile
+		{
+			xy = 4x9,
+
+			properties
+			{
+				master = pert_roofs_01_68,
+			}
+		}
+
+		/* pert_roofs_01_77 */
+		tile
+		{
+			xy = 5x9,
+
+			properties
+			{
+				master = pert_roofs_01_69,
+			}
+		}
+
+		/* pert_roofs_01_78 */
+		tile
+		{
+			xy = 6x9,
+
+			properties
+			{
+				master = pert_roofs_01_70,
+			}
+		}
+
+		/* pert_roofs_01_79 */
+		tile
+		{
+			xy = 7x9,
+
+			properties
+			{
+				master = pert_roofs_01_71,
+			}
+		}
+
+		/* pert_roofs_01_80 */
+		tile
+		{
+			xy = 0x10,
+
+			south
+			{
+				pert_roofs_01_80 =,
+			}
+		}
+
+		/* pert_roofs_01_81 */
+		tile
+		{
+			xy = 1x10,
+
+			east
+			{
+				pert_roofs_01_80 =,
+			}
+
+			south
+			{
+				pert_roofs_01_81 =,
+			}
+		}
+
+		/* pert_roofs_01_82 */
+		tile
+		{
+			xy = 2x10,
+
+			south
+			{
+				pert_roofs_01_82 =,
+			}
+		}
+
+		/* pert_roofs_01_83 */
+		tile
+		{
+			xy = 3x10,
+
+			east
+			{
+				pert_roofs_01_82 =,
+			}
+
+			south
+			{
+				pert_roofs_01_83 =,
+			}
+		}
+
+		/* pert_roofs_01_84 */
+		tile
+		{
+			xy = 4x10,
+
+			east
+			{
+				pert_roofs_01_84 =,
+			}
+
+			south
+			{
+				pert_roofs_01_85 =,
+			}
+		}
+
+		/* pert_roofs_01_85 */
+		tile
+		{
+			xy = 5x10,
+
+			east
+			{
+				pert_roofs_01_85 =,
+			}
+		}
+
+		/* pert_roofs_01_86 */
+		tile
+		{
+			xy = 6x10,
+
+			east
+			{
+				pert_roofs_01_86 =,
+			}
+
+			south
+			{
+				pert_roofs_01_87 =,
+			}
+		}
+
+		/* pert_roofs_01_87 */
+		tile
+		{
+			xy = 7x10,
+
+			east
+			{
+				pert_roofs_01_87 =,
+			}
+		}
+
+		/* pert_roofs_01_96 */
+		tile
+		{
+			xy = 0x12,
+
+			south
+			{
+				pert_roofs_01_96 =,
+			}
+		}
+
+		/* pert_roofs_01_97 */
+		tile
+		{
+			xy = 1x12,
+
+			east
+			{
+				pert_roofs_01_96 =,
+			}
+
+			south
+			{
+				pert_roofs_01_97 =,
+			}
+		}
+
+		/* pert_roofs_01_98 */
+		tile
+		{
+			xy = 2x12,
+
+			south
+			{
+				pert_roofs_01_98 =,
+			}
+		}
+
+		/* pert_roofs_01_99 */
+		tile
+		{
+			xy = 3x12,
+
+			south
+			{
+				pert_roofs_01_99 =,
+			}
+		}
+
+		/* pert_roofs_01_100 */
+		tile
+		{
+			xy = 4x12,
+
+			east
+			{
+				pert_roofs_01_100 =,
+			}
+		}
+
+		/* pert_roofs_01_101 */
+		tile
+		{
+			xy = 5x12,
+
+			east
+			{
+				pert_roofs_01_101 =,
+			}
+		}
+
+		/* pert_roofs_01_102 */
+		tile
+		{
+			xy = 6x12,
+
+			east
+			{
+				pert_roofs_01_102 =,
+			}
+
+			south
+			{
+				pert_roofs_01_103 =,
+			}
+		}
+
+		/* pert_pert_roofs_01_103 */
+		tile
+		{
+			xy = 7x12,
+
+			east
+			{
+				pert_pert_roofs_01_103 =,
+			}
+		}
+	}
+
+}

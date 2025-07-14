@@ -1,0 +1,14 @@
+IGUI_ES = {
+    IGUI_WP_Status = "Estado",
+    IGUI_WP_Active = "Activo",
+    IGUI_WP_Inactive = "Inactivo",
+    IGUI_WP_Electricity = "Energía",
+    IGUI_WP_Available = "Disponible",
+    IGUI_WP_Unavailable = "No disponible",
+    IGUI_WP_ConnectedSource = "Fuente conectada",
+    IGUI_WP_Water = "Agua",
+    IGUI_WP_Gas = "Gas",
+    IGUI_WP_Efficiency = "Eficiencia",
+    IGUI_WP_Filter = "Filtro",
+    IGUI_WP_PumpInfoText = "La capacidad de la bomba disminuirá con el tiempo. <LINE> Las bombas desgastadas dejarán de funcionar o provocarán un incendio. <LINE> Agregue carbón para filtrar el agua contaminada. <LINE>",
+}

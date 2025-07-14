@@ -1,0 +1,14 @@
+IGUI_PL = {
+    IGUI_WP_Status = "Stan",
+    IGUI_WP_Active = "Aktywny",
+    IGUI_WP_Inactive = "Nieaktywny",
+    IGUI_WP_Electricity = "Zasilanie",
+    IGUI_WP_Available = "Dostêpne",
+    IGUI_WP_Unavailable = "Niedostêpne",
+    IGUI_WP_ConnectedSource = "Po³¹czone Ÿród³o",
+    IGUI_WP_Water = "Woda",
+    IGUI_WP_Gas = "Gaz",
+    IGUI_WP_Efficiency = "Wydajnoœæ",
+    IGUI_WP_Filter = "Filtr",
+    IGUI_WP_PumpInfoText = "Wydajnoœæ pompy z czasem bêdzie siê zmniejszaæ. <LINE> Zu¿yte pompy przestan¹ dzia³aæ lub spowoduj¹ po¿ar. <LINE> Dodaj wêgiel drzewny, aby filtrowaæ ska¿on¹ wodê. <LINE>",
+}

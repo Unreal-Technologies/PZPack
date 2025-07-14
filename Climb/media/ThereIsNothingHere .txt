@@ -1,0 +1,4 @@
+This media folder is just there as a bug workaround. (xml files from B42 are load loaded unless they have a B51-style here)
+This will be of no use once the bug is corrected.
+But at this point Steam bug (cannot remove files from a mod on the workshop) will trigger.
+So I will leave them empty on next update after TIS correction for xml.

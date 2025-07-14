@@ -1,0 +1,7 @@
+Recipes_FR {
+	Recipe_Craft_Standing_Disco_Ball = "Fabriquer une boule disco",
+	Recipe_Create_Music_Sheet_Book = "Faire un carnet de note de musique",
+	Recipe_Make_Bucket_of_Water_and_Bleach = "Mélanger de la javel dans l'eau",
+	Recipe_Assemble_DJ_Booth = "Assembler une table de DJ",
+	Recipe_Craft_Standing_Microphone = "Fabriquer un micro sur pied",
+}

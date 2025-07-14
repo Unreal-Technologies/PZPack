@@ -1,0 +1,11 @@
+Sandbox_EN = {
+    Sandbox_PortalGun = "Mod Portal Gun",
+    Sandbox_PortalGun_TeleportZombies = "Teleport Zombies",
+    Sandbox_PortalGun_TeleportZombies_tooltip = "Not a good idea performance-wise. Very good idea fun-wise!",
+    Sandbox_PortalGun_Portal1Color = "First Portal Color",
+    Sandbox_PortalGun_Portal1Color_tooltip = "Dark Orange, this is dark orange, select dark orange, or orange red, or maybe.. orange.",
+    Sandbox_PortalGun_Portal2Color = "Second Portal Color",
+    Sandbox_PortalGun_Portal2Color_tooltip = "Have I told you the other portal should be orange?",
+    Sandbox_PortalGun_PortalSize = "Portal Size",
+    Sandbox_PortalGun_PortalSize_tooltip = "Sorry, you cannot get a massive multi square teleporter that way.",
+}

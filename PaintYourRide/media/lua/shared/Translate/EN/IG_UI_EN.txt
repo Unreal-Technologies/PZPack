@@ -1,0 +1,17 @@
+IGUI_EN = {
+    IGUI_ItemCat_VehiclePaint = "Vehicle Paint",
+    IGUI_PaintVehicle_Panel_TintBlack = "Black",
+    IGUI_PaintVehicle_Panel_TintBlue = "Blue",
+    IGUI_PaintVehicle_Panel_TintCyan = "Aqua",
+    IGUI_PaintVehicle_Panel_TintGreen = "Green",
+    IGUI_PaintVehicle_Panel_TintMagenta = "Fuchsia",
+    IGUI_PaintVehicle_Panel_TintRed = "Red",
+    IGUI_PaintVehicle_Panel_TintYellow = "Yellow",
+    IGUI_PaintVehicle_Panel_BtnApply = "Paint",
+    IGUI_PaintVehicle_Panel_BtnClear = "Clear",
+    IGUI_PaintVehicle_Panel_BtnClose = "Close",
+    IGUI_PaintVehicle_Panel_Title = "Paint Mixing",
+    IGUI_PaintVehicle_Panel_Disclaimer = "Note: Actual color may vary slightly.",
+    IGUI_PaintVehicle_Panel_Catalogue_Info = "<CENTRE> <SIZE:medium> CATALOGUE <LINE> <LINE> <LEFT> <SIZE:small> This is the catalogue panel.  <LINE> <LINE> You can zoom into the catalogue using the mouse wheel, and move it around through clicking and dragging.",
+    IGUI_PaintVehicle_Panel_Catalogue_Scale = "1:1 Scale",
+}

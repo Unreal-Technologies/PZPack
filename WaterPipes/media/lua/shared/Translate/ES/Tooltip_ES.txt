@@ -1,0 +1,11 @@
+Tooltip_ES = {
+    Tooltip_WP_ThePumpIsWornOut = "La bomba está desgastada."
+    Tooltip_WP_NeedsPowerToOperate = "Requiere energía para funcionar."
+    Tooltip_WP_NeedsCharcoal = "Necesita carbón."
+    Tooltip_WP_Requires = "Obligatorio:"
+    Tooltip_WP_BlowTorch = "Quemador de gas"
+    Tooltip_WP_WeldingMask = "Máscara de soldadura"
+    Tooltip_WP_MetalworkMag2 = "Conocimiento: Revista de soldador nº 2"
+    Tooltip_WP_MetalworkingSkillTooLow = "Competencia en metalurgia demasiado baja"
+    Tooltip_WP_NeedsScrapMetal = "Necesito chatarra"
+}

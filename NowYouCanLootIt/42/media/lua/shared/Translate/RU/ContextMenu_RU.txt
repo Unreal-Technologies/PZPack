@@ -1,0 +1,5 @@
+ContextMenu_RU = {
+	ContextMenu_GetBricks = "Взять кирпичи"
+
+	ContextMenu_GetHay = "Взять сено"
+}

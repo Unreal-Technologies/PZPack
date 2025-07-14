@@ -1,0 +1,37 @@
+IGUI_PTBR = {
+
+	IGUI_HaloNote_PlaylistGet = "Nova playlist importada com ",
+	IGUI_HaloNote_PlaylistGetEnd = " músicas",
+
+	IGUI_ItemCat_Hygiene = "Higiene",
+
+	IGUI_HaloNote_Bladder = "Bexiga",
+	IGUI_HaloNote_Hygiene = "Higiene",
+	IGUI_HaloNote_MintFresh = "Hálito Fresco",
+	IGUI_HaloNote_LearnSong = "Nova música aprendida",
+	IGUI_HaloNote_ReadSongPlusStart = " e mais ",
+	IGUI_HaloNote_ReadSongPlusEnd = " outra(s)",
+	IGUI_HaloNote_WriteSongSuccess = "Nova anotação incluída",
+	IGUI_HaloNote_WellRested = "Bem Descansado",
+
+	IGUI_perks_Cleaning = "Limpeza",
+	IGUI_perks_Meditation = "Meditação",
+	IGUI_perks_Dancing = "Dança",
+	IGUI_perks_Music = "Música",
+	IGUI_perks_Lifestyle = "Estilo de Vida",
+
+	IGUI_HaloNote_XP = "XP",
+	IGUI_HaloNote_XPBonus = "XP+",
+	IGUI_HaloNote_Stress = "Estresse",
+	IGUI_HaloNote_Embarrassed = "Vergonha",
+	IGUI_HaloNote_Boredom = "Tédio",
+	IGUI_HaloNote_Happyness = "Felicidade",
+	IGUI_HaloNote_Unhappyness = "Infelicidade",
+	IGUI_HaloNote_Pain = "Dor",
+	IGUI_HaloNote_Pain_BadPosture = "Dor Por Má Postura",
+	IGUI_HaloNote_ChangeAPEnd = "visual",
+	IGUI_HaloNote_Attractive = "Atraente",
+	IGUI_HaloNote_SmellGood = "Exalando Aroma",
+	IGUI_HaloNote_Nauseous = "Cheiro Nauseante",
+
+}

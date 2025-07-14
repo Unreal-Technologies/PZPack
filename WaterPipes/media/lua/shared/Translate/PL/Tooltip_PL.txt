@@ -1,0 +1,11 @@
+Tooltip_PL = {
+    Tooltip_WP_ThePumpIsWornOut = "Pompa jest zu¿yta."
+    Tooltip_WP_NeedsPowerToOperate = "Do dzia³ania wymaga zasilania."
+    Tooltip_WP_NeedsCharcoal = "Potrzeba wêgla drzewnego."
+    Tooltip_WP_Requires = "Wymagane:"
+    Tooltip_WP_BlowTorch = "Palnik gazowy"
+    Tooltip_WP_WeldingMask = "Maska spawalnicza"
+    Tooltip_WP_MetalworkMag2 = "Wiedza: Czasopismo „Spawacz” nr 2"
+    Tooltip_WP_MetalworkingSkillTooLow = "Zbyt niska umiejêtnoœæ obróbki metalu"
+    Tooltip_WP_NeedsScrapMetal = "Potrzebujesz z³omu"
+}

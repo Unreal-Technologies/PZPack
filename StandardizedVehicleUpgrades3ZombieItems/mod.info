@@ -1,0 +1,5 @@
+name=Standardized Vehicle Upgrades 3 - Zombie Items
+id=StandardizedVehicleUpgrades3ZI
+description=Just allows for Standardized Vehicle Upgrades' armor magazines to spawn on mechanic, metalworker, construction, redneck, militia, raider, and survivor zombies.
+poster=poster.png
+require=tsarslib,StandardizedVehicleUpgrades3Core

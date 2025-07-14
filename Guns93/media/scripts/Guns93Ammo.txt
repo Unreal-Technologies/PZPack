@@ -1,0 +1,624 @@
+module Base
+{
+    /****************************** ITEM_AMMOS ******************************/
+
+    item 3006Bullets
+    {
+        DisplayCategory = Ammo,
+        Count	=	5,
+        Weight	=	0.030,
+        AlwaysWelcomeGift	=	TRUE,
+        Type	=	Normal,
+        DisplayName	=	.30-06 Round,
+        Icon	=	RifleRoundLong,
+        MetalValue = 1,
+        WorldStaticModel = RifleRoundLongWorld,
+    }
+
+    item 3006Box
+    {
+        DisplayCategory = Ammo,
+        Weight	=	0.5,
+        AlwaysWelcomeGift	=	TRUE,
+        Type	=	Normal,
+        DisplayName	=	Box of .30-06 Rounds,
+        Icon	=	BoxRifleAmmo,
+        MetalValue = 40,
+        WorldStaticModel = BoxRifleAmmo,
+        PlaceOneSound = BoxOfRoundsPlaceOne,
+        PlaceMultipleSound = BoxOfRoundsPlaceAll,
+    }
+
+    item 792Bullets
+    {
+        DisplayCategory = Ammo,
+        Count	=	5,
+        Weight	=	0.030,
+        AlwaysWelcomeGift	=	TRUE,
+        Type	=	Normal,
+        DisplayName	=	7.92x57 Mauser Round,
+        Icon	=	RifleRoundLong,
+        MetalValue = 1,
+        WorldStaticModel = RifleRoundLongWorld,
+    }
+
+    item 792Box
+    {
+        DisplayCategory = Ammo,
+        Weight	=	0.5,
+        AlwaysWelcomeGift	=	TRUE,
+        Type	=	Normal,
+        DisplayName	=	Box of 7.92x57 Mauser Rounds,
+        Icon	=	RifleSurplusBox,
+        MetalValue = 40,
+        WorldStaticModel = RifleSurplusBox,
+        PlaceOneSound = BoxOfRoundsPlaceOne,
+        PlaceMultipleSound = BoxOfRoundsPlaceAll,
+    }
+
+    item 30CarBullets
+    {
+        DisplayCategory = Ammo,
+        Count	=	5,
+        Weight	=	0.022,
+        Type	=	Normal,
+        DisplayName	=	.30 Carbine Round,
+        Icon	=	RevolverRounds,
+        MetalValue = 1,
+        WorldStaticModel = RevolverRoundsWorld,
+    }
+
+    item 30CarBox
+    {
+        DisplayCategory = Ammo,
+        Weight	=	0.36,
+        Type	=	Normal,
+        DisplayName	=	Box .30 Carbine Rounds,
+        Icon	=	RifleSurplus2Box,
+        MetalValue = 30,
+        WorldStaticModel = RifleSurplus2Box,
+        PlaceOneSound = BoxOfRoundsPlaceOne,
+        PlaceMultipleSound = BoxOfRoundsPlaceAll,
+    }
+
+    item 76239Bullets
+    {
+        DisplayCategory = Ammo,
+        Count	=	5,
+        Weight	=	0.022,
+        Type	=	Normal,
+        DisplayName	=	7.62x39 Round,
+        Icon	=	76239Rounds,
+        MetalValue = 1,
+        WorldStaticModel = 76239RoundsWorld,
+    }
+
+    item 76239Box
+    {
+        DisplayCategory = Ammo,
+        Weight	=	0.36,
+        Type	=	Normal,
+        DisplayName	=	Box 7.62x39 Rounds,
+        Icon	=	RifleSurplusBox,
+        MetalValue = 40,
+        WorldStaticModel = RifleSurplusBox,
+        PlaceOneSound = BoxOfRoundsPlaceOne,
+        PlaceMultipleSound = BoxOfRoundsPlaceAll,
+    }
+
+    item 3030Bullets
+    {
+        DisplayCategory = Ammo,
+        Count	=	5,
+        Weight	=	0.029,
+        Type	=	Normal,
+        DisplayName	=	.30-30 Round,
+        Icon	=	RifleRoundShort,
+        MetalValue = 1,
+        WorldStaticModel = RifleRoundShortWorld,
+    }
+
+    item 3030Box
+    {
+        DisplayCategory = Ammo,
+        Weight	=	0.48,
+        Type	=	Normal,
+        DisplayName	=	Box .30-30 Rounds,
+        Icon	=	BoxRifleAmmo,
+        MetalValue = 40,
+        WorldStaticModel = BoxRifleAmmo,
+        PlaceOneSound = BoxOfRoundsPlaceOne,
+        PlaceMultipleSound = BoxOfRoundsPlaceAll,
+    }
+
+    item 22Bullets
+    {
+        DisplayCategory = Ammo,
+        Count	=	5,
+        Weight	=	0.004,
+        Type	=	Normal,
+        DisplayName	=	.22 LR Round,
+        Icon	=	22Rounds,
+        MetalValue = 1,
+        WorldStaticModel = 22RoundsWorld,
+    }
+
+    item 22Box
+    {
+        DisplayCategory = Ammo,
+        Weight	=	0.34,
+        Type	=	Normal,
+        DisplayName	=	Box of .22 LR Rounds,
+        Icon	=	RifleBulkBox,
+        MetalValue = 30,
+        WorldStaticModel = RifleBulkBox,
+        PlaceOneSound = BoxOfRoundsPlaceOne,
+        PlaceMultipleSound = BoxOfRoundsPlaceAll,
+    }
+
+    item 25Bullets
+    {
+        DisplayCategory = Ammo,
+        Count	=	5,
+        Weight	=	0.004,
+        Type	=	Normal,
+        DisplayName	=	.25 Auto Round,
+        Icon	=	22Rounds,
+        MetalValue = 1,
+        WorldStaticModel = 22RoundsWorld,
+    }
+
+    item 25Box
+    {
+        DisplayCategory = Ammo,
+        Weight	=	0.34,
+        Type	=	Normal,
+        DisplayName	=	Box of .25 Auto Rounds,
+        Icon	=	RifleBulkBox,
+        MetalValue = 30,
+        WorldStaticModel = RifleBulkBox,
+        PlaceOneSound = BoxOfRoundsPlaceOne,
+        PlaceMultipleSound = BoxOfRoundsPlaceAll,
+    }
+
+    item 380Bullets
+    {
+        DisplayCategory = Ammo,
+        Count	=	5,
+        Weight	=	0.013,
+        Type	=	Normal,
+        DisplayName	=	.380 Auto Round,
+        Icon	=	PistolRounds,
+        MetalValue = 1,
+        WorldStaticModel = PistolRoundsWorld,
+    }
+
+    item 380Box
+    {
+        DisplayCategory = Ammo,
+        Weight	=	0.55,
+        Type	=	Normal,
+        DisplayName	=	Box of .380 Auto Rounds,
+        Icon	=	HandgunBox,
+        MetalValue = 30,
+        WorldStaticModel = HandgunBox,
+        PlaceOneSound = BoxOfRoundsPlaceOne,
+        PlaceMultipleSound = BoxOfRoundsPlaceAll,
+    }
+
+    item 45LCBullets
+    {
+        DisplayCategory = Ammo,
+        Count	=	5,
+        Weight	=	0.028,
+        Type	=	Normal,
+        DisplayName	=	.45 Colt Round,
+        Icon	=	RevolverRounds,
+        MetalValue = 1,
+        WorldStaticModel = RevolverRoundsWorld,
+    }
+
+    item 45LCBox
+    {
+        DisplayCategory = Ammo,
+        Weight	=	1.15,
+        Type	=	Normal,
+        DisplayName	=	Box of .45 Colt Rounds,
+        Icon	=	HandgunBox,
+        MetalValue = 30,
+        WorldStaticModel = HandgunBox,
+        PlaceOneSound = BoxOfRoundsPlaceOne,
+        PlaceMultipleSound = BoxOfRoundsPlaceAll,
+    }
+
+    item 357Bullets
+    {
+        DisplayCategory = Ammo,
+        Count	=	5,
+        Weight	=	0.023,
+        Type	=	Normal,
+        DisplayName	=	.357 Magnum Round,
+        Icon	=	RevolverRounds,
+        MetalValue = 1,
+        WorldStaticModel = RevolverRoundsWorld,
+    }
+
+    item 357Box
+    {
+        DisplayCategory = Ammo,
+        Weight	=	0.98,
+        Type	=	Normal,
+        DisplayName	=	Box of .357 Magnum Rounds,
+        Icon	=	MagnumBox,
+        MetalValue = 30,
+        WorldStaticModel = MagnumBox,
+        PlaceOneSound = BoxOfRoundsPlaceOne,
+        PlaceMultipleSound = BoxOfRoundsPlaceAll,
+    }
+
+    item 10mmBullets
+    {
+        DisplayCategory = Ammo,
+        Count	=	5,
+        Weight	=	0.023,
+        Type	=	Normal,
+        DisplayName	=	10mm Round,
+        Icon	=	PistolRounds,
+        MetalValue = 1,
+        WorldStaticModel = PistolRoundsWorld,
+    }
+
+    item 10mmBox
+    {
+        DisplayCategory = Ammo,
+        Weight	=	0.98,
+        Type	=	Normal,
+        DisplayName	=	Box of 10mm Rounds,
+        Icon	=	HandgunBox,
+        MetalValue = 30,
+        WorldStaticModel = HandgunBox,
+        PlaceOneSound = BoxOfRoundsPlaceOne,
+        PlaceMultipleSound = BoxOfRoundsPlaceAll,
+    }
+
+	item ShotgunShells
+	{
+	    DisplayCategory = Ammo,
+		Count	=	5,
+		Weight	=	0.056,
+		AlwaysWelcomeGift	=	TRUE,
+		Type	=	Normal,
+		DisplayName	=	Buckshot Shell,
+		Icon	=	ShotgunShells,
+		MetalValue = 1,
+		WorldStaticModel = ShotgunShellsWorld,
+	}
+
+    item ShotgunShellsBox
+    {
+        DisplayCategory = Ammo,
+        Weight	=	1.16,
+        Type	=	Normal,
+        DisplayName	=	Box of Buckshot Shells,
+        Icon	=	BuckshotBox,
+        MetalValue = 24,
+        WorldStaticModel = BuckshotBox,
+        PlaceOneSound = BoxOfShellsPlaceOne,
+        PlaceMultipleSound = BoxOfRoundsPlaceAll,
+    }
+
+	item Slugs
+	{
+	    DisplayCategory = Ammo,
+		Count	=	5,
+		Weight	=	0.056,
+		AlwaysWelcomeGift	=	TRUE,
+		Type	=	Normal,
+		DisplayName	=	Shotgun Slug,
+		Icon	=	ShotgunSlugs,
+		MetalValue = 1,
+		WorldStaticModel = SlugShellsWorld,
+	}
+
+    item SlugBox
+    {
+        DisplayCategory = Ammo,
+        Weight	=	1.16,
+        Type	=	Normal,
+        DisplayName	=	Box of Shotgun Slugs,
+        Icon	=	SlugBox,
+        MetalValue = 24,
+        WorldStaticModel = SlugBox,
+        PlaceOneSound = BoxOfShellsPlaceOne,
+        PlaceMultipleSound = BoxOfRoundsPlaceAll,
+    }
+
+    item Bullets9mm
+    {
+        DisplayCategory = Ammo,
+        Count	=	5,
+        Weight	=	0.014,
+        Type	=	Normal,
+        DisplayName	=	9mm Rounds,
+        Icon	=	PistolRounds,
+        MetalValue = 1,
+        WorldStaticModel = PistolRoundsWorld,
+    }
+
+    item Bullets9mmBox
+    {
+        Weight	=	0.6,
+        Type	=	Normal,
+        DisplayName	=	Box of 9mm Rounds,
+        DisplayCategory = Ammo,
+        Icon	=	HandgunBox,
+        MetalValue = 30,
+        WorldStaticModel = HandgunBox,
+        PlaceOneSound = BoxOfRoundsPlaceOne,
+        PlaceMultipleSound = BoxOfRoundsPlaceAll,
+    }
+
+    item 40Bullets
+    {
+        DisplayCategory = Ammo,
+        Count	=	5,
+        Weight	=	0.019,
+        Type	=	Normal,
+        DisplayName	=	.40 S&W Rounds,
+        Icon	=	PistolRounds,
+        MetalValue = 1,
+        WorldStaticModel = PistolRoundsWorld,
+    }
+
+    item 40Box
+    {
+        DisplayCategory = Ammo,
+        Weight	=	0.81,
+        Type	=	Normal,
+        DisplayName	=	Box of .40 S&W Rounds,
+        Icon	=	HandgunBox,
+        MetalValue = 30,
+        WorldStaticModel = HandgunBox,
+        PlaceOneSound = BoxOfRoundsPlaceOne,
+        PlaceMultipleSound = BoxOfRoundsPlaceAll,
+    }
+
+    item Bullets45
+    {
+        DisplayCategory = Ammo,
+        Count	=	5,
+        Weight	=	0.028,
+        Type	=	Normal,
+        DisplayName	=	.45 Auto Rounds,
+        Icon	=	PistolRounds,
+        MetalValue = 1,
+        WorldStaticModel = PistolRoundsWorld,
+    }
+
+    item Bullets45Box
+    {
+        DisplayCategory = Ammo,
+        Weight	=	1.15,
+        Type	=	Normal,
+        DisplayName	=	Box of .45 Auto Rounds,
+        Icon	=	HandgunBox,
+        MetalValue = 30,
+        WorldStaticModel = HandgunBox,
+        PlaceOneSound = BoxOfRoundsPlaceOne,
+        PlaceMultipleSound = BoxOfRoundsPlaceAll,
+    }
+
+    item Bullets44
+    {
+        DisplayCategory = Ammo,
+        Count	=	5,
+        Weight	=	0.028,
+        Type	=	Normal,
+        DisplayName	=	.44 Magnum Round,
+        Icon	=	RevolverRounds,
+        MetalValue = 1,
+        WorldStaticModel = RevolverRoundsWorld,
+    }
+
+    item Bullets44Box
+    {
+        DisplayCategory = Ammo,
+        Weight	=	1.15,
+        Type	=	Normal,
+        DisplayName	=	Box of .44 Magnum Rounds,
+        Icon	=	MagnumBox,
+        MetalValue = 30,
+        WorldStaticModel = MagnumBox,
+        PlaceOneSound = BoxOfRoundsPlaceOne,
+        PlaceMultipleSound = BoxOfRoundsPlaceAll,
+    }
+
+    item Bullets38
+    {
+        DisplayCategory = Ammo,
+        Count	=	5,
+        Weight	=	0.014,
+        Type	=	Normal,
+        DisplayName	=	.38 Special Round,
+        Icon	=	RevolverRounds,
+        MetalValue = 1,
+        WorldStaticModel = RevolverRoundsWorld,
+    }
+
+    item Bullets38Box
+    {
+        DisplayCategory = Ammo,
+        Weight	=	0.6,
+        Type	=	Normal,
+        DisplayName	=	Box of .38 Special Rounds,
+        Icon	=	HandgunBox,
+        MetalValue = 30,
+        WorldStaticModel = HandgunBox,
+        PlaceOneSound = BoxOfRoundsPlaceOne,
+        PlaceMultipleSound = BoxOfRoundsPlaceAll,
+    }
+
+	item 223Bullets
+    {
+        DisplayCategory = Ammo,
+        Count	=	5,
+        Weight	=	0.015,
+        AlwaysWelcomeGift	=	TRUE,
+        Type	=	Normal,
+        DisplayName	=	.223 Rem Ammo,
+        Icon	=	556Rounds,
+        MetalValue = 1,
+        WorldStaticModel = 556RoundsWorld,
+    }
+
+    item 223Box
+    {
+        DisplayCategory = Ammo,
+        Weight	=	0.24,
+        AlwaysWelcomeGift	=	TRUE,
+        Type	=	Normal,
+        DisplayName	=	Box of .223 Rem Rounds,
+        Icon	=	BoxRifleAmmo,
+        MetalValue = 40,
+        WorldStaticModel = BoxRifleAmmo,
+        PlaceOneSound = BoxOfRoundsPlaceOne,
+        PlaceMultipleSound = BoxOfRoundsPlaceAll,
+    }
+
+    item 308Bullets
+    {
+        DisplayCategory = Ammo,
+        Count	=	5,
+        Weight	=	0.029,
+        AlwaysWelcomeGift	=	TRUE,
+        Type	=	Normal,
+        DisplayName	=	.308 Win Round,
+        Icon	=	RifleRoundShort,
+        MetalValue = 1,
+        WorldStaticModel = RifleRoundShortWorld,
+    }
+
+    item 308Box
+    {
+        DisplayCategory = Ammo,
+        Weight	=	0.48,
+        AlwaysWelcomeGift	=	TRUE,
+        Type	=	Normal,
+        DisplayName	=	Box of .308 Rounds,
+        Icon	=	BoxRifleAmmo,
+        MetalValue = 40,
+        WorldStaticModel = BoxRifleAmmo,
+        PlaceOneSound = BoxOfRoundsPlaceOne,
+        PlaceMultipleSound = BoxOfRoundsPlaceAll,
+    }
+
+    item 556Belt
+    {
+        DisplayCategory = Ammo,
+        Count	=	20,
+        Weight	=	0.016,
+        AlwaysWelcomeGift	=	TRUE,
+        Type	=	Normal,
+        DisplayName	=	Belted 5.56 Rounds,
+        Icon	=	Belt556,
+        MetalValue = 1,
+        WorldStaticModel = Belt556World,
+    }
+
+    item 556BeltLink
+    {
+        DisplayCategory = Ammo,
+        Count	=	1,
+        Weight	=	0.001,
+        AlwaysWelcomeGift	=	TRUE,
+        Type	=	Normal,
+        DisplayName	=	5.56 Belt Link,
+        Icon	=	BeltLink,
+        MetalValue = 1,
+        WorldStaticModel = BeltLink,
+    }
+
+    item 556LinkBox
+    {
+        DisplayCategory = Ammo,
+        CanStack         = TRUE,
+        Weight	=	0.15,
+        AlwaysWelcomeGift	=	TRUE,
+        Type	=	Normal,
+        DisplayName	=	Box of 5.56 Belt Links,
+        Icon	=	LinkBox,
+        MetalValue = 50,
+        WorldStaticModel = LinkBox,
+        PlaceOneSound = BoxOfRoundsPlaceOne,
+        PlaceMultipleSound = BoxOfRoundsPlaceAll,
+    }
+
+    item 308Belt
+    {
+        DisplayCategory = Ammo,
+        Count	=	20,
+        Weight	=	0.03,
+        AlwaysWelcomeGift	=	TRUE,
+        Type	=	Normal,
+        DisplayName	=	Belted .308 Rounds,
+        Icon	=	Belt556,
+        MetalValue = 1,
+        WorldStaticModel = Belt556World,
+    }
+
+    item 308BeltLink
+    {
+        DisplayCategory = Ammo,
+        Count	=	1,
+        Weight	=	0.001,
+        AlwaysWelcomeGift	=	TRUE,
+        Type	=	Normal,
+        DisplayName	=	.308 Belt Link,
+        Icon	=	BeltLink,
+        MetalValue = 1,
+        WorldStaticModel = BeltLink,
+    }
+
+    item 308LinkBox
+    {
+        DisplayCategory = Ammo,
+        CanStack         = TRUE,
+        Weight	=	0.15,
+        AlwaysWelcomeGift	=	TRUE,
+        Type	=	Normal,
+        DisplayName	=	Box of .308 Belt Links,
+        Icon	=	LinkBox,
+        MetalValue = 50,
+        WorldStaticModel = LinkBox,
+        PlaceOneSound = BoxOfRoundsPlaceOne,
+        PlaceMultipleSound = BoxOfRoundsPlaceAll,
+    }
+
+    item 556Bullets
+    {
+        DisplayCategory = Ammo,
+        Count	=	5,
+        Weight	=	0.015,
+        AlwaysWelcomeGift	=	TRUE,
+        Type	=	Normal,
+        DisplayName	=	5.56 Round,
+        Icon	=	556Rounds,
+        MetalValue = 1,
+        WorldStaticModel = 556RoundsWorld,
+    }
+
+    item 556Box
+    {
+        DisplayCategory = Ammo,
+        CanStack         = TRUE,
+        Weight	=	0.24,
+        AlwaysWelcomeGift	=	TRUE,
+        Type	=	Normal,
+        DisplayName	=	Box of 5.56 Rounds,
+        Icon	=	RifleSurplus2Box,
+        MetalValue = 40,
+        WorldStaticModel = RifleSurplus2Box,
+        PlaceOneSound = BoxOfRoundsPlaceOne,
+        PlaceMultipleSound = BoxOfRoundsPlaceAll,
+    }
+}

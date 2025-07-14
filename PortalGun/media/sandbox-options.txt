@@ -1,0 +1,40 @@
+VERSION = 1,
+
+
+option PortalGun.TeleportZombies
+{
+    type = boolean,
+    default = false,
+    page = PortalGun,
+    translation = PortalGun_TeleportZombies,
+}
+
+option PortalGun.Portal1Color
+{
+    type = enum,
+    numValues = 22,
+    default = 19,
+    page = PortalGun,
+    translation = PortalGun_Portal1Color,
+    valueTranslation = ColorEnum,
+}
+
+option PortalGun.Portal2Color
+{
+    type = enum,
+    numValues = 22,
+    default = 22,
+    page = PortalGun,
+    translation = PortalGun_Portal2Color,
+    valueTranslation = ColorEnum,
+}
+
+option PortalGun.PortalSize
+{
+    type = double,
+    min = 0,
+    max = 1.0,
+    default = 0.70,
+    page = PortalGun,
+    translation = PortalGun_PortalSize,
+}

@@ -1,0 +1,14 @@
+IGUI_PTBR = {
+    IGUI_WP_Status = "Status",
+    IGUI_WP_Active = "Ativo",
+    IGUI_WP_Inactive = "Inativo",
+    IGUI_WP_Electricity = "Energia",
+    IGUI_WP_Available = "Disponível",
+    IGUI_WP_Unavailable = "Indisponível",
+    IGUI_WP_ConnectedSource = "Fonte Conectada",
+    IGUI_WP_Water = "Água",
+    IGUI_WP_Gas = "Gasolina",
+    IGUI_WP_Efficiency = "Eficiência",
+    IGUI_WP_Filter = "Filtro",
+    IGUI_WP_PumpInfoText = "A eficiência da bomba diminuirá com o tempo. <LINE> Bombas gastas irão parar de funcionar ou pegar fogo! <LINE> Adicione carvão para filtrar água contaminada. <LINE>",
+}

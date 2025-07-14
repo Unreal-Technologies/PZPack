@@ -1,0 +1,10 @@
+Recipes_EN = {
+    -- Magazines
+    Recipe_Vehicle_Painting = "Vehicle Painting",
+    Recipe_Paint_Mixing = "Paint Mixing",
+    -- Actions
+    Recipe_Cut_Empty_Spray_Can = "Cut Empty Spray Can",
+    Recipe_Insert_Battery_into_Spray_Gun = "Insert Battery into Spray Gun",
+    Recipe_Dismantle_Spray_Gun = "Dismantle Spray Gun",
+    Recipe_Open_Box_with_Automotive_Paint = "Open Box with Automotive Paint",
+}

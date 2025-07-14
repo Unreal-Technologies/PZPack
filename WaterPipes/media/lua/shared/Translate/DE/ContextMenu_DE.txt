@@ -1,0 +1,25 @@
+ContextMenu_DE = {
+    ContextMenu_WP_AddCharcoal = "Kohlefilter hinzufügen",
+    ContextMenu_WP_PumpInfo = "Pumpeninformationen",
+    ContextMenu_WP_AttachWater = "Wasserquelle anhängen",
+    ContextMenu_WP_AttachFuel = "Brennstoffquelle anbringen",
+    ContextMenu_WP_Plumbing = "Sanitär",
+    ContextMenu_WP_WaterPipe = "Rohr",
+    ContextMenu_WP_WaterPump = "Pumpe",
+    ContextMenu_WP_FuelTank = "Kraftstofftank",
+    ContextMenu_WP_Fuel = "Kraftstoff",
+    ContextMenu_WP_ValveInfo = "Ventilinfo",
+    ContextMenu_WP_ChangeValves = "Ventile wechseln",
+    ContextMenu_WP_ChangeWest = "Westen",
+    ContextMenu_WP_ChangeSouth = "Süden",
+    ContextMenu_WP_ChangeNorth = "Norden",
+    ContextMenu_WP_ChangeEast = "Osten",
+    ContextMenu_WP_Valve = "Ventil",
+    ContextMenu_WP_ValveModeOne = "1-Weg (nur Empfang)",
+    ContextMenu_WP_ValveModeTwo = "2-Wege",
+    ContextMenu_WP_Type = "Typ",
+    ContextMenu_WP_Flow = "Durchfluss",
+    ContextMenu_WP_RemovePipe = "Rohr entfernen",
+    ContextMenu_WP_DisassemblePump = "Pumpe demontieren"
+    ContextMenu_WP_FixPump = "Reparaturpumpe"
+}

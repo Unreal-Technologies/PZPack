@@ -1,0 +1,272 @@
+module Base
+{
+	recipe Craft Thread Adapter
+	{
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep TapDie,
+
+	   Result:ThreadAdapter,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93DIYSilencerDistro,
+	}
+
+	recipe Craft Oil Filter Silencer
+	{
+	   OilFilter/OilFilterUse,
+	   ThreadAdapter,
+
+	   Result:OilFilterSilencer,
+	   Time:10.0,
+	   OnCreate:Recipe.OnCreate.CanCondition,
+	   OnTest:Recipe.OnTest.Guns93DIYSilencerDistro,
+	}
+
+	recipe Craft Large Oil Filter Silencer
+	{
+	   LargeOilFilter/LargeOilFilterUse,
+	   ThreadAdapter,
+
+	   Result:LargeOilFilterSilencer,
+	   Time:10.0,
+	   OnCreate:Recipe.OnCreate.CanCondition,
+	   OnTest:Recipe.OnTest.Guns93DIYSilencerDistro,
+	}
+
+	recipe Disassemble Oil Filter Silencer
+	{
+	   OilFilterSilencer/OilFilterSilencerBroken,
+
+	   Result:OilFilterUse,
+	   Time:10.0,
+	   OnCreate:Recipe.OnCreate.DisassembleOilFilterSilencer,
+	   AllowDestroyedItem:true,
+	}
+
+	recipe Disassemble Large Oil Filter Silencer
+	{
+	   LargeOilFilterSilencer/LargeOilFilterSilencerBroken,
+
+	   Result:LargeOilFilterUse,
+	   Time:10.0,
+	   OnCreate:Recipe.OnCreate.DisassembleOilFilterSilencer,
+	   AllowDestroyedItem:true,
+	}
+
+	recipe Craft Homemade .22 LR Silencer
+	{
+       MetalPipe,
+	   SmallSheetMetal=1,
+       BlowTorch=2,
+	   keep Saw,
+	   keep ToolFile,
+       keep [Recipe.GetItemTypes.WeldingMask],
+	   keep TapDie,
+
+	   Result:DIY22Silencer,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding20,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYSilencerDistro,
+	}
+
+	recipe Craft Homemade 9mm Silencer
+	{
+       MetalPipe,
+	   SmallSheetMetal=2,
+       BlowTorch=2,
+	   keep Saw,
+	   keep ToolFile,
+       keep [Recipe.GetItemTypes.WeldingMask],
+	   keep TapDie,
+
+	   Result:DIY9mmSilencer,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=4;Aiming=3,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYSilencerDistro,
+	}
+
+	recipe Craft Homemade .45 Auto Silencer
+	{
+       MetalPipe,
+	   SmallSheetMetal=2,
+       BlowTorch=2,
+	   keep Saw,
+	   keep ToolFile,
+       keep [Recipe.GetItemTypes.WeldingMask],
+	   keep TapDie,
+
+	   Result:DIY45Silencer,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=4;Aiming=3,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYSilencerDistro,
+	}
+
+	recipe Craft Homemade 5.56 Auto Silencer
+	{
+       MetalPipe,
+	   SmallSheetMetal=3,
+       BlowTorch=2,
+	   keep Saw,
+	   keep ToolFile,
+       keep [Recipe.GetItemTypes.WeldingMask],
+	   keep TapDie,
+
+	   Result:DIY556Silencer,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=4;Aiming=3,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYSilencerDistro,
+	}
+
+	recipe Craft Homemade .30 Rifle Auto Silencer
+	{
+       MetalPipe,
+	   SmallSheetMetal=3,
+       BlowTorch=2,
+	   keep Saw,
+	   keep ToolFile,
+       keep [Recipe.GetItemTypes.WeldingMask],
+	   keep TapDie,
+
+	   Result:DIY30Silencer,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=4;Aiming=3,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYSilencerDistro,
+	}
+
+	recipe Craft Homemade 8mm Rifle Auto Silencer
+	{
+       MetalPipe,
+	   SmallSheetMetal=3,
+       BlowTorch=2,
+	   keep Saw,
+	   keep ToolFile,
+       keep [Recipe.GetItemTypes.WeldingMask],
+	   keep TapDie,
+
+	   Result:DIY8mmSilencer,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=4;Aiming=3,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYSilencerDistro,
+	}
+
+	recipe Craft Homemade 12ga Silencer
+	{
+       SheetMetal,
+	   SmallSheetMetal=3,
+       BlowTorch=2,
+	   keep Saw,
+	   keep ToolFile,
+       keep [Recipe.GetItemTypes.WeldingMask],
+	   keep TapDie,
+
+	   Result:DIY12gaSilencer,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=6;Aiming=5,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYSilencerDistro,
+	}
+
+	recipe Install Pistol Booster
+	{
+	   9mmSilencer,
+	   CanBooster,
+
+	   Result:9mmBoostedSilencer,
+	   Time:10.0,
+	   OnCreate:Recipe.OnCreate.CanCondition,
+	}
+
+	recipe Remove Pistol Booster
+	{
+	   9mmBoostedSilencer/9mmBoostedSilencerBroken,
+
+	   Result:9mmSilencer,
+	   Time:10.0,
+	   OnCreate:Recipe.OnCreate.DisassembleBoostedSilencer,
+	   AllowDestroyedItem:true,
+	}
+
+	recipe Install Pistol Booster
+	{
+	   DIY9mmSilencer,
+	   CanBooster,
+
+	   Result:DIY9mmBoostedSilencer,
+	   Time:10.0,
+	   OnCreate:Recipe.OnCreate.CanCondition,
+	}
+
+	recipe Remove Pistol Booster
+	{
+	   DIY9mmBoostedSilencer/DIY9mmBoostedSilencerBroken,
+
+	   Result:DIY9mmSilencer,
+	   Time:10.0,
+	   OnCreate:Recipe.OnCreate.DisassembleBoostedSilencer,
+	   AllowDestroyedItem:true,
+	}
+
+	recipe Install Pistol Booster
+	{
+	   45Silencer,
+	   CanBooster,
+
+	   Result:45BoostedSilencer,
+	   Time:10.0,
+	   OnCreate:Recipe.OnCreate.CanCondition,
+	}
+
+	recipe Remove Pistol Booster
+	{
+	   45BoostedSilencer/45BoostedSilencerBroken,
+
+	   Result:45Silencer,
+	   Time:10.0,
+	   OnCreate:Recipe.OnCreate.DisassembleBoostedSilencer,
+	   AllowDestroyedItem:true,
+	}
+
+	recipe Install Pistol Booster
+	{
+	   DIY45Silencer,
+	   CanBooster,
+
+	   Result:DIY45BoostedSilencer,
+	   Time:10.0,
+	   OnCreate:Recipe.OnCreate.CanCondition,
+	}
+
+	recipe Remove Pistol Booster
+	{
+	   DIY45BoostedSilencer/DIY45BoostedSilencerBroken,
+
+	   Result:DIY45Silencer,
+	   Time:10.0,
+	   OnCreate:Recipe.OnCreate.DisassembleBoostedSilencer,
+	   AllowDestroyedItem:true,
+	}
+}

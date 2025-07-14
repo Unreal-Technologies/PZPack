@@ -1,0 +1,37 @@
+IGUI_ES = {
+
+	IGUI_HaloNote_PlaylistGet = "Nueva Playlist importada con ",
+	IGUI_HaloNote_PlaylistGetEnd = " canciones",
+	IGUI_HaloNote_CleaningNoPath = "No se puede llegar al punto a limpiar",
+
+	IGUI_ItemCat_Hygiene = "Higiene",
+
+	IGUI_perks_Cleaning = "Limpieza",
+	IGUI_perks_Meditation = "Meditación",
+	IGUI_perks_Dancing = "Baile",
+	IGUI_perks_Music = "Música",
+	IGUI_perks_Lifestyle = "Estilo de vida",
+
+	IGUI_HaloNote_XP = "XP",
+	IGUI_HaloNote_XPBonus = "XP+",
+	IGUI_HaloNote_Stress = "Estrés",
+	IGUI_HaloNote_Embarrassed = "Avergonzado",
+	IGUI_HaloNote_Boredom = "Aburrimiento",
+	IGUI_HaloNote_Happyness = "Felicidad",
+	IGUI_HaloNote_Unhappyness = "Tristeza",
+	IGUI_HaloNote_Pain = "Dolor",
+	IGUI_HaloNote_Pain_BadPosture = "Dolor por Mala Postura",
+	IGUI_HaloNote_Bladder = "Vejiga",
+	IGUI_HaloNote_Hygiene = "Higiene",
+	IGUI_HaloNote_MintFresh = "Aliento a menta",
+	IGUI_HaloNote_LearnSong = "Nueva canción aprendida",
+	IGUI_HaloNote_ReadSongPlusStart = " plus ",
+	IGUI_HaloNote_ReadSongPlusEnd = " mas",
+	IGUI_HaloNote_WriteSongSuccess = "Nueva entrada añadida al cuaderno",
+	IGUI_HaloNote_ChangeAPEnd = "Apariencia",
+	IGUI_HaloNote_Attractive = "Atractivo",
+	IGUI_HaloNote_SmellGood = "Rebosando felicidad",
+	IGUI_HaloNote_Nauseous = "Con Nauseas",
+	IGUI_HaloNote_WellRested = "Descansado",
+
+}

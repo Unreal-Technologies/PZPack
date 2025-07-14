@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends="LoadSavageFox.xml">
+	<m_Name>LoadSOSavageFox</m_Name>
+	<m_Conditions />
+	<m_Conditions>
+		<m_StringValue>SOSavageFox</m_StringValue>
+	</m_Conditions>
+	<m_Conditions />
+	<m_Events />
+	<m_Events />
+	<m_Events>
+		<m_ParameterValue>SOSavageFox_OPEN</m_ParameterValue>
+	</m_Events>
+	<m_Events>
+		<m_EventName>playReloadSound</m_EventName>
+		<m_Time>Start</m_Time>
+		<m_ParameterValue>insertAmmoStart</m_ParameterValue>
+	</m_Events>
+</animNode>

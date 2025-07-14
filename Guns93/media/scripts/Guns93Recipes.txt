@@ -1,0 +1,878 @@
+module Base
+{
+	recipe Saw Off Shotgun
+	{
+	   Shotgun,
+	   keep Saw,
+
+	   Result:ShotgunSawnoff,
+	   Sound:Sawing,
+	   Time:200.0,
+	   OnCreate:Recipe.OnCreate.SawOffBarrel,
+       AnimNode:SawLog,
+	   Prop1:Source=2,
+       Override:true,
+	}
+
+	recipe Saw Off Mossberg 500
+	{
+	   Moss500,
+	   keep Saw,
+
+	   Result:SOMoss500,
+	   Sound:Sawing,
+	   Time:200.0,
+	   OnCreate:Recipe.OnCreate.SawOffBarrel,
+       AnimNode:SawLog,
+	   Prop1:Source=2,
+	}
+
+	recipe Saw Off Winchester Model 12
+	{
+	   Win1912,
+	   keep Saw,
+
+	   Result:SOWin1912,
+	   Sound:Sawing,
+	   Time:200.0,
+	   OnCreate:Recipe.OnCreate.SawOffBarrel,
+       AnimNode:SawLog,
+	   Prop1:Source=2,
+	}
+
+	recipe Saw Off Winchester 1200
+	{
+	   Win1200,
+	   keep Saw,
+
+	   Result:SOWin1200,
+	   Sound:Sawing,
+	   Time:200.0,
+	   OnCreate:Recipe.OnCreate.SawOffBarrel,
+       AnimNode:SawLog,
+	   Prop1:Source=2,
+	}
+
+	recipe Saw Off Ithaca Model 37
+	{
+	   Ithaca37,
+	   keep Saw,
+
+	   Result:SOIthaca37,
+	   Sound:Sawing,
+	   Time:200.0,
+	   OnCreate:Recipe.OnCreate.SawOffBarrel,
+       AnimNode:SawLog,
+	   Prop1:Source=2,
+	}
+
+	recipe Saw Off Double Barrel Shotgun
+	{
+	   DoubleBarrelShotgun,
+	   keep Saw,
+
+	   Result:DoubleBarrelShotgunSawnoff,
+	   Sound:Sawing,
+	   Time:200.0,
+	   OnCreate:Recipe.OnCreate.SawOffBarrel,
+       AnimNode:SawLog,
+	   Prop1:Source=2,
+       Override:true,
+	}
+
+	recipe Saw Off Savage Fox Model B
+	{
+	   SavageFox,
+	   keep Saw,
+
+	   Result:SOSavageFox,
+	   Sound:Sawing,
+	   Time:200.0,
+	   OnCreate:Recipe.OnCreate.SawOffBarrel,
+       AnimNode:SawLog,
+	   Prop1:Source=2,
+	}
+
+	recipe Saw Off Browning Citori
+	{
+	   BrownCitori,
+	   keep Saw,
+
+	   Result:SOBrownCitori,
+	   Sound:Sawing,
+	   Time:200.0,
+	   OnCreate:Recipe.OnCreate.SawOffBarrel,
+       AnimNode:SawLog,
+	   Prop1:Source=2,
+	}
+
+	recipe Saw Off Beretta 682
+	{
+	   Beretta682,
+	   keep Saw,
+
+	   Result:SOBeretta682,
+	   Sound:Sawing,
+	   Time:200.0,
+	   OnCreate:Recipe.OnCreate.SawOffBarrel,
+       AnimNode:SawLog,
+	   Prop1:Source=2,
+	}
+
+	recipe Saw Off Browning Auto-5
+	{
+	   Auto5,
+	   keep Saw,
+
+	   Result:SOAuto5,
+	   Sound:Sawing,
+	   Time:200.0,
+	   OnCreate:Recipe.OnCreate.SawOffBarrel,
+       AnimNode:SawLog,
+	   Prop1:Source=2,
+	}
+
+	recipe Saw Off Winchester 1400
+	{
+	   Win1400,
+	   keep Saw,
+
+	   Result:SOWin1400,
+	   Sound:Sawing,
+	   Time:200.0,
+	   OnCreate:Recipe.OnCreate.SawOffBarrel,
+       AnimNode:SawLog,
+	   Prop1:Source=2,
+	}
+
+	recipe Saw Off Remington 1100
+	{
+	   Rem1100,
+	   keep Saw,
+
+	   Result:SORem1100,
+	   Sound:Sawing,
+	   Time:200.0,
+	   OnCreate:Recipe.OnCreate.SawOffBarrel,
+       AnimNode:SawLog,
+	   Prop1:Source=2,
+	}
+
+	recipe Saw Off Lakefield Mossberg L395K
+	{
+	   L395K,
+	   keep Saw,
+
+	   Result:SOL395K,
+	   Sound:Sawing,
+	   Time:200.0,
+	   OnCreate:Recipe.OnCreate.SawOffBarrel,
+       AnimNode:SawLog,
+	   Prop1:Source=2,
+	}
+
+	recipe Saw Off Winchester Model 37
+	{
+	   Win37,
+	   keep Saw,
+
+	   Result:SOWin37,
+	   Sound:Sawing,
+	   Time:200.0,
+	   OnCreate:Recipe.OnCreate.SawOffBarrel,
+       AnimNode:SawLog,
+	   Prop1:Source=2,
+	}
+
+	recipe Install Bayonet Onto SKS
+	{
+	   SKSNoBayo,
+	   SKSBayonet,
+	   Screws=1,
+	   keep [Recipe.GetItemTypes.Screwdriver],
+
+	   Result:SKS,
+	   Time:200.0,
+	   OnCreate:Recipe.OnCreate.RemoveInstallFoldBayo,
+       Prop1:Screwdriver,
+	   OnTest:Recipe.OnTest.Guns93BayoDistro,
+	}
+
+	recipe Uninstall Bayonet From SKS
+	{
+	   SKS/SKSBayoOut,
+	   keep [Recipe.GetItemTypes.Screwdriver],
+
+	   Result:SKSNoBayo,
+	   Time:200.0,
+	   OnCreate:Recipe.OnCreate.RemoveInstallFoldBayo,
+	   AllowDestroyedItem:true,
+       Prop1:Screwdriver,
+	   OnTest:Recipe.OnTest.Guns93BayoDistro,
+	}
+
+	recipe Install Bayonet Onto SKS
+	{
+	   SKSNoBayoAuto,
+	   SKSBayonet,
+	   Screws=1,
+	   keep [Recipe.GetItemTypes.Screwdriver],
+
+	   Result:SKSAuto,
+	   Time:200.0,
+	   OnCreate:Recipe.OnCreate.RemoveInstallFoldBayo,
+       Prop1:Screwdriver,
+	   OnTest:Recipe.OnTest.Guns93BayoDistro,
+	}
+
+	recipe Uninstall Bayonet From SKS
+	{
+	   SKSAuto/SKSBayoOutAuto,
+	   keep [Recipe.GetItemTypes.Screwdriver],
+
+	   Result:SKSNoBayoAuto,
+	   Time:200.0,
+	   OnCreate:Recipe.OnCreate.RemoveInstallFoldBayo,
+	   AllowDestroyedItem:true,
+       Prop1:Screwdriver,
+	   OnTest:Recipe.OnTest.Guns93BayoDistro,
+	}
+
+	recipe Install Bayonet Onto SKS
+	{
+	   SKSNoBayoThreaded,
+	   SKSBayonet,
+	   Screws=1,
+	   keep [Recipe.GetItemTypes.Screwdriver],
+
+	   Result:SKSThreaded,
+	   Time:200.0,
+	   OnCreate:Recipe.OnCreate.RemoveInstallFoldBayo,
+       Prop1:Screwdriver,
+	   OnTest:Recipe.OnTest.Guns93BayoDistro,
+	}
+
+	recipe Uninstall Bayonet From SKS
+	{
+	   SKSThreaded/SKSBayoOutThreaded,
+	   keep [Recipe.GetItemTypes.Screwdriver],
+
+	   Result:SKSNoBayoThreaded,
+	   Time:200.0,
+	   OnCreate:Recipe.OnCreate.RemoveInstallFoldBayo,
+	   AllowDestroyedItem:true,
+       Prop1:Screwdriver,
+	   OnTest:Recipe.OnTest.Guns93BayoDistro,
+	}
+
+	recipe Install Bayonet Onto SKS
+	{
+	   SKSNoBayoAutoThreaded,
+	   SKSBayonet,
+	   Screws=1,
+	   keep [Recipe.GetItemTypes.Screwdriver],
+
+	   Result:SKSAutoThreaded,
+	   Time:200.0,
+	   OnCreate:Recipe.OnCreate.RemoveInstallFoldBayo,
+       Prop1:Screwdriver,
+	   OnTest:Recipe.OnTest.Guns93BayoDistro,
+	}
+
+	recipe Uninstall Bayonet From SKS
+	{
+	   SKSAutoThreaded/SKSBayoOutAutoThreaded,
+	   keep [Recipe.GetItemTypes.Screwdriver],
+
+	   Result:SKSNoBayoAutoThreaded,
+	   Time:200.0,
+	   OnCreate:Recipe.OnCreate.RemoveInstallFoldBayo,
+	   AllowDestroyedItem:true,
+       Prop1:Screwdriver,
+	   OnTest:Recipe.OnTest.Guns93BayoDistro,
+	}
+
+	recipe Install Bayonet Onto Type 56S
+	{
+	   T56NoBayo,
+	   T56Bayonet,
+	   Screws=1,
+	   keep [Recipe.GetItemTypes.Screwdriver],
+
+	   Result:T56,
+	   Time:200.0,
+	   OnCreate:Recipe.OnCreate.RemoveInstallFoldBayo,
+       Prop1:Screwdriver,
+	   OnTest:Recipe.OnTest.Guns93BayoDistro,
+	}
+
+	recipe Uninstall Bayonet From Type 56S
+	{
+	   T56/T56BayoOut,
+	   keep [Recipe.GetItemTypes.Screwdriver],
+
+	   Result:T56NoBayo,
+	   Time:200.0,
+	   OnCreate:Recipe.OnCreate.RemoveInstallFoldBayo,
+	   AllowDestroyedItem:true,
+       Prop1:Screwdriver,
+	   OnTest:Recipe.OnTest.Guns93BayoDistro,
+	}
+
+	recipe Install Bayonet Onto Type 56S
+	{
+	   T56NoBayoAuto,
+	   T56Bayonet,
+	   Screws=1,
+	   keep [Recipe.GetItemTypes.Screwdriver],
+
+	   Result:T56Auto,
+	   Time:200.0,
+	   OnCreate:Recipe.OnCreate.RemoveInstallFoldBayo,
+       Prop1:Screwdriver,
+	   OnTest:Recipe.OnTest.Guns93BayoDistro,
+	}
+
+	recipe Uninstall Bayonet From Type 56S
+	{
+	   T56Auto/T56BayoOutAuto,
+	   keep [Recipe.GetItemTypes.Screwdriver],
+
+	   Result:T56NoBayoAuto,
+	   Time:200.0,
+	   OnCreate:Recipe.OnCreate.RemoveInstallFoldBayo,
+	   AllowDestroyedItem:true,
+       Prop1:Screwdriver,
+	   OnTest:Recipe.OnTest.Guns93BayoDistro,
+	}
+
+    recipe Open Box of 9mm Bullets
+    {
+        Bullets9mmBox,
+
+        Result:Bullets9mm=10,
+        Sound:BoxOfRoundsOpenOne,
+        Time:15.0,
+	    Override:true,
+    }
+
+    recipe Open Box of .40 S&W Bullets
+    {
+        40Box,
+
+        Result:40Bullets=10,
+        Sound:BoxOfRoundsOpenOne,
+        Time:15.0,
+    }
+
+    recipe Open Box of .45 Auto Bullets
+    {
+        Bullets45Box,
+
+        Result:Bullets45=10,
+        Sound:BoxOfRoundsOpenOne,
+        Time:15.0,
+	    Override:true,
+    }
+
+    recipe Open Box of .45 Colt Bullets
+    {
+        45LCBox,
+
+        Result:45LCBullets=10,
+        Sound:BoxOfRoundsOpenOne,
+        Time:15.0,
+    }
+
+    recipe Open Box of .38 Special Bullets
+    {
+        Bullets38Box,
+
+        Result:Bullets38=10,
+        Sound:BoxOfRoundsOpenOne,
+        Time:15.0,
+	    Override:true,
+    }
+
+    recipe Open Box of .380 Auto Bullets
+    {
+        380Box,
+
+        Result:380Bullets=10,
+        Sound:BoxOfRoundsOpenOne,
+        Time:15.0,
+    }
+
+    recipe Open Box of .357 Magnum Bullets
+    {
+        357Box,
+
+        Result:357Bullets=10,
+        Sound:BoxOfRoundsOpenOne,
+        Time:15.0,
+    }
+
+    recipe Open Box of 10mm Bullets
+    {
+        10mmBox,
+
+        Result:10mmBullets=10,
+        Sound:BoxOfRoundsOpenOne,
+        Time:15.0,
+    }
+
+    recipe Open Box of .22 LR Bullets
+    {
+        22Box,
+
+        Result:22Bullets=20,
+        Sound:BoxOfRoundsOpenOne,
+        Time:15.0,
+    }
+
+    recipe Open Box of .25 Auto Bullets
+    {
+        25Box,
+
+        Result:25Bullets=10,
+        Sound:BoxOfRoundsOpenOne,
+        Time:15.0,
+    }
+
+    recipe Open Box of .44 Magnum Bullets
+    {
+        Bullets44Box,
+
+        Result:Bullets44=10,
+        Sound:BoxOfRoundsOpenOne,
+        Time:15.0,
+	    Override:true,
+    }
+
+    recipe Open Box of .223 Ammo
+    {
+        223Box,
+        Result:223Bullets=4,
+        Sound:BoxOfRoundsOpenOne,
+        Time:15.0,
+	    Override:true,
+    }
+
+    recipe Open Box of .308 Ammo
+    {
+        308Box,
+        Result:308Bullets=4,
+        Sound:BoxOfRoundsOpenOne,
+        Time:15.0,
+	    Override:true,
+    }
+
+    recipe Open Box of Shotgun Shells
+    {
+        ShotgunShellsBox,
+
+        Result:ShotgunShells=5,
+        Sound:BoxOfShellsOpenOne,
+        Time:15.0,
+	    Override:true,
+    }
+
+    recipe Open Box of Shotgun Slugs
+    {
+        SlugBox,
+
+        Result:Slugs=5,
+        Sound:BoxOfShellsOpenOne,
+        Time:15.0,
+    }
+
+	recipe Open Box of 5.56 Belt Links
+    {
+        556LinkBox,
+
+        Result:556BeltLink=200,
+        Sound:BoxOfRoundsOpenOne,
+        Time:15.0,
+    }
+
+	recipe Open Box of .308 Belt Links
+    {
+        308LinkBox,
+
+        Result:308BeltLink=200,
+        Sound:BoxOfRoundsOpenOne,
+        Time:15.0,
+    }
+
+    recipe Open Box of .556 Ammo
+    {
+        556Box,
+
+        Result:556Bullets=4,
+        Sound:BoxOfRoundsOpenOne,
+        Time:15.0,
+		Override:true,
+    }
+
+    recipe Open Box of .30-06 Ammo
+    {
+        3006Box,
+
+        Result:3006Bullets=4,
+        Sound:BoxOfRoundsOpenOne,
+        Time:15.0,
+    }
+
+    recipe Open Box of 7.92x57 Mauser Ammo
+    {
+        792Box,
+
+        Result:792Bullets=4,
+        Sound:BoxOfRoundsOpenOne,
+        Time:15.0,
+    }
+
+    recipe Open Box of .30 Carbine Ammo
+    {
+        30CarBox,
+
+        Result:30CarBullets=4,
+        Sound:BoxOfRoundsOpenOne,
+        Time:15.0,
+    }
+
+    recipe Open Box of 7.62x39 Ammo
+    {
+        76239Box,
+
+        Result:76239Bullets=4,
+        Sound:BoxOfRoundsOpenOne,
+        Time:15.0,
+    }
+
+    recipe Open Box of .30-30 Ammo
+    {
+        3030Box,
+
+        Result:3030Bullets=4,
+        Sound:BoxOfRoundsOpenOne,
+        Time:15.0,
+    }
+
+    recipe Place .556 Ammo in Box
+    {
+        556Bullets=20,
+
+        Result:556Box,
+        Sound:BoxOfRoundsOpenOne,
+        Time:15.0,
+		Override:true,
+    }
+
+    recipe Place 5.56 Belt Links in Box
+    {
+        556BeltLink=200,
+
+        Result:556LinkBox,
+        Sound:BoxOfRoundsOpenOne,
+        Time:15.0,
+    }
+
+    recipe Place .308 Belt Links in Box
+    {
+        308BeltLink=200,
+
+        Result:308LinkBox,
+        Sound:BoxOfRoundsOpenOne,
+        Time:15.0,
+    }
+
+	recipe Install Belt Links On 5.56 Ammo
+    {
+        556Bullets,
+		556BeltLink,
+
+        Result:556Belt,
+        Sound:BoxOfRoundsOpenOne,
+        Time:20.0,
+    }
+
+	recipe Install Belt Links On .308 Ammo
+    {
+        308Bullets,
+		308BeltLink,
+
+        Result:308Belt,
+        Sound:BoxOfRoundsOpenOne,
+        Time:20.0,
+    }
+
+    recipe Remove Belt Links From 5.56 Ammo
+    {
+        556Belt,
+
+        Result:556Bullets,
+		OnCreate:Recipe.OnCreate.BeltLink556,
+        Sound:BoxOfRoundsOpenOne,
+        Time:20.0,
+    }
+
+	recipe Remove Belt Links From .308 Ammo
+    {
+        308Belt,
+
+        Result:308Bullets,
+		OnCreate:Recipe.OnCreate.BeltLink308,
+        Sound:BoxOfRoundsOpenOne,
+        Time:20.0,
+    }
+
+    recipe Place .223 Ammo in Box
+    {
+        223Bullets=20,
+
+        Result:223Box,
+        Sound:BoxOfRoundsOpenOne,
+        Time:15.0,
+	Override:true,
+    }
+
+    recipe Place .308 Ammo in Box
+    {
+        308Bullets=20,
+
+        Result:308Box,
+        Sound:BoxOfRoundsOpenOne,
+        Time:15.0,
+	Override:true,
+    }
+
+    recipe Place 9mm Bullets in Box
+    {
+        Bullets9mm=50,
+
+        Result:Bullets9mmBox,
+        Sound:BoxOfRoundsOpenOne,
+        Time:15.0,
+		Override:true,
+    }
+
+    recipe Place .40 S&W Bullets in Box
+    {
+        40Bullets=50,
+
+        Result:40Box,
+        Sound:BoxOfRoundsOpenOne,
+        Time:15.0,
+    }
+
+    recipe Place .45 Auto Bullets in Box
+    {
+        Bullets45=50,
+
+        Result:Bullets45Box,
+        Sound:BoxOfRoundsOpenOne,
+        Time:15.0,
+		Override:true,
+    }
+
+    recipe Place .45 Colt Bullets in Box
+    {
+        45LCBullets=50,
+
+        Result:45LCBox,
+        Sound:BoxOfRoundsOpenOne,
+        Time:15.0,
+    }
+
+    recipe Place .38 Speciam Bullets in Box
+    {
+        Bullets38=50,
+
+        Result:Bullets38Box,
+        Sound:BoxOfRoundsOpenOne,
+        Time:15.0,
+		Override:true,
+    }
+
+    recipe Place .380 Auto Bullets in Box
+    {
+        380Bullets=50,
+
+        Result:380Box,
+        Sound:BoxOfRoundsOpenOne,
+        Time:15.0,
+    }
+
+    recipe Place .357 Magnum Bullets in Box
+    {
+        357Bullets=50,
+
+        Result:357Box,
+        Sound:BoxOfRoundsOpenOne,
+        Time:15.0,
+    }
+
+    recipe Place 10mm Bullets in Box
+    {
+        10mmBullets=50,
+
+        Result:10mmBox,
+        Sound:BoxOfRoundsOpenOne,
+        Time:15.0,
+    }
+
+    recipe Place .22 LR Bullets in Box
+    {
+        22Bullets=100,
+
+        Result:22Box,
+        Sound:BoxOfRoundsOpenOne,
+        Time:15.0,
+    }
+
+    recipe Place .25 Auto Bullets in Box
+    {
+        25Bullets=50,
+
+        Result:25Box,
+        Sound:BoxOfRoundsOpenOne,
+        Time:15.0,
+    }
+
+    recipe Place .44 Magnum Bullets in Box
+    {
+        Bullets44=50,
+
+        Result:Bullets44Box,
+        Sound:BoxOfRoundsOpenOne,
+        Time:15.0,
+		Override:true,
+    }
+
+    recipe Place Shotgun Shells in Box
+    {
+        ShotgunShells=25,
+
+        Result:ShotgunShellsBox,
+        Sound:BoxOfShellsOpenOne,
+        Time:15.0,
+		Override:true,
+    }
+
+
+    recipe Place Shotgun Slugs in Box
+    {
+        Slugs=25,
+
+        Result:SlugBox,
+        Sound:BoxOfShellsOpenOne,
+        Time:15.0,
+    }
+
+    recipe Place .30-06 Ammo in Box
+    {
+        3006Bullets=20,
+
+        Result:3006Box,
+        Sound:BoxOfRoundsOpenOne,
+        Time:15.0,
+    }
+
+    recipe Place 7.92x57 Mauser Ammo in Box
+    {
+        792Bullets=20,
+
+        Result:792Box,
+        Sound:BoxOfRoundsOpenOne,
+        Time:15.0,
+    }
+
+    recipe Place .30 Carbine Ammo in Box
+    {
+        30CarBullets=20,
+
+        Result:30CarBox,
+        Sound:BoxOfRoundsOpenOne,
+        Time:15.0,
+    }
+
+    recipe Place 7.62x39 Ammo in Box
+    {
+        76239Bullets=20,
+
+        Result:76239Box,
+        Sound:BoxOfRoundsOpenOne,
+        Time:15.0,
+    }
+
+    recipe Place .30-30 Ammo in Box
+    {
+        3030Bullets=20,
+
+        Result:3030Box,
+        Sound:BoxOfRoundsOpenOne,
+        Time:15.0,
+    }
+
+    recipe Covert 5.56 Box to .223 box
+    {
+        556Box,
+
+        Result:223Box,
+        Sound:BoxOfRoundsOpenOne,
+        Time:0,
+    }
+
+    recipe Covert .223 box to 5.56 box
+    {
+        223Box,
+
+        Result:556Box,
+        Sound:BoxOfRoundsOpenOne,
+        Time:0,
+    }
+
+    recipe Convert .223 Ammo to 5.56 Ammo
+    {
+        223Bullets,
+
+        Result:556Bullets,
+        Sound:BoxOfRoundsOpenOne,
+        Time:0,
+    }
+
+    recipe Convert 5.56 Ammo to .223 Ammo
+    {
+        556Bullets,
+
+        Result:223Bullets,
+        Sound:BoxOfRoundsOpenOne,
+        Time:0,
+    }
+
+    recipe Gun Cleaning Kit
+    {
+       RippedSheets/RippedSheetsDirty/Toothbrush,
+       MotorOil/OilVegetable,
+
+       Result:GunCleaningKit,
+       Time:80.0,
+    }
+
+    recipe Recoil Pad As Stock
+    {
+       RecoilPad,
+
+       Result:RecoilPadAlt,
+       Time:0.1,
+    }
+
+    recipe Recoil Pad As Pad
+    {
+       RecoilPadAlt,
+
+       Result:RecoilPad,
+       Time:0.1,
+    }
+}

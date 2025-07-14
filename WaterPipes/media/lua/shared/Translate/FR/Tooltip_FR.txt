@@ -1,0 +1,11 @@
+Tooltip_FR = {
+    Tooltip_WP_ThePumpIsWornOut = "La pompe est usée."
+    Tooltip_WP_NeedsPowerToOperate = "Nécessite de l'énergie pour fonctionner."
+    Tooltip_WP_NeedsCharcoal = "Besoin de charbon de bois."
+    Tooltip_WP_Requires = "Obligatoire: "
+    Tooltip_WP_BlowTorch = "Brûleur à gaz"
+    Tooltip_WP_WeldingMask = "Masque de soudage"
+    Tooltip_WP_MetalworkMag2 = "Connaissance: Magazine Soudeur N°2"
+	Tooltip_WP_MetalworkingSkillTooLow = "Compétence en métallurgie trop faible"
+    Tooltip_WP_NeedsScrapMetal = "Besoin de ferraille"
+}

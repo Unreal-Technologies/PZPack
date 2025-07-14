@@ -1,0 +1,11 @@
+id=DoubleDeckerBusInterior
+name=Double Decker Bus Interior
+description=Adds RV Interior compatibility for the Double Decker Bus by Charli3.
+poster=poster.png
+authors=Monkey & Dane
+icon=icon.png
+tags=Build 41
+versionMin=41.0
+tiledef=rv_02 3483
+pack=rv_02x2
+require=RV_Interior_MP,Double Decker Bus

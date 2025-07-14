@@ -1,0 +1,71 @@
+module PaintYourRide
+{
+    imports
+    {
+        Base
+    }
+
+    recipe Cut Empty Spray Can
+    {
+        AutomotiveSprayCanEmpty,
+        keep KitchenKnife/HuntingKnife/Scissors,
+
+        Result:Aluminum,
+        Time:30.0,
+    }
+
+    recipe Insert Battery into Spray Gun
+    {
+        destroy SprayGun,
+        destroy Battery,
+
+        Result:SprayGun,
+        Time:30.0,
+        OnTest:PaintVehicleRecipe.OnTest.SprayGunBatteryInsert,
+        OnCreate:PaintVehicleRecipe.OnCreate.SprayGunBatteryInsert,
+    }
+
+    recipe Remove Battery
+    {
+        keep SprayGun,
+
+        Result:Battery,
+        Time:30.0,
+        OnTest:PaintVehicleRecipe.OnTest.SprayGunBatteryRemoval,
+        OnCreate:PaintVehicleRecipe.OnCreate.SprayGunBatteryRemoval,
+    }
+
+    recipe Dismantle Spray Gun
+    {
+        destroy SprayGun,
+        keep [Recipe.GetItemTypes.Screwdriver],
+
+        Result:ElectronicsScrap,
+        Time:30.0,
+        OnGiveXP:Recipe.OnGiveXP.DismantleElectronics,
+        OnCreate:PaintVehicleRecipe.OnCreate.DismantleSprayGun,
+        Category:Electrical,
+        AnimNode:Disassemble,
+        Prop1:Screwdriver,
+    }
+
+    recipe Open Box with Automotive Paint
+    {
+        destroy BoxAutomotivePaintTints,
+
+        Result:AutomotiveTintPaintBlack,
+        RemoveResultItem:true,
+        Time:30.0,
+        OnCreate:PaintVehicleRecipe.OnCreate.OpenBoxTints,
+    }
+
+    recipe Open Box
+    {
+        destroy BoxAutomotivePaintSprays1/BoxAutomotivePaintSprays2/BoxAutomotivePaintSprays3/BoxAutomotivePaintSprays4,
+
+        Result:AutomotiveSprayPaintWhite,
+        RemoveResultItem:true,
+        Time:30.0,
+        OnCreate:PaintVehicleRecipe.OnCreate.OpenBoxSprays,
+    }
+}

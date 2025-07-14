@@ -1,0 +1,12 @@
+Sandbox_DE = {
+    Sandbox_Plumbing = "Plumbing"
+    
+    Sandbox_Plumbing.PumpFilterUsage = "Pumpenfilterverbrauch"
+    Sandbox_Plumbing.PumpFilterUsage_tooltip = "Der Anteil des Wasserpumpenfilters, der alle 10 Spielminuten verbraucht wird."
+
+    Sandbox_Plumbing.PumpEfficiencyLoss = "Effizienzverlust der Pumpe"
+    Sandbox_Plumbing.PumpEfficiencyLoss_tooltip = "Der Anteil der Effizienz, den eine Wasserpumpe alle 10 Spielminuten verliert."
+
+    Sandbox_Plumbing.PumpMaxWater = "Wassermenge der Pumpe"
+    Sandbox_Plumbing.PumpMaxWater_tooltip = "Die Menge an Wassereinheiten, die eine zu 100 % effiziente Pumpe alle 10 Spielminuten liefert."
+}

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends="UnloadStoegerUplander.xml">
+	<m_Name>UnloadSOStoegerUplander</m_Name>
+	<m_Conditions />
+	<m_Conditions>
+		<m_StringValue>SOStoegerUplander</m_StringValue>
+	</m_Conditions>
+	<m_Conditions />
+	<m_Events />
+	<m_Events />
+	<m_Events>
+		<m_ParameterValue>SOStoegerUplander_OPEN</m_ParameterValue>
+	</m_Events>
+</animNode>

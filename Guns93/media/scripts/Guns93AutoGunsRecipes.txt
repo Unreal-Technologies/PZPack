@@ -1,0 +1,2319 @@
+module Base	
+{	
+	/****************************** recipe Convert_PISTOLS ******************************/
+	recipe Convert TEC9
+	{
+	   TEC9,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:TEC9Auto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=4;Aiming=4,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert Uzi
+	{
+	   Uzi,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:UziAuto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=4;Aiming=4,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert MAC10
+	{
+	   MAC10,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:MAC10Auto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=4;Aiming=4,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert CalicoPistol
+	{
+	   CalicoPistol,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:CalicoPistolAuto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=6;Aiming=5,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert CalicoPistol
+	{
+	   CalicoPistolThreaded,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:CalicoPistolAutoThreaded,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=6;Aiming=5,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+
+	recipe Thread Barrel Of Calico M590 Pistol
+	{
+	   CalicoPistolAuto,
+	   keep TapDie,
+
+	   Result:CalicoPistolAutoThreaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+	
+	/****************************** recipe Convert_AUTORIFLES ******************************/
+	
+	recipe Convert M14
+	{
+	   AssaultRifle2,
+	   ScrapMetal=1,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:M14308Auto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=8;Aiming=6,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert M14
+	{
+	   M14Bayo,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:M14BayoAuto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=8;Aiming=6,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert M1A
+	{
+	   M1A,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:M1AAuto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=8;Aiming=6,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert M1A
+	{
+	   M1ABayo,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:M1ABayoAuto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=8;Aiming=6,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert AR15
+	{
+	   AR15,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:AR15Auto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=6;Aiming=5,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert AR15
+	{
+	   AR15Bayo,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:AR15BayoAuto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=6;Aiming=5,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+
+	recipe Convert CAR15
+	{
+	   CAR15,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:CAR15Auto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=6;Aiming=5,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert CAR15
+	{
+	   CAR15Bayo,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:CAR15BayoAuto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=6;Aiming=5,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}	
+	
+	recipe Convert CAR15
+	{
+	   CAR15Rail,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:CAR15RailAuto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=6;Aiming=5,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert CAR15
+	{
+	   CAR15RailBayo,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:CAR15RailBayoAuto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=6;Aiming=5,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert M1A
+	{
+	   M1ARail,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:M1ARailAuto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=8;Aiming=6,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert M1A
+	{
+	   M1ARailBayo,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:M1ARailBayoAuto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=8;Aiming=6,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert AR15
+	{
+	   AR15Rail,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:AR15RailAuto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=6;Aiming=5,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert AR15
+	{
+	   AR15RailBayo,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:AR15RailBayoAuto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=6;Aiming=5,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert M1Garand
+	{
+	   M1Garand,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:M1GarandAuto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=8;Aiming=6,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert M1Garand
+	{
+	   M1GarandBayo,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:M1GarandBayoAuto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=8;Aiming=6,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert M1Garand
+	{
+	   M1GarandThreaded,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:M1GarandAutoThreaded,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=8;Aiming=6,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+
+	recipe Thread Barrel Of M1 Garand
+	{
+	   M1GarandAuto,
+	   keep TapDie,
+
+	   Result:M1GarandAutoThreaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+	
+	recipe Convert M1Garand
+	{
+	   M1GarandBayoThreaded,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:M1GarandBayoAutoThreaded,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=8;Aiming=6,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert M1Carbine
+	{
+	   M1Carbine,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:M1CarbineAuto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=6;Aiming=5,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert M1Carbine
+	{
+	   M1CarbineThreaded,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:M1CarbineAutoThreaded,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=6;Aiming=5,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert M1Carbine
+	{
+	   M1CarbineBayo,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:M1CarbineBayoAuto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=6;Aiming=5,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert M1Carbine
+	{
+	   M1CarbineBayoThreaded,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:M1CarbineBayoAutoThreaded,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=6;Aiming=5,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Thread Barrel Of M1 Carbine
+	{
+	   M1CarbineAuto,
+	   keep TapDie,
+
+	   Result:M1CarbineAutoThreaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=6;Aiming=5,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Convert SKS
+	{
+	   SKS,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:SKSAuto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=6;Aiming=5,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert SKS
+	{
+	   SKSBayoOut,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:SKSBayoOutAuto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=6;Aiming=5,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert SKS
+	{
+	   SKSNoBayo,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:SKSNoBayoAuto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=6;Aiming=5,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert SKS
+	{
+	   SKSThreaded,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:SKSAutoThreaded,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=6;Aiming=5,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert SKS
+	{
+	   SKSBayoOutThreaded,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:SKSBayoOutAutoThreaded,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=6;Aiming=5,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert SKS
+	{
+	   SKSNoBayoThreaded,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:SKSNoBayoAutoThreaded,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=6;Aiming=5,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+
+	recipe Thread Barrel Of SKS
+	{
+	   SKSAuto,
+	   keep TapDie,
+
+	   Result:SKSAutoThreaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=6;Aiming=5,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Barrel Of SKS
+	{
+	   SKSNoBayoAuto,
+	   keep TapDie,
+
+	   Result:SKSNoBayoAutoThreaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=6;Aiming=5,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+	
+	recipe Install Bayonet Onto SKS
+	{
+	   SKSNoBayoAuto,
+	   SKSBayonet,
+	   Screws=1,
+	   keep [Recipe.GetItemTypes.Screwdriver],
+
+	   Result:SKSAuto,
+	   Time:200.0,
+	   OnCreate:Recipe.OnCreate.SKSBayoInstall,
+       Prop1:Screwdriver,
+	   OnTest:Recipe.OnTest.Guns93BayoDistro,
+	}
+
+	recipe Uninstall Bayonet From SKS
+	{
+	   SKSAuto/SKSBayoOutAuto,
+	   keep [Recipe.GetItemTypes.Screwdriver],
+
+	   Result:SKSNoBayoAuto,
+	   Time:200.0,
+	   OnCreate:Recipe.OnCreate.SKSBayoUninstall,
+	   AllowDestroyedItem:true,
+       Prop1:Screwdriver,
+	   OnTest:Recipe.OnTest.Guns93BayoDistro,
+	}
+
+	recipe Convert Valmet
+	{
+	   Valmet,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:ValmetAuto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=6;Aiming=5,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+
+	recipe Convert Valmet
+	{
+	   ValmetFold,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:ValmetFoldAuto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=6;Aiming=5,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert Valmet
+	{
+	   ValmetThreaded,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:ValmetAutoThreaded,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=6;Aiming=5,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert Valmet
+	{
+	   ValmetFoldThreaded,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:ValmetFoldAutoThreaded,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=6;Aiming=5,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Thread Barrel Of Valmet
+	{
+	   ValmetAuto,
+	   keep TapDie,
+
+	   Result:ValmetAutoThreaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+	
+	recipe Thread Barrel Of Valmet
+	{
+	   ValmetFoldAuto,
+	   keep TapDie,
+
+	   Result:ValmetAutoThreaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+	
+	recipe Convert Mini14
+	{
+	   Mini14Threaded,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:Mini14AutoThreaded,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=6;Aiming=5,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Thread Barrel Of Ruger Mini-14
+	{
+	   Mini14Auto,
+	   keep TapDie,
+
+	   Result:Mini14AutoThreaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Convert Mini14
+	{
+	   Mini14Rail,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:Mini14RailAuto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=6;Aiming=5,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert Mini14
+	{
+	   Mini14RailThreaded,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:Mini14RailAutoThreaded,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=6;Aiming=5,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+		
+	recipe Thread Barrel Of Ruger Mini-14
+	{
+	   Mini14RailAuto,
+	   keep TapDie,
+
+	   Result:Mini14RailAutoThreaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=6;Aiming=5,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Convert Mini30
+	{
+	   Mini30,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:Mini30Auto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=6;Aiming=5,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert Mini30
+	{
+	   Mini30Threaded,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:Mini30AutoThreaded,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=6;Aiming=5,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+
+	recipe Thread Barrel Of Ruger Mini-30
+	{
+	   Mini30Auto,
+	   keep TapDie,
+
+	   Result:Mini30AutoThreaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=6;Aiming=5,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Convert Mini30
+	{
+	   Mini30Rail,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:Mini30RailAuto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=6;Aiming=5,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert Mini30
+	{
+	   Mini30RailThreaded,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:Mini30RailAutoThreaded,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=6;Aiming=5,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Thread Barrel Of Ruger Mini-30
+	{
+	   Mini30RailAuto,
+	   keep TapDie,
+
+	   Result:Mini30RailAutoThreaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=6;Aiming=5,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Convert AKM
+	{
+	   AKM,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:AKMAuto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=6;Aiming=5,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+
+	recipe Convert AKM
+	{
+	   AKMBayo,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:AKMBayoAuto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=6;Aiming=5,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert AKMS
+	{
+	   AKMS,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:AKMSAuto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=6;Aiming=5,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert AKMS
+	{
+	   AKMSFold,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:AKMSFoldAuto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=6;Aiming=5,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert AKMS
+	{
+	   AKMSBayo,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:AKMSBayoAuto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=6;Aiming=5,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert AKMS
+	{
+	   AKMSFoldBayo,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:AKMSFoldBayoAuto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=6;Aiming=5,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert T56
+	{
+	   T56,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:T56Auto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=6;Aiming=5,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert T56
+	{
+	   T56BayoOut,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:T56BayoOutAuto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=6;Aiming=5,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert T56
+	{
+	   T56NoBayo,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:T56NoBayoAuto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=6;Aiming=5,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Install Bayonet Onto Type 56S
+	{
+	   T56NoBayoAuto,
+	   T56Bayonet,
+	   Screws=1,
+	   keep [Recipe.GetItemTypes.Screwdriver],
+
+	   Result:T56Auto,
+	   Time:200.0,
+	   OnCreate:Recipe.OnCreate.T56BayoInstall,
+       Prop1:Screwdriver,
+	   OnTest:Recipe.OnTest.Guns93BayoDistro,
+	}
+
+	recipe Uninstall Bayonet From Type 56S
+	{
+	   T56Auto/T56BayoOutAuto,
+	   keep [Recipe.GetItemTypes.Screwdriver],
+
+	   Result:T56NoBayoAuto,
+	   Time:200.0,
+	   OnCreate:Recipe.OnCreate.T56BayoUninstall,
+	   AllowDestroyedItem:true,
+       Prop1:Screwdriver,
+	   OnTest:Recipe.OnTest.Guns93BayoDistro,
+	}
+
+	recipe Convert AR180
+	{
+	   AR180,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:AR180Auto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=6;Aiming=5,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert AR180
+	{
+	   AR180Fold,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:AR180FoldAuto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=6;Aiming=5,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert AR180
+	{
+	   AR180Bayo,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:AR180BayoAuto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=6;Aiming=5,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+
+	recipe Convert AR180
+	{
+	   AR180FoldBayo,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:AR180FoldBayoAuto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=6;Aiming=5,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert HK91
+	{
+	   HK91,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:HK91Auto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=6;Aiming=5,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert HK91
+	{
+	   HK91Rail,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:HK91RailAuto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=6;Aiming=5,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert HK91
+	{
+	   HK91StockOut/HK91StockIn,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:HK91StockOutAuto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=6;Aiming=5,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert HK91
+	{
+	   HK91StockOutRail/HK91StockInRail,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:HK91StockOutRailAuto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=6;Aiming=5,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert FAL
+	{
+	   FAL,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:FALAuto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=8;Aiming=6,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert Marlin45
+	{
+	   Marlin45,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:Marlin45Auto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=4;Aiming=4,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert Marlin45
+	{
+	   Marlin45Threaded,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:Marlin45AutoThreaded,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=4;Aiming=4,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Thread Barrel Of Marlin Camp Carbine
+	{
+	   Marlin45Auto,
+	   keep TapDie,
+
+	   Result:Marlin45AutoThreaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Convert Marlin9
+	{
+	   Marlin9,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:Marlin9Auto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=4;Aiming=4,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert Marlin9
+	{
+	   Marlin9Threaded,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:Marlin9AutoThreaded,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=4;Aiming=4,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+		
+	recipe Thread Barrel Of Marlin Camp Carbine
+	{
+	   Marlin9Auto,
+	   keep TapDie,
+
+	   Result:Marlin9AutoThreaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Convert CalicoRifle
+	{
+	   CalicoRifle,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:CalicoRifleAuto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=6;Aiming=5,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert CalicoRifle
+	{
+	   CalicoRifleThreaded,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:CalicoRifleAutoThreaded,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=6;Aiming=5,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert CalicoRifle
+	{
+	   CalicoRifleFold,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:CalicoRifleFoldAuto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=6;Aiming=5,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert CalicoRifle
+	{
+	   CalicoRifleFoldThreaded,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:CalicoRifleFoldAutoThreaded,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=6;Aiming=5,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Thread Barrel Of Calico M900 Carbine
+	{
+	   CalicoRifleAuto,
+	   keep TapDie,
+
+	   Result:CalicoRifleAutoThreaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Thread Barrel Of Calico M900 Carbine
+	{
+	   CalicoRifleFoldAuto,
+	   keep TapDie,
+
+	   Result:CalicoRifleFoldAutoThreaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Convert Rug1022
+	{
+	   Rug1022,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:Rug1022Auto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=4;Aiming=4,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert Rug1022
+	{
+	   Rug1022Threaded,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:Rug1022AutoThreaded,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=4;Aiming=4,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Thread Barrel Of Ruger 10/22 Carbine
+	{
+	   Rug1022Auto,
+	   keep TapDie,
+
+	   Result:Rug1022AutoThreaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Convert Marlin60
+	{
+	   Marlin60,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:Marlin60Auto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=4;Aiming=4,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert Marlin60
+	{
+	   Marlin60Threaded,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:Marlin60AutoThreaded,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=4;Aiming=4,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Thread Barrel Of Marlin Model 60
+	{
+	   Marlin60Auto,
+	   keep TapDie,
+
+	   Result:Marlin60AutoThreaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Convert BrownBAR
+	{
+	   Brown3006BAR,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:Brown3006BARAuto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=7;Aiming=6,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert BrownBAR
+	{
+	   Brown3006BARThreaded,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:Brown3006BARAutoThreaded,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=7;Aiming=6,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+
+	recipe Thread Barrel Of Browning BAR
+	{
+	   Brown3006BARAuto,
+	   keep TapDie,
+
+	   Result:Brown3006BARAutoThreaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=7;Aiming=6,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Convert BrownBAR
+	{
+	   Brown308BAR,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:Brown308BARAuto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=7;Aiming=6,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert BrownBAR
+	{
+	   Brown308BARThreaded,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:Brown308BARAutoThreaded,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=7;Aiming=6,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Thread Barrel Of Browning BAR
+	{
+	   Brown308BARAuto,
+	   keep TapDie,
+
+	   Result:Brown308BARAutoThreaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=7;Aiming=6,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Convert Win7400
+	{
+	   Win30067400,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:Win30067400Auto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=7;Aiming=6,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert Win7400
+	{
+	   Win30067400Threaded,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:Win30067400AutoThreaded,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=7;Aiming=6,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Thread Barrel Of Winchester Model 7400
+	{
+	   Win30067400Auto,
+	   keep TapDie,
+
+	   Result:Win30067400AutoThreaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Convert Win7400
+	{
+	   Win3087400,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:Win3087400Auto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=7;Aiming=6,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert Win7400
+	{
+	   Win3087400Threaded,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:Win3087400AutoThreaded,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=7;Aiming=6,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+
+	recipe Thread Barrel Of Winchester Model 7400
+	{
+	   Win3087400Auto,
+	   keep TapDie,
+
+	   Result:Win3087400AutoThreaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	/****************************** recipe Convert_AUTOSHOTGUNS ******************************/
+	
+	recipe Convert Auto5
+	{
+	   Auto5_Auto,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:Auto5_Auto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=7;Aiming=6,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert Auto5
+	{
+	   Auto5Slug_Auto,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:Auto5Slug_Auto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=7;Aiming=6,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert Auto5
+	{
+	   SOAuto5_Auto,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:SOAuto5_Auto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=7;Aiming=6,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert Auto5
+	{
+	   SOAuto5Slug_Auto,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:SOAuto5Slug_Auto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=7;Aiming=6,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert Auto5
+	{
+	   SOAuto5Threaded,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:SOAuto5_AutoThreaded,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=7;Aiming=6,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+
+	recipe Thread Bore Of Sawed Off Browning Auto-5
+	{
+	   SOAuto5_Auto,
+	   keep TapDie,
+
+	   Result:SOAuto5_AutoThreaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=7;Aiming=6,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Convert Auto5
+	{
+	   SOAuto5SlugThreaded,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:SOAuto5Slug_AutoThreaded,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=7;Aiming=6,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert Win1400
+	{
+	   Win1400,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:Win1400Auto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=7;Aiming=6,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert Win1400
+	{
+	   Win1400Slug,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:Win1400SlugAuto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=7;Aiming=6,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert Win1400
+	{
+	   SOWin1400,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:SOWin1400Auto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=7;Aiming=6,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert Win1400
+	{
+	   SOWin1400Slug,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:SOWin1400SlugAuto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=7;Aiming=6,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert Win1400
+	{
+	   SOWin1400Threaded,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:SOWin1400AutoThreaded,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=7;Aiming=6,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Thread Bore Of Sawed Off Winchester 1400
+	{
+	   SOWin1400Auto,
+	   keep TapDie,
+
+	   Result:SOWin1400AutoThreaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=7;Aiming=6,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Convert Win1400
+	{
+	   SOWin1400SlugThreaded,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:SOWin1400SlugAutoThreaded,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=7;Aiming=6,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert Rem1100
+	{
+	   Rem1100,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:Rem1100Auto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=7;Aiming=6,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert Rem1100
+	{
+	   Rem1100Slug,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:Rem1100SlugAuto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=7;Aiming=6,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert Rem1100
+	{
+	   SORem1100,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:SORem1100Auto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=7;Aiming=6,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert Rem1100
+	{
+	   SORem1100Slug,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:SORem1100SlugAuto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=7;Aiming=6,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert Rem1100
+	{
+	   SORem1100Threaded,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:SORem1100AutoThreaded,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=7;Aiming=6,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+
+	recipe Thread Bore Of Sawed Off Remington 1100
+	{
+	   SORem1100Auto,
+	   keep TapDie,
+
+	   Result:SORem1100AutoThreaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Convert Rem1100
+	{
+	   SORem1100SlugThreaded,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:SORem1100SlugAutoThreaded,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=7;Aiming=6,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert BenelliM3
+	{
+	   BenelliM3,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:BenelliM3Auto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=7;Aiming=6,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert BenelliM3
+	{
+	   BenelliM3Slug,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:BenelliM3SlugAuto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=7;Aiming=6,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Convert BenelliM3
+	{
+	   BenelliM3Threaded,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:BenelliM3AutoThreaded,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=7;Aiming=6,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+	
+	recipe Thread Bore Of Benelli M3
+	{
+	   BenelliM3Auto,
+	   keep TapDie,
+
+	   Result:BenelliM3AutoThreaded,
+	   Time:200.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=3;Aiming=3,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+	   OnTest:Recipe.OnTest.Guns93BarrelThreading,
+	}
+
+	recipe Convert BenelliM3
+	{
+	   BenelliM3SlugThreaded,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:BenelliM3SlugAutoThreaded,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=7;Aiming=6,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+
+	recipe Convert SPAS12
+	{
+	   SPAS12/SPAS12Fold,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:SPAS12Auto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=7;Aiming=6,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+
+	recipe Convert SPAS12
+	{
+	   SPAS12Slug/SPAS12FoldSlug,
+	   ScrapMetal,
+	   keep Saw,
+	   keep ToolFile,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:SPAS12SlugAuto,
+	   Time:600.0,
+       Category:Welding,
+       SkillRequired:MetalWelding=7;Aiming=6,
+	   OnCreate:Recipe.OnCreate.CovertFirearm,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+	   OnTest:Recipe.OnTest.Guns93DIYAutoDistro,
+	}
+}

@@ -1,0 +1,25 @@
+ContextMenu_PTBR = {
+    ContextMenu_WP_AddCharcoal = "Adicionar filtro de carvão",
+    ContextMenu_WP_PumpInfo = "Informações da bomba",
+    ContextMenu_WP_AttachWater = "Anexar fonte de água",
+    ContextMenu_WP_AttachFuel = "Anexar fonte de combustível",
+    ContextMenu_WP_Plumbing = "Encanamento",
+    ContextMenu_WP_WaterPipe = "Cano",
+    ContextMenu_WP_WaterPump = "Bomba",
+    ContextMenu_WP_FuelTank = "Tanque de combustível",
+    ContextMenu_WP_Fuel = "Combustível",
+    ContextMenu_WP_ValveInfo = "Informações da válvula",
+    ContextMenu_WP_ChangeValves = "Trocar válvulas",
+    ContextMenu_WP_ChangeWest = "Oeste",
+    ContextMenu_WP_ChangeSouth = "Sul",
+    ContextMenu_WP_ChangeNorth = "Norte",
+    ContextMenu_WP_ChangeEast = "Leste",
+    ContextMenu_WP_Valve = "Válvula",
+    ContextMenu_WP_ValveModeOne = "1 sentido (apenas recebendo)",
+    ContextMenu_WP_ValveModeTwo = "2 sentidos",
+    ContextMenu_WP_Type = "Tipo",
+    ContextMenu_WP_Flow = "Fluxo",
+    ContextMenu_WP_RemovePipe = "Remover tubo",
+    ContextMenu_WP_DisassemblePump = "Desmontar a bomba"
+    ContextMenu_WP_FixPump = "Consertar a bomba"
+}

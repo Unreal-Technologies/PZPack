@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<itemManager>
+        <m_Model>x:static/items/PortGun</m_Model>
+        <m_Texture>items/PortGun</m_Texture>
+        <m_TwoHanded>false</m_TwoHanded>
+        <m_WeaponType>pistol</m_WeaponType>
+</itemManager>

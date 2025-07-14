@@ -1,0 +1,4 @@
+Recipes_ES {
+    Recipe_Craft_Standing_Disco_Ball = "Hacer un Bola de Discoteca",
+    Recipe_Assemble_DJ_Booth = "Construir una cabina de DJ",
+}

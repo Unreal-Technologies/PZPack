@@ -1,0 +1,17 @@
+IGUI_RU = {
+    IGUI_ItemCat_VehiclePaint = "Автокраска",
+    IGUI_PaintVehicle_Panel_TintBlack = "Чёрный",
+    IGUI_PaintVehicle_Panel_TintBlue = "Синий",
+    IGUI_PaintVehicle_Panel_TintCyan = "Аква",
+    IGUI_PaintVehicle_Panel_TintGreen = "Зелёный",
+    IGUI_PaintVehicle_Panel_TintMagenta = "Фуксия",
+    IGUI_PaintVehicle_Panel_TintRed = "Красный",
+    IGUI_PaintVehicle_Panel_TintYellow = "Жёлтый",
+    IGUI_PaintVehicle_Panel_BtnApply = "Покрасить",
+    IGUI_PaintVehicle_Panel_BtnClear = "Очистить",
+    IGUI_PaintVehicle_Panel_BtnClose = "Закрыть",
+    IGUI_PaintVehicle_Panel_Title = "Колеровка краски",
+    IGUI_PaintVehicle_Panel_Disclaimer = "Внимание: Итоговый цвет может несколько отличаться.",
+    IGUI_PaintVehicle_Panel_Catalogue_Info = "<CENTRE> <SIZE:medium> Панель каталога <LINE> <LINE> <LEFT> <SIZE:small> На этой панели вы можете рассматривать каталог красок. Чтобы передвинуть каталог, перемещайте мышь, зажав левую кнопку, чтобы изменить масштаб - прокручивайте колёсико мыши (так же вы можете нажать кнопку «Масштаб 1:1»).",
+    IGUI_PaintVehicle_Panel_Catalogue_Scale = "Масштаб 1:1",
+}

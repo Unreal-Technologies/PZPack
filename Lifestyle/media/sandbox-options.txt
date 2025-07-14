@@ -1,0 +1,225 @@
+VERSION = 1,
+
+option LSComfort.ComfortNeedMultiplier
+{
+	type = double,
+	min = 0.0,
+	max = 3.0,
+	default = 1.0,
+	page = Lifestyle,
+	translation = LS_Comfort_ComfortNeedMultiplier,
+}
+
+option Text.DividerMusicNew
+{
+	type = boolean,
+	default = true,
+	page = Lifestyle,
+	translation = Divider_Music,
+}
+
+option Music.StrengthMultiplier
+{
+	type = enum,
+	numValues = 4,
+	default = 2,
+
+	page = Lifestyle,
+	translation = Music_StrengthMultiplier,
+}
+
+option Music.ListeningStrengthMultiplier
+{
+	type = enum,
+	numValues = 4,
+	default = 2,
+
+	page = Lifestyle,
+	translation = Music_ListeningStrengthMultiplier,
+}
+
+option Music.LearningChance
+{
+	type = enum,
+	numValues = 5,
+	default = 3,
+
+	page = Lifestyle,
+	translation = Music_LearningChance,
+}
+
+option Text.DividerDancingNew
+{
+	type = boolean,
+	default = true,
+	page = Lifestyle,
+	translation = Divider_Dancing,
+}
+
+option Dancing.StrengthMultiplier
+{
+	type = enum,
+	numValues = 4,
+	default = 2,
+
+	page = Lifestyle,
+	translation = Dancing_StrengthMultiplier,
+}
+
+option Text.DividerMeditationNew
+{
+	type = boolean,
+	default = true,
+	page = Lifestyle,
+	translation = Divider_Meditation,
+}
+
+option Meditation.StrengthMultiplier
+{
+	type = enum,
+	numValues = 4,
+	default = 2,
+
+	page = Lifestyle,
+	translation = Meditation_StrengthMultiplier,
+}
+
+option Meditation.MindfulnessDuration
+{
+	type = enum,
+	numValues = 3,
+	default = 2,
+
+	page = Lifestyle,
+	translation = Meditation_MindfulnessDuration,
+}
+
+option Meditation.HealFactor
+{
+	type = double,
+	min = 0.0,
+	max = 10.0,
+	default = 2.0,
+
+	page = Lifestyle,
+	translation = Meditation_HealFactor,
+}
+
+option Meditation.EffectMultiplier
+{
+	type = enum,
+	numValues = 3,
+	default = 2,
+
+	page = Lifestyle,
+	translation = Meditation_EffectMultiplier,
+}
+
+option LSMeditation.RemoveLevitation
+{
+	type = boolean,
+	default = false,
+	page = Lifestyle,
+	translation = LS_Meditation_RemoveLevitation,
+}
+
+option Text.DividerHygiene
+{
+	type = boolean,
+	default = true,
+	page = Lifestyle,
+	translation = Divider_Hygiene,
+}
+
+option LSHygiene.HygieneNeedMultiplier
+{
+	type = double,
+	min = 0.0,
+	max = 3.0,
+	default = 1.0,
+	page = Lifestyle,
+	translation = LS_Hygiene_HygieneNeedMultiplier,
+}
+
+option LSHygiene.BladderNeedMultiplier
+{
+	type = double,
+	min = 0.0,
+	max = 3.0,
+	default = 1.0,
+	page = Lifestyle,
+	translation = LS_Hygiene_BladderNeedMultiplier,
+}
+
+option LSHygiene.HygieneNeedExpectationTime
+{
+	type = enum,
+	numValues = 4,
+	default = 2,
+
+	page = Lifestyle,
+	translation = LS_Hygiene_HygieneNeedExpectationTime,
+}
+
+option LSHygiene.CleaningExpectationTime
+{
+	type = enum,
+	numValues = 4,
+	default = 2,
+
+	page = Lifestyle,
+	translation = LS_Hygiene_CleaningExpectationTime,
+}
+
+option LSHygiene.CleaningLitterChance
+{
+	type = enum,
+	numValues = 4,
+	default = 3,
+
+	page = Lifestyle,
+	translation = LS_Hygiene_CleaningLitterChance,
+}
+
+option LSHygiene.CleansMakeup
+{
+	type = boolean,
+	default = true,
+	page = Lifestyle,
+	translation = LS_Hygiene_CleansMakeup,
+}
+
+option Text.DividerDebug
+{
+	type = boolean,
+	default = false,
+	page = Lifestyle,
+	translation = Divider_Debug,
+}
+
+option Debug.MoodlePriority
+{
+	type = boolean,
+	default = false,
+
+	page = Lifestyle,
+	translation = Debug_MoodlePriority,
+}
+
+option Debug.Expressions
+{
+	type = boolean,
+	default = false,
+
+	page = Lifestyle,
+	translation = Debug_Expressions,
+}
+
+option Debug.DanceAnim
+{
+	type = boolean,
+	default = false,
+
+	page = Lifestyle,
+	translation = Debug_DanceAnim,
+}

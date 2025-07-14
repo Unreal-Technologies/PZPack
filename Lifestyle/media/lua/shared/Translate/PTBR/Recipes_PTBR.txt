@@ -1,0 +1,7 @@
+Recipes_PTBR {
+	Recipe_Create_Music_Sheet_Book = "Fazer um Caderno de Música",
+	Recipe_Make_Bucket_of_Water_and_Bleach = "Misturar Água e Alvejante",
+    Recipe_Craft_Standing_Disco_Ball = "Criar Bola de Disco",
+    Recipe_Assemble_DJ_Booth = "Montar Mesa de DJ",
+	Recipe_Craft_Standing_Microphone = "Criar Microfone com Suporte",
+}
