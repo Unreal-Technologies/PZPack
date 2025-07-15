@@ -31,7 +31,6 @@ mods
 	mod = UBPropFix,
 	mod = VISIBLE_BACKPACK_BACKGROUND,
 	mod = BetterSortCC,
-	mod = CleanDirt,
 	mod = MoreCLR_desc4mood,
 	mod = BB_CommonSense,
 	mod = ConditionOnDash,
@@ -54,7 +53,6 @@ mods
 	mod = REORDER_CONTAINERS,
 	mod = REORDER_THE_HOTBAR,
 	mod = WaterDispenser,
-	mod = SwapIt,
 	mod = EasyConfigChucked,
 	mod = TheStar,
 	mod = modoptions,
@@ -97,6 +95,7 @@ mods
 	mod = DylansTiles,
 	mod = WeatherMoodles,
 	mod = MoodleFramework,
+	mod = UnknownsModifications,
 }
 
 maps
