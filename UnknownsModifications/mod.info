@@ -1,0 +1,9 @@
+name=Unknown's Modifications
+authors=Unknownmephi
+id=UnknownsModifications
+description=Simple Modifications
+poster=poster.png
+icon=icon.png
+
+modversion=1.0.0
+require=BetterSortCC
