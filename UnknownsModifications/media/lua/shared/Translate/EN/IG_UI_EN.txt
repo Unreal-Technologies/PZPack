@@ -1,0 +1,4 @@
+IGUI_EN = {
+	IGUI_ItemCat_FoodC = "Food - Canned",
+	IGUI_ItemCat_Hyg = "Hygiene",
+}
