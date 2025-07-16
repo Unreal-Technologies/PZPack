@@ -29,7 +29,6 @@ mods
 	mod = ItemStories_PropaneTanksInGarages,
 	mod = UBPropFix,
 	mod = VISIBLE_BACKPACK_BACKGROUND,
-	mod = BetterSortCC,
 	mod = MoreCLR_desc4mood,
 	mod = BB_CommonSense,
 	mod = ConditionOnDash,
@@ -82,10 +81,10 @@ mods
 	mod = DoubleDeckerBusInterior,
 	mod = RV_Interior_MP,
 	mod = RV_Interior_Vanilla,
-	mod = PortalGun,
-	mod = TchernoLib,
 	mod = WeatherMoodles,
 	mod = MoodleFramework,
+	mod = PortalGun,
+	mod = TchernoLib,
 	mod = UnknownsModifications,
 }
 

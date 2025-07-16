@@ -1,8 +1,8 @@
-require("ItemTweaker_Copy_CC");
+require("ItemTweaker");
 
-if not BetterSorting then BetterSorting = {} end
+if not UnknownsModifications then UnknownsModifications = {} end
 
-function BetterSorting.CategorizeItem(item)
+function UnknownsModifications.CategorizeItem(item)
   local category = "";
 
   if item:getCanStoreWater() then
@@ -52,7 +52,7 @@ function BetterSorting.CategorizeItem(item)
   end
 end
 
-function BetterSorting.CategorizeAllItems()
+function UnknownsModifications.CategorizeAllItems()
   local items = getAllItems();
 
   -- Loop all items
@@ -66,17 +66,17 @@ function BetterSorting.CategorizeAllItems()
 
     -- Try autocategorize item only if it's not already manually categorized
     if not hasManualCategory then
-      BetterSorting.CategorizeItem(item);
+      UnknownsModifications.CategorizeItem(item);
     end
   end
 end
 
 
-function BetterSorting.OnGameBoot()
-  print("--- BetterSorting Start ---");
-  BetterSorting.CategorizeAllItems();
+function UnknownsModifications.OnGameBoot()
+  print("--- UnknownsModifications Start ---");
+  UnknownsModifications.CategorizeAllItems();
   ItemTweaker.tweakItems();
-  print("--- BetterSorting End ---");
+  print("--- UnknownsModifications End ---");
 end
 
-Events.OnGameBoot.Add(BetterSorting.OnGameBoot)
+Events.OnGameBoot.Add(UnknownsModifications.OnGameBoot)

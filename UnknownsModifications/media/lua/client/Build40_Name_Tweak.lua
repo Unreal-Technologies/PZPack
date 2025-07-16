@@ -1,4 +1,4 @@
-require("ItemTweaker_Copy_CC");
+require("ItemTweaker");
 
 --SKILL BOOKS
 TweakItem("Base.BookCarpentry1","DisplayName","Carpentry Vol.1: Beginner");
