@@ -84,8 +84,6 @@ mods
 	mod = RV_Interior_MP,
 	mod = RV_Interior_Vanilla,
 	mod = Erikas_Tiles,
-	mod = Taylorsville_bridge_to_Dirkerdam,
-	mod = Taylorsville,
 	mod = PortalGun,
 	mod = TchernoLib,
 	mod = Dirkerdam,
