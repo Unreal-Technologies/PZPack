@@ -83,7 +83,6 @@ mods
 	mod = DoubleDeckerBusInterior,
 	mod = RV_Interior_MP,
 	mod = RV_Interior_Vanilla,
-	mod = Erikas_Tiles,
 	mod = PortalGun,
 	mod = TchernoLib,
 	mod = Dirkerdam,
