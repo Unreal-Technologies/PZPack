@@ -1,0 +1,132 @@
+local supportedVehicleModsTable = {
+    { parts = CContainers.VehicleParts, storage = CContainers.VehicleStorage },
+    { modID = "04vwTouran", parts = CContainers.VehicleParts04vwTouran, storage = CContainers.VehicleStorage04vwTouran },
+    { modID = "28ss100", storage = CContainers.VehicleStorageKI528ss100 },
+    { modID = "49ford8N", parts = CContainers.VehicleParts49ford8N, storage = CContainers.VehicleStorage49ford8N },
+    { modID = "49powerWagon", parts = CContainers.VehiclePartsKI549PWagon, storage = CContainers.VehicleStorageKI549PWagon },
+    { modID = "59meteor", parts = CContainers.VehiclePartsKI5Cadillac59, storage = CContainers.VehicleStorageKI5Cadillac59 },
+    { modID = "63Type2Van", parts = CContainers.VehiclePartsKI563Type2Van, storage = CContainers.VehicleStorageKI563Type2Van },
+    { modID = "63beetle", parts = CContainers.VehiclePartsKI563beetle, storage = CContainers.VehicleStorageKI563beetle },
+    { modID = "66pontiacLeMans", parts = CContainers.VehicleParts66pontiacLeMans, storage = CContainers.VehicleStorage66pontiacLeMans },
+    { modID = "67commando", parts = CContainers.VehiclePartsKI5Commando, storage = CContainers.VehicleStorageKI5Commando },
+    { modID = "67gt500", parts = CContainers.VehiclePartsKI567gt500, storage = CContainers.VehicleStorageKI567gt500 },
+    { modID = "68firebird", parts = CContainers.VehicleParts68firebird, storage = CContainers.VehicleStorage68firebird },
+    { modID = "69camaro", parts = CContainers.VehiclePartsKI569camaro, storage = CContainers.VehicleStorageKI569camaro },
+    { modID = "69mini", parts = CContainers.VehicleParts69mini, storage = CContainers.VehicleStorage69mini },
+    { modID = "70barracuda", parts = CContainers.VehiclePartsKI570barracuda, storage = CContainers.VehicleStorageKI570barracuda },
+    { modID = "70dodge", parts = CContainers.VehiclePartsKI5Dodge70, storage = CContainers.VehicleStorageKI5Dodge70 },
+    { modID = "73fordFalcon", parts = CContainers.VehicleParts73fordFalcon, storage = CContainers.VehicleStorage73fordFalcon },
+    { modID = "74amgeneralM151A2", parts = CContainers.VehiclePartsKI5amgeneralM151A2, storage = CContainers.VehicleStorageKI5amgeneralM151A2 },
+    { modID = "75grandPrix", parts = CContainers.VehicleParts75grandPrix, storage = CContainers.VehicleStorage75grandPrix },
+    { modID = "76chevyKseries", parts = CContainers.VehicleParts76chevyKseries, storage = CContainers.VehicleStorage76chevyKseries },
+    { modID = "77firebird", parts = CContainers.VehicleParts77firebird, storage = CContainers.VehicleStorage77firebird },
+    { modID = "78amgeneralM35A2", storage = CContainers.VehicleStorageKI5amgeneralM35A2 },
+    { modID = "80kz1000", storage = CContainers.VehicleStorageKI580kz1000 },
+    { modID = "80manKat1", parts = CContainers.VehicleParts80manKat1, storage = CContainers.VehicleStorage80manKat1 },
+    { modID = "81deloreanDMC12", parts = CContainers.VehicleParts81deloreanDMC12, storage = CContainers.VehicleStorage81deloreanDMC12 },
+    { modID = "82firebird", parts = CContainers.VehicleParts82firebird, storage = CContainers.VehicleStorage82firebird },
+    { modID = "82jeepJ10", parts = CContainers.VehiclePartsKI5JeepJ10, storage = CContainers.VehicleStorageKI5JeepJ10 },
+    { modID = "82oshkoshM911", storage = CContainers.VehicleStorageKI5oshkoshM911 },
+    { modID = "82porsche911", parts = CContainers.VehicleParts82porsche911, storage = CContainers.VehicleStorage82porsche911 },
+    { modID = "83amgeneralM923", storage = CContainers.VehicleStorageKI5amgeneralM923 },
+    { modID = "84gageV300", parts = CContainers.VehicleParts84gageV300, storage = CContainers.VehicleStorage84gageV300 },
+    { modID = "84jeepXJ", parts = CContainers.VehicleParts84jeepXJ, storage = CContainers.VehicleStorage84jeepXJ },
+    { modID = "84merc", parts = CContainers.VehiclePartsKI584merc, storage = CContainers.VehicleStorageKI584merc },
+    { modID = "85buickLeSabre", parts = CContainers.VehicleParts85buickLeSabre, storage = CContainers.VehicleStorage85buickLeSabre },
+    { modID = "85chevyCaprice", parts = CContainers.VehicleParts85chevyCaprice, storage = CContainers.VehicleStorage85chevyCaprice },
+    { modID = "85clubMan", parts = CContainers.VehicleParts85clubMan, storage = CContainers.VehicleStorage85clubMan },
+    { modID = "85merc", parts = CContainers.VehiclePartsKI5merc, storage = CContainers.VehicleStorageKI5merc },
+    { modID = "85oldsmobileDelta88", parts = CContainers.VehicleParts85oldsmobileDelta88, storage = CContainers.VehicleStorage85oldsmobileDelta88 },
+    { modID = "85pontiacParisienne", parts = CContainers.VehicleParts85pontiacParisienne, storage = CContainers.VehicleStorage85pontiacParisienne },
+    { modID = "86chevyCUCV", parts = CContainers.VehicleParts86chevyCUCV, storage = CContainers.VehicleStorage86chevyCUCV },
+    { modID = "86fordE150", parts = CContainers.VehiclePartsKI5fordE150, storage = CContainers.VehicleStorageKI5FordE150 },
+    { modID = "86oshkoshP19A", parts = CContainers.VehicleParts86oshkoshP19A, storage = CContainers.VehicleStorage86oshkoshP19A },
+    { modID = "87buickRegal", parts = CContainers.VehicleParts87buickRegal, storage = CContainers.VehicleStorage87buickRegal },
+    { modID = "87chevySuburban", parts = CContainers.VehicleParts87chevySuburban, storage = CContainers.VehicleStorage87chevySuburban },
+    { modID = "87cruiser", storage = CContainers.VehicleStorageKI5cruiser },
+    { modID = "87fordB700", parts = CContainers.VehiclePartsKI587fordB700, storage = CContainers.VehicleStorage87fordB700 },
+    { modID = "87toyotaMR2", parts = CContainers.VehiclePartsKI587toyotaMR2, storage = CContainers.VehicleStorage87toyotaMR2 },
+    { modID = "88chevyS10", parts = CContainers.VehiclePartsKI5ChevyS10, storage = CContainers.VehicleStorageKI5ChevyS10 },
+    { modID = "88toyotaHilux", parts = CContainers.VehicleParts88toyotaHilux, storage = CContainers.VehicleStorage88toyotaHilux },
+    { modID = "89def110", storage = CContainers.VehicleStorageKI5def110 },
+    { modID = "89def90", storage = CContainers.VehicleStorageKI5def90 },
+    { modID = "89dodgeCaravan", parts = CContainers.VehiclePartsKI589dodgeCaravan, storage = CContainers.VehicleStorageKI589dodgeCaravan },
+    { modID = "89fordBronco", parts = CContainers.VehiclePartsKI5Ford89, storage = CContainers.VehicleStorageKI5Ford89 },
+    { modID = "89trooper", parts = CContainers.VehicleParts89trooper, storage = CContainers.VehicleStorage89trooper },
+    { modID = "89volvo200", parts = CContainers.VehicleParts89volvo200, storage = CContainers.VehicleStorage89volvo200 },
+    { modID = "90bmwE30", parts = CContainers.VehiclePartsKI590bmwE30, storage = CContainers.VehicleStorage90bmwE30 },
+    { modID = "90fordF350ambulance", parts = CContainers.VehicleParts90fordF350ambulance, storage = CContainers.VehicleStorage90fordF350ambulance },
+    { modID = "90pierceArrow", parts = CContainers.VehicleParts90pierceArrow, storage = CContainers.VehicleStorage90pierceArrow },
+    { modID = "90zanella50cc", storage = CContainers.VehicleStorageKI590zanella },
+    { modID = "91fordLTD", parts = CContainers.VehicleParts91fordLTD, storage = CContainers.VehicleStorage91fordLTD },
+    { modID = "91geoMetro", parts = CContainers.VehiclePartsKI591geoMetro, storage = CContainers.VehicleStorageKI591geoMetro },
+    { modID = "91nissan240sx", parts = CContainers.VehicleParts91nissan240sx, storage = CContainers.VehicleStorage91nissan240sx },
+    { modID = "91range", parts = CContainers.VehicleParts91range, storage = CContainers.VehicleStorage91range },
+    { modID = "92amgeneralM998", parts = CContainers.VehiclePartsKI5amgeneralM998, storage = CContainers.VehicleStorageKI5amgeneralM998 },
+    { modID = "92fordCVPI", parts = CContainers.VehicleParts92fordCVPI, storage = CContainers.VehicleStorage92fordCVPI },
+    { modID = "92jeepYJ", parts = CContainers.VehicleParts92jeepYJ, storage = CContainers.VehicleStorage92jeepYJ },
+    { modID = "92nissanGTR", parts = CContainers.VehiclePartsKI5nissanGTR, storage = CContainers.VehicleStorageKI5nissanGTR },
+    { modID = "93chevySuburban", parts = CContainers.VehicleParts93chevySuburban, storage = CContainers.VehicleStorage93chevySuburban },
+    { modID = "93fordElgin", parts = CContainers.VehiclePartsKI593fordElgin, storage = CContainers.VehicleStorageKI593fordElgin },
+    { modID = "93fordF350", parts = CContainers.VehiclePartsKI593fordF350, storage = CContainers.VehicleStorage93fordF350 },
+    { modID = "93fordTaurus", parts = CContainers.VehiclePartsKI593fordTaurus, storage = CContainers.VehicleStorage93fordTaurus },
+    { modID = "93mustangSSP", parts = CContainers.VehiclePartsKI593mustangSSP, storage = CContainers.VehicleStorageKI593mustangSSP },
+    { modID = "93townCar", parts = CContainers.VehicleParts93townCar, storage = CContainers.VehicleStorage93townCar },
+    { modID = "97bushmaster", parts = CContainers.VehiclePartsKI597Bushmaster, storage = CContainers.VehicleStorageKI597Bushmaster },
+    { modID = "98stagea", parts = CContainers.VehicleParts98stagea, storage = CContainers.VehicleStorage98stagea },
+    { modID = "99fordCVPI", parts = CContainers.VehicleParts99fordCVPI, storage = CContainers.VehicleStorage99fordCVPI },
+    { modID = "APCM113A2", parts = CContainers.VehiclePartsCytAPCM113A2 },
+    { modID = "ATA_Dadge", parts = CContainers.VehiclePartsTsarDadge, storage = CContainers.VehicleStorageTsarDadge },
+    { modID = "ATA_Datsun_240z", parts = CContainers.VehiclePartsTsarDatsun240z },
+    { modID = "ATA_Jeep", parts = CContainers.VehiclePartsTsarJeep, storage = CContainers.VehicleStorageTsarJeep },
+    { modID = "ATA_Luton", parts = CContainers.VehiclePartsTsarLuton, storage = CContainers.VehicleStorageTsarLuton },
+    { modID = "ATA_Mustang", parts = CContainers.VehiclePartsTsarMustang, storage = CContainers.VehicleStorageTsarMustang },
+    { modID = "ATA_Mustang_66", parts = CContainers.VehiclePartsTsarMustang66 },
+    { modID = "ATA_VanDeRumba", parts = CContainers.VehiclePartsTsarVanRumba, storage = CContainers.VehicleStorageTsarVanRumba },
+    { modID = "AquatsarYachtClub", parts = CContainers.VehiclePartsTsarYachtClub, storage = CContainers.VehicleStorageTsarYachtClub },
+    { modID = "BRDM2", storage = CContainers.VehicleStorageCytBRDM2 },
+    { modID = "CytAstra89", parts = CContainers.VehiclePartsCytAstra89, storage = CContainers.VehicleStorageCytAstra89 },
+    { modID = "CytMCF1", parts = CContainers.VehiclePartsCytMCF1, storage = CContainers.VehicleStorageCytMCF1 },
+    { modID = "CytMercEvo", parts = CContainers.VehiclePartsCytMercEvo, storage = CContainers.VehicleStorageCytMercEvo },
+    { modID = "CytSB", parts = CContainers.VehiclePartsCytSB, storage = CContainers.VehicleStorageCytSB },
+    { modID = "CytU1550L", parts = CContainers.VehiclePartsCytU1550L, storage = CContainers.VehicleStorageCytU1550L },
+    { modID = "DMstng", parts = CContainers.VehiclePartsCytDMstng, storage = CContainers.VehicleStorageCytDMstng },
+    { modID = "FJ75C", parts = CContainers.VehiclePartsCytFJ75C },
+    { modID = "Filibuster", parts = CContainers.VehiclePartsFilibuster, storage = CContainers.VehicleStorageFilibuster },
+    { modID = "IFAV", parts = CContainers.VehiclePartsCytIFAV },
+    { modID = "KI5trailers", parts = CContainers.VehiclePartsKI5trailers, storage = CContainers.VehicleStorageKI5trailers },
+    { modID = "SL500", parts = CContainers.VehiclePartsCytSL500 },
+    { modID = "TMC_Trolley", storage = CContainers.VehicleStorageTsarTrolley },
+    { modID = "XM93", storage = CContainers.VehicleStorageCytXM93 },
+    { modID = "ZIL130PACK2", parts = CContainers.VehiclePartsDanny, storage = CContainers.VehicleStorageDanny },
+    { modID = "autotsartrailers", storage = CContainers.VehicleStorageTsarTrailers },
+    { modID = "damnlib", parts = CContainers.VehiclePartsdamnlib, storage = CContainers.VehicleStoragedamnlib },
+    { modID = "enAutomobileExtravaganza", storage = CContainers.VehicleStorageenAutomobileExtravaganza },
+    { modID = "tsarslib", storage = CContainers.VehicleStoragetsarslib },
+    { modID = "vino125", storage = CContainers.VehicleStorageKI5vino125 }
+}
+
+local function AlterVehicleCapacityProperties()
+    for _, v in ipairs(supportedVehicleModsTable) do
+        if v.storage then
+            alterVehicleCapacity(v.modID, v.storage)
+        end
+    end
+end
+
+local function AlterVehicleOtherProperties()
+    for _, v in ipairs(supportedVehicleModsTable) do
+        if v.storage then
+            alterVehiclePartWeights(v.modID, v.storage)
+        end
+        if v.parts then
+            alterVehiclePartWeights(v.modID, v.parts)
+        end
+    end
+end
+
+Events.OnGameStart.Add(AlterVehicleCapacityProperties)
+Events.OnSpawnRegionsLoaded.Add(AlterVehicleCapacityProperties)
+Events.OnLoad.Add(AlterVehicleCapacityProperties)
+Events.OnSpawnRegionsLoaded.Add(AlterVehicleOtherProperties)
+Events.OnLoad.Add(AlterVehicleOtherProperties)
