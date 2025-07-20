@@ -1699,6 +1699,8 @@ TweakItem("Base.x8Scope","DisplayCategory","WepPart");
 
 --CLEANING
 TweakItem("Base.Broom","DisplayCategory","Clean");
+TweakItem("Base.Plunger","DisplayCategory","Clean");
+TweakItem("Base.Sponge","DisplayCategory","Clean");
 
 --Food
 TweakItem("Base.CannedCorn","DisplayCategory","FoodC");
@@ -1724,3 +1726,6 @@ TweakItem("Base.CannedMilk","DisplayCategory","FoodC");
 TweakItem("Base.Toothbrush","DisplayCategory","Hyg");
 TweakItem("Base.Toothpaste","DisplayCategory","Hyg");
 TweakItem("Base.Comb","DisplayCategory","Hyg");
+
+--Crafting
+TweakItem("Base.UnusableMetal","DisplayCategory","CraftMetal");

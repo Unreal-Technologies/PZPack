@@ -85,8 +85,6 @@ mods
 	mod = MoodleFramework,
 	mod = PortalGun,
 	mod = TchernoLib,
-	mod = CustomizableBackpacks,
-	mod = StarlitLibrary,
 	mod = UnknownsModifications,
 }
 
