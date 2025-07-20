@@ -85,6 +85,7 @@ mods
 	mod = MoodleFramework,
 	mod = PortalGun,
 	mod = TchernoLib,
+	mod = CustomRepairSettings,
 	mod = UnknownsModifications,
 }
 
