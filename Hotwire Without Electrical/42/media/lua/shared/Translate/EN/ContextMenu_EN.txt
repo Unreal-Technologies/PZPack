@@ -1,3 +1,0 @@
-ContextMenu_EN = {
-	ContextMenu_SCEEP_VehicleHotwireSkill = "No key. You need<br>Mechanics level 2<br>to hotwire.",
-}

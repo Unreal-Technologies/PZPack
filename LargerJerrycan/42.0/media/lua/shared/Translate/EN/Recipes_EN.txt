@@ -1,3 +1,0 @@
-RecipesEN {
-    Recipe_Make_Jerrycan = "Make Jerrycan",
-}
